@@ -1,0 +1,2552 @@
+#!/bin/sh
+
+##
+# brew-install-favorites
+#
+# Use the `brew` command to install our favorite packages
+# and applications for macOS.
+#
+# We use this script for our teams and their developer laptops.
+# This is a work in progress. Use at your own discretion.
+#
+# ## Introduction
+#
+# This file installs many apps, including office suites, multimedia suites,
+# programming langauges, unix utilities, sysadmin tools, and fonts.
+#
+# This file is organized in meaningful sections because we want to
+# make it easy for you to pick and choose sections that you want.
+#
+# There are many TODO items in this file. If you want, help us
+# describe these and organize them into the relevant sections.
+#
+# The file is generally organized in these sections:
+#
+#   * Software that's fine for everyone,
+#     e.g., browsers, players, editors.
+#
+#   * Software that's especially suitable for programmers,
+#     e.g., compilers, databases, languages, servers, etc.
+#
+#   * Paid software that requires a license or purchase,
+#     e.g. JetBrains, OmniGroup, Paw, etc.
+#
+#   * Libraries: operating system libraries e.g. lib*.
+#
+#   * TODO: a section of uncategorized software.
+#
+#   * Fonts
+#
+#
+# ### About Brewfile capabilities
+#
+# To learn about Brewfile capabilties, please see:
+#
+#   * http://brew.sh/
+#   * http://homebrew-file.readthedocs.io/
+#   * https://github.com/Homebrew/homebrew-bundle
+#
+#
+# ### Mac tools vs. GNU tools
+#
+# We generaly prefer GNU tools over preinstalled Mac software tools.
+# For example, we prefer the GNU `sed` command vs. macOS `sed` command.
+#
+# However, we have seen this cause conflicts with macOS software that
+# isn't aware of GNU; therefore we install the dupes in parallel.
+#
+# See:
+#
+#   * https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x/
+#
+#
+# ## Epilog
+#
+#
+# ### Contributing
+#
+# Feedback welcome. Pull requests welcome.
+#
+# For more information, see the file `CONTRIBUTING.md` in the repository.
+#
+#
+# ### Thanks
+#
+# Thanks to the Homebrew team, and all the brew file package teams.
+# Your work makes macOS much better for so many people!
+#
+#
+# ## Tracking
+#
+# * Package: https://github.com/sixarm/brew-install-favorites
+# * Version: 3.1.0
+# * Created: 2017-01-01
+# * Updated: 2020-06-20
+# * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
+# * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
+##
+
+##
+# Preflight
+##
+
+# Tap
+brew tap 'homebrew/cask
+brew tap 'homebrew/cask-drivers
+brew tap 'homebrew/cask-versions
+brew tap 'homebrew/core
+brew tap 'homebrew/boneyard
+brew tap 'homebrew/dev-tools
+brew tap 'homebrew/bundle
+brew tap 'homebrew/services
+
+###########################################################################
+#
+# SOFTWARE THAT IS TYPICALLY FINE FOR EVERYONE
+#
+###########################################################################
+
+##
+# Browsers
+#
+# We prefer Firefox because it's open source.
+##
+
+# Firefox web browser
+brew cask install firefox
+
+# Firefox developer edition, which features programming tools.
+#brew cask install firefox-developer-edition
+
+# Google Chrome web browser
+#brew cask install google-chrome
+
+# Brave web browser, which features security by default.
+#brew cask install brave-browser
+
+# Opera web browser
+#brew cask install opera
+
+# Lynx terminal web browser
+brew install lynx
+
+# Brow.sh text browser
+#tap 'browsh-org/homebrew-browsh
+#brew 'browsh
+
+##
+# Chat
+#
+# We favor Riot.im because it is free open source,
+# and also works closely with Mozilla foundation.
+##
+
+# Riot.im chat client
+brew cask install riot
+
+# Discord chat
+brew cask install discord
+
+# Slack chat client
+brew cask install slack
+
+##
+# Terminals
+#
+# We typically use `tmux`, `tmate`,
+# and sometimes fall back on `screen`.
+##
+
+# iTerm is our favorite terminal app.
+brew cask install iterm2
+
+# Tmux is a newer terminal multiplexer.
+brew install pkg-config, link: true
+brew install tmux
+brew install reattach-to-user-namespace
+
+# tmate is a fork of tmux that makes screen sharing friendlier.
+brew install tmate
+
+# Screen is an older terminal multiplexer.
+brew install screen
+
+# ngrok opens a secure tunnel to localhost
+brew cask install ngrok
+
+##
+# Shells
+#
+# We typically use bash, zsh, fish, and mosh.
+##
+
+# Bash is the Bourne Again SHell. Bash is an sh-compatible shell.
+brew install bash
+
+# Programmable completion functions for bash
+brew install bash-completion
+
+# Bashish is a theme enviroment for text terminals.
+brew install bashish
+
+# Zsh is a shell designed for interactive use.
+brew install zsh
+
+# Fish shell.
+brew install fish
+
+# Mobile Shell (MOSH) is like SSH plus roaming and smart echo.
+brew install mobile-shell
+
+##
+# Passwords
+#
+# We use password-manager applications with many of our projects.
+# If you don't use these, feel free to delete them.
+##
+
+# Pass, a Unix password manager for the command line
+brew install pass
+
+# Keybase.io digital signature manager
+brew cask install keybase
+
+# Authy password manager, which is cross-platform
+brew cask install authy
+
+# Bitwarden password manager, which is open-source
+brew cask install bitwarden
+
+# 1password is a password manager
+brew cask install 1password
+
+# LastPass is a password manager
+brew cask install lastpass
+
+##
+# Editors
+#
+# We typically use command line editors (vim, emacs, etc.)
+# and sometimes use GUI editors (atom, sublime, etc.)
+##
+
+# bat is like `cat` plus line numbers, syntax highlighting, and more.
+brew install bat
+
+# less is like `more` plus has more capability.
+brew install less
+
+# most is like `more` plus has more power.
+brew install most
+
+# Vim editor
+brew install vim
+
+# MacVIM editor
+brew cask install macvim
+
+# Emacs editor with extra features; recommended by Spacemacs and Doom emacs
+brew install emacs-plus
+
+# Atom editor by GitHub
+brew cask install atom
+
+# Sublime text editor
+brew cask install sublime-text
+
+# GNU Aspell is a free open source spell checker; compare `lspell`.
+brew install aspell, args: ['with-lang=en']
+
+# Enca - detect and convert encoding of text files
+brew install enca
+
+# MacTex: LaTeX document preparation system with high-quality typesetting.
+brew cask install mactex
+
+##
+# Office software
+##
+
+# LibreOffice is a large suite of software for documents, spreadsheets, diagrams.
+brew cask install libreoffice
+
+# Microsof Office is a large suite of software for documents, spreadsheets, diagrams.
+cask "microsoft-office"
+
+##
+# Downloaders
+#
+# These items download files and fetch content from the network.
+##
+
+# Carthage is a simple, decentralized dependency manager for Cocoa.
+brew install carthage
+
+# curl is a command line tool for transferring data with URL syntax.
+brew install curl, link: true
+
+# HTTrack is a free and easy-to-use offline browser utility.
+brew install httrack
+
+# Wget is a free software package for retrieving files using HTTP and FTP.
+brew install wget
+
+##
+# Version control
+#
+# We prefer `git` version control. We also work on a wide
+# range of systems, so we also sometimes use CVS, HG, and SVN.
+##
+
+# CVS is a version control system.
+brew install cvs
+
+# Git is a free and open source distributed version control system.
+brew install git
+
+# Git Large File Storage
+brew install git-lfs
+
+# TODO
+brew install git-cola
+
+# Git extensions to provide high-level operations for Git Flow branching model.
+brew install git-flow
+
+# TODO
+brew install git-ftp
+
+# TODO
+brew install git-gerrit
+
+# TODO
+brew install git-multipush
+
+# TODO
+brew install git-now
+
+# TODO
+brew install git-url-sub
+
+# GitUp friendly Git interface and visualizer
+brew cask install gitup
+
+# SourceTree graphic client for git
+brew cask install sourcetree
+
+# Mercurial version control system.
+brew install hg
+
+# Subversion version control system.
+brew install sqlite'; brew 'subversion
+
+# Perforce merge tool for visual diffs and merges
+brew cask install p4v
+
+##
+# GNU command line tools
+#
+# If you are moving onto macOS from GNU/Linux, then you would probably
+# find out that the command line tools shipped with macOS are not as
+# powerful and easy to use as the tools in Linux. The reason is that
+# macOS uses the BSD version command line tools, which are different
+# from the Linux version.
+#
+# Note: if you choose to replace the macOS commands with GNU commands,
+# then be aware that you may have some compatibility issues with shell
+# scripts written specifically for macOS.
+#
+# If you like using man pages, then you may also want to add an
+# itemto the to the MANPATH environmental variable:
+#
+#     $HOMEBREW_PREFIX/opt/coreutils/libexec/gnuman
+#
+# For more about the GNU command line tools and brew, see this:
+# https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x/
+##
+
+# Basic file, shell and text manipulation utilities of the GNU operating system.
+brew install coreutils
+
+brew install binutils
+brew install diffutils
+brew install ed
+brew install findutils
+brew install gawk
+brew install gnu-indent
+brew install gnu-sed
+brew install gnu-tar
+brew install gnu-which
+brew install gnutls
+brew install gzip
+brew install watch
+brew install wdiff
+
+##
+# Some GNU command line tools already exist by default on OS X.
+# We choose to replace these with newer versions.
+##
+
+brew install gdb  # gdb requires further actions to make it work. See `brew info gdb`.
+brew install gpatch
+brew install m4
+brew install make
+brew install nano
+
+##
+# System related
+#
+# These are fundamental operating system tools that we use often.
+##
+
+# Automake is a tool for automatically generating Makefile installation files.
+brew install automake
+
+# GNU Privacy Guard (GnuPG) provides encryption as a free replacement for PGP.
+brew install gpg
+
+# GNU Privacy Guard (GnuPG) PIN entry for macOS to do GPG terminal decryption
+brew install pinentry-mac
+
+# OpenSSL is an open-source implementation of the SSL and TLS protocols.
+brew install openssl
+
+# pkg-config is a helper tool used when compiling applications and libraries.
+brew install pkg-config, link: true
+
+# Functions for use by applications that allow users to edit command lines while typing.
+brew install readline
+
+# Parallel SSH
+brew install pssh
+
+# pkg-config is a helper tool used when compiling applications and libraries.
+brew install pkg-config
+
+# PCRE: Perl-compatible regular expressions, for better searching.
+brew install pcre
+brew install pcre++
+
+# fd: a simple, fast and user-friendly alternative to find.
+brew install fd
+
+# RPM is the RedHat Package manager.
+brew install rpm
+
+# FZF is a command line fuzzy finder.
+brew install fzf
+
+# The `z` command to `cd` among directories.
+brew install zoxide
+
+##
+# Command line system operator helpers
+##
+
+# Navi is a command line cheat sheet navigator
+brew install denisidoro/tools/navi
+
+# e.g. is a command line examples
+brew install eg-examples
+
+# TLDR provides simplified and community-driven man pages
+brew install tldr
+
+# howdoi shows instant coding answers via the command line
+brew install howdoi
+
+##
+# File handling
+##
+
+## Compression & decompression
+
+# Zstandard is the best modern compression
+brew install zstd
+
+# WinRAR provides compression/decompression for RAR and ZIP files.
+brew install unrar
+
+# unzip is the classic command.
+brew install unzip
+
+# bzip
+brew install bzip2, link: true
+
+# ZIP file compression
+brew install libzip
+
+# pp7zip
+brew install p7zip
+
+# GNU zip
+brew install gzip
+
+# RPM to CPIO converts a Red Hat RPM package file to a cpio archive
+brew install rpm2cpio
+
+
+## Encryption & decryption
+
+# bcrypt is high quality encryption that is very popular
+brew install bcrypt
+
+# scrypt is high quality encryption
+brew install scrypt
+
+##
+# File synchronization
+#
+# We use `rsync` for our systems administration,
+# and a variety of web-based services for file sharing.
+##
+
+# rsync is the classic unix file synchronizer.
+brew install rsync
+
+# Unison is a high-level file synchronization utility.
+brew install unison
+
+# Syncthing is open source file sharing.
+brew install syncthing
+
+# Dropbox file sharing.
+brew cask install dropbox
+
+# Transmission bittorrent client.
+brew cask install transmission
+
+# Box.com sync
+brew cask install box-sync
+
+##
+# Text search
+#
+# We prefer ripgrep because it is very fast and very safe.
+##
+
+# ripgrep is text search; we prefer it over grep, ag, git grep, ucg, pt, sift.
+brew install ripgrep
+
+# grep is the classic searcher
+brew install grep
+
+# ag is "the silver searcher" search tool; retired by ripgrep.
+brew install ag
+
+# sift is like grep, plus faster and with more features; retired by ripgrep.
+brew install sift
+
+# jq is a lightweight and flexible command-line JSON processor.
+brew install jq
+
+# yq is a lightweight and flexible command-line YAML processor.
+brew install yq
+
+# xsv is for CSV file parsing, and is fast, full featured, and flexible.
+brew install xsv
+
+# Tad is CSV viewer with features for pivot, search, etc.
+brew cask install tad
+
+##
+# Cross-platform tooling
+#
+# These installations tend to be large.
+##
+
+# Qt cross-platform software development
+brew install qt5
+
+# WINE runs Windows applications on other operating systems.
+brew install wine
+
+# Xquartz X.Org X Window System that runs on OS X; needed for some image software.
+brew cask install xquartz
+
+##
+# Multimedia
+##
+
+# Image libraries
+brew install libgphoto2
+brew install libpng
+brew install libtiff
+
+## Multimedia players
+
+# Chafa image viewer using terminal emulator
+brew install chafa
+
+# VLC media player
+brew cask install vlc
+
+
+## Sound controls
+
+# Airfoil: Wireless audio app with a free sound equalizer (EQ)
+#cask 'airfoil
+
+# eqMac2: System-wide Audio Equalizer for the Mac; free open source
+brew cask install eqmac
+
+
+## Multimedia editors
+
+# Gimp pixel-based image editor, similar to Adobe Photoshop
+brew cask install gimp
+
+# Inkscape vector-based image editor, similar to Adobe Illustrator
+brew cask install inkscape
+
+# Blender 3D modeller
+brew cask install blender
+
+# Shotcut movie editor
+brew cask install shotcut
+
+# Freemind mind map editor
+brew cask install freemind
+
+# yEd is desktop application to generate high-quality diagrams
+brew cask install yed
+
+# Visualization Toolkit for manipulating and displaying scientific data
+brew install vtk
+
+## ebooks
+
+# Calibre ebook reader and manager
+brew cask install calibre
+
+# Kindle book reader by Amazon
+brew cask install kindle
+
+# Adobe Air player for multimedia content
+brew cask install adobe-air
+
+## Misc
+
+# GraphicsMagick is the swiss army knife of image processing.
+brew install graphicsmagick
+
+# TODO
+brew install graphviz
+
+# Gnuplot is a portable command-line driven graphing utility.
+brew install gnuplot
+
+# Jasper command line transcoder between JPEG2000 and other formats.
+brew install jasper
+
+# Image optimizer
+brew cask install imageoptim
+
+## Media-Related
+
+# TODO
+brew install exif
+
+# TODO
+brew install exiftags
+
+# TODO
+brew install exiftool
+
+# TODO
+brew install flac
+
+# FF MPEG for video
+brew install ffmpeg
+brew install ffmpeg2theora
+brew install ffmpegthumbnailer
+
+# TODO
+brew install imagemagick
+
+# TODO
+brew install theora
+
+##
+# Server-Related
+##
+
+# Docker software containers to help distribute applications.
+brew install docker
+brew install boot2docker
+
+# Compose is a tool for defining and running multi-container Docker applications.
+brew install docker-compose
+
+# Docker Machine installs Docker Engine on virtual hosts, and manages the hosts.
+brew install docker-machine
+
+# Consul tool for discovering and configuring services in your infrastructure
+brew install consul
+
+# Monit is for managing and monitoring Unix systems.
+brew install monit
+
+# Nagios IT infrastructure monitoring.
+brew install nagios
+
+# NGINX web server.
+brew install nginx
+
+# Varnish reverse-proxy web application accelerator.
+brew install varnish
+
+##
+# Font-Related
+##
+
+# Fontconfig is a library for configuring and customizing font access.
+brew install fontconfig
+
+# FreeType is a freely available software library to render fonts.
+brew install freetype
+
+# Command-line programs for manipulating fonts
+brew install lcdf-typetools
+
+##
+# Dupes
+#
+# These formulas duplicate software provided by OS X,
+# though may provide more recent or bugfix versions.
+#
+# We prefer to keep these explicitly listed in `/dupes`
+# because these are potentially shadowing system tools,
+# and we want to show that these are unusual and special.
+#
+# If you prefer to type less, then you can tap, like this:
+#
+#     brew tap homebrew/dupes
+#
+# Then you can install any forumla, such as:
+#
+#     brew 'awk
+#
+##
+
+brew install awk
+brew install diffstat
+brew install diffutils
+brew install ed
+brew install expect
+brew install fetchmail
+brew install file-formula
+brew install gdb
+brew install gpatch
+brew install gperf
+brew install groff
+brew install heimdal
+brew install lapack
+brew install libedit
+brew install libiconv
+brew install libpcap
+brew install lsof
+brew install m4
+brew install make
+brew install nano
+brew install ncurses
+brew install openldap
+brew install openssh
+brew install tcl-tk
+brew install tcpdump
+brew install gnu-units
+brew install whois
+brew install zlib
+
+##
+# Brew cask enables installing typical Mac OS X applications.
+# For example, these formulas may download a `*.dmg` file,
+# then unpack it into the correct `/Applications` directory,
+# and possibly configure the app with typical settings.
+##
+
+# Adium is an open source multi-protocol instant messaging client.
+brew cask install adium
+
+# TDB
+brew cask install adventure
+
+# TDB
+brew cask install alfred
+
+# TDB
+brew cask install amazon-music
+
+# TDB
+brew cask install anki
+
+# AppCleaner thoroughly uninstalls unwanted apps.
+brew cask install appcleaner
+
+# TDB
+brew cask install arq
+
+# TDB
+brew cask install atext
+
+# TDB
+brew cask install backblaze-downloader
+
+# TDB
+brew cask install backuploupe
+
+# TDB
+brew cask install balsamiq-mockups
+
+# TDB
+brew cask install bartender
+
+# TDB
+brew cask install basecamp
+
+# TDB
+brew cask install beacon-scanner
+
+# TDB
+brew cask install brain-workshop
+
+# TDB
+brew cask install caffeine
+
+# TDB
+brew cask install calibre
+
+# TDB
+brew cask install ccleaner
+
+# TDB
+brew cask install cheatsheet
+
+# TDB
+brew cask install coconutbattery
+
+# TDB
+brew cask install codekit
+
+# TDB
+brew cask install commandq
+
+# TDB
+brew cask install duet
+
+# TDB
+brew cask install evernote
+
+# TDB
+brew cask install flash-player
+
+# TDB
+brew cask install fluid
+
+# TDB
+brew cask install freeplane
+
+# TDB
+brew cask install ganttproject
+
+# TDB
+brew cask install gfxcardstatus
+
+# GitHub source code social sharing
+brew cask install github
+
+# TDB
+brew cask install gitx
+
+# TDB
+brew cask install harvest
+
+# TDB
+brew cask install hockey
+
+# TDB
+brew cask install hipchat
+
+# TDB
+brew cask install joinme
+
+# TDB
+brew cask install jumpcut
+
+# TDB
+brew cask install krita
+
+# TDB
+brew cask install launchy
+
+# TDB
+brew cask install little-snitch
+
+# TODO
+brew cask install mysqlworkbench
+
+# TODO
+brew cask install paparazzi
+
+# TODO
+brew cask install pupil
+
+# TODO
+brew cask install quicksilver
+
+# TODO
+brew cask install rescuetime
+
+# Screenhero screen sharing by Slack.
+brew cask install screenhero
+
+# TODO
+brew cask install sequential
+
+# TODO
+brew cask install shortcat
+
+# Silverlight video player by Microsoft.
+brew cask install silverlight
+
+# TODO
+brew cask install skitch
+
+# Skype calling with video and phone calls.
+brew cask install skype
+
+# TODO
+brew cask install sleep-monitor
+
+# Spotify music player
+brew cask install spotify
+
+# TODO
+brew cask install superduper
+
+# Synergy screen sharing utility
+brew cask install synergy
+
+# TODO
+brew cask install thisservice
+
+# TODO
+brew cask install transmit
+
+# TODO
+brew cask install todos
+
+# Unison file synchronizer.
+brew cask install unison
+
+##
+# Environment-related
+##
+
+# DisplayLink enables adding monitors
+#cask 'displaylink
+
+# Karabiner remaps keyboard keys
+brew cask install karabiner-elements
+
+# OSX FUSE file system
+brew cask install osxfuse
+
+# Flux dims the screen colors for better nighttime visibility.
+brew cask install flux
+
+## Misc
+
+brew cask install flip4mac
+brew cask install google-hangouts
+brew cask install inky
+brew cask install obs
+
+# Prey is a service tracks laptops and phones; it needs a password
+#cask 'prey
+
+brew cask install teamviewer
+brew cask install unity-web-player
+brew cask install zoomus
+
+###########################################################################
+#
+# PAID SOFTWARE
+#
+###########################################################################
+
+##
+# This section installs software that costs money.
+# In general, we aim to install free trial versions.
+#
+# We pay for licenses for this software for our teammates
+# when we work on projects that use this software.
+#
+# You may want to customize this section by deleting any items that
+# you don't want to use or purchase, because this will save disk space.
+##
+
+##
+# JetBrains
+#
+# JetBrains is paid software suitable for professional programmers,
+# such as Integrated Development Environments (IDEs) for popular
+# programming languages, including Java, Python, Ruby, PHP, etc.
+##
+
+# AppCode Swift IDE
+brew cask install appcode
+
+# CLion C/C++ IDE
+brew cask install clion
+
+# DataGrip SQL IDE
+brew cask install datagrip
+
+# IntelliJ Java IDE
+brew cask install intellij-idea
+
+# PhpStorm PHP IDE
+brew cask install phpstorm
+
+# PyCharm Python IDE
+brew cask install pycharm
+
+# RubyMine Ruby IDE
+brew cask install rubymine
+
+# WebStorm IDE
+brew cask install webstorm
+
+##
+# OmniGroup
+#
+# OmniGroup provides paid software suitable for professional users.
+##
+
+# To do list task manager
+brew cask install omnifocus
+
+# Diagramming
+brew cask install omnigraffle
+
+# Project management planning
+brew cask install omniplan
+
+# Outliner
+brew cask install omnioutliner
+
+##
+# Paw.cloud
+##
+
+# Paw HTTP API testing tool
+brew cask install paw
+
+###########################################################################
+#
+# LIBRARIES
+#
+###########################################################################
+
+##
+# Libraries
+#
+# We do this near the end of this file,
+# because we expect these will already be
+# installed by a bunch of the software above.
+#
+# This section here is really just to cover our
+# bases to make sure we have the libraries that we
+# sometimes need for building other software later on.
+##
+
+# THe libevent API provides provides asynchronous event notification and callbacks.
+brew install libevent
+
+# Magic number recognition library for file types.
+brew install libmagic
+
+# Audio/Visual converters
+brew install libav
+
+# Curl web fetcher
+#brew 'libcurl  # EOL
+
+# Foreign Function Interface Library
+brew install libffi
+
+# Text encoding
+brew install libiconv
+
+# File magic number recognizer
+brew install libmagic
+
+# Sodium secure cryptography
+brew install libsodium
+
+# GNU libtool is a generic library support script.
+brew install libtool
+
+# XML handlers
+brew install libxml2
+brew install libxslt
+
+# High-level interface to X.509 and CMS (Cryptographic Message Syntax)
+brew install libksba
+
+# YAML markup language
+brew install libyaml
+
+# YAML lint validator
+brew install yamllint
+
+# Images
+brew install libjpg
+brew install libpng
+brew install libtiff
+
+###########################################################################
+#
+# TODO
+#
+###########################################################################
+
+# TODO
+brew install html-xml-utils
+
+# Mutt is a small powerful text-based mail client.
+brew install mutt
+
+# TODO
+brew install ncdu
+
+# TODO
+brew install randomize-lines
+
+# TODO
+brew install rename
+
+# TODO
+brew install salt
+
+# Tree is a directory lister that shows a tree outline
+brew install tree
+
+# xclip is a command line interface to the X11 clipboard.
+brew install xclip
+
+# TODO
+brew install abook
+
+# TODO
+brew install ack
+
+# TODO
+brew install apachetop
+
+# TODO
+brew install ascii
+
+# TODO
+brew install asciidoc
+
+# TODO
+brew install asciitex
+
+# TODO
+brew install autobench
+
+# TODO
+brew install autoconf
+
+# TODO
+brew install autoenv
+
+# TODO
+brew install autogen
+
+# TODO
+brew install autojump
+
+# TODO
+brew install base64
+
+# TODO
+brew install bind
+
+# TODO
+brew install bison
+
+# TODO
+brew install bogofilter
+
+# TODO
+brew install colordiff
+
+# TODO
+brew install ctags
+
+# TODO
+brew install docbook
+
+# TODO
+brew install dovecot
+
+# TODO
+brew install dpkg
+
+# TODO
+brew install fakeroot
+
+# TODO
+brew install findutils
+
+# TODO
+brew install geoip
+
+# TODO
+brew install gnu-barcode
+
+# TODO
+brew install gnu-getopt
+
+# TODO
+brew install gnu-indent
+
+# TODO
+brew install gnu-prolog
+
+# TODO
+brew install gnu-smalltalk
+
+# TODO
+brew install gnu-tar
+
+# TODO
+brew install gnu-time
+
+# TODO
+brew install gnu-typist
+
+# TODO
+brew install gnu-units
+
+# TODO
+brew install gnu-which
+
+# TODO
+brew install google-app-engine
+
+# TODO
+brew install google-perftools
+
+# TODO
+brew install google-sparsehash
+
+# TODO
+brew install google-sql-tool
+
+# TODO
+brew install html2text
+
+# TODO
+brew install htop
+
+# TODO
+brew install httperf
+
+# TODO
+brew install ical-buddy
+
+# TODO
+brew install jmeter
+
+# TODO
+brew install jpeg
+
+# TODO
+brew install libdnet
+
+# TODO
+brew install lzo
+
+# TODO
+brew install rarian
+
+# TODO
+brew install pixman
+
+# Tarsnap is a secure online backup service for Unix.
+brew install tarsnap
+
+# Valkyrie is a Qt4-based GUI for the Memcheck and Helgrind tools in Valgrind.
+# Commented-out because it's currently incompatible with macOS 10.12.
+#brew 'valkyrie
+
+##
+# Extras
+#
+# These are packages that we may want.
+#
+# If you want any of these, please let us know,
+# or create a pull request for this repository.
+#
+# Applications that we want that are not on brew:
+#
+#   * Kiwix
+#   * SoapUI
+#
+# Applications that we want that we need to find:
+#
+#   * Automator
+#   * Battery Health
+#   * Cloud
+#   * Coffitivity
+#   * Disk Diag
+#   * Docs for Xcode
+#   * DxO Perspective
+#   * Facebook
+#   * Font Book
+#   * Fotor
+#   * Garmin
+#   * Gmail
+#   * Image Capture
+#   * MailTab for Gmail
+#   * Memory Clean
+#   * MenuBar Stats
+#   * Microsoft Remote Desktop
+#   * Mint QuickView
+#   * Prepo
+#   * Screen Recorder Robot Lite
+#   * Stickies
+#   * Tab for Reddit
+#   * The Unarchiver
+#   * Time Machine
+#   * Twitter
+#   * VirtualDJ
+#   * Wunderlist
+#   * Xcode
+#   * xScan
+#
+# Apple built-in apps:
+#
+#   * App Store
+#   * Apple Configurator
+#   * Calculator
+#   * Calendar
+#   * Chess
+#   * Contacts
+#   * DVD Player
+#   * Dashboard
+#   * Dictionary
+#   * FaceTime
+#   * Game Center
+#   * GarageBand
+#   * iBooks
+#   * iCloud
+#   * iMovie
+#   * iPhoto
+#   * iTunes
+#   * iWork
+#   * Keynote
+#   * Launchpad
+#   * Mail
+#   * Maps
+#   * Messages
+#   * Mission Control
+#   * Notes
+#   * Numbers
+#   * Pages
+#   * Photo Booth
+#   * Preview
+#   * QuickTime Player
+#   * Reminders
+#   * Safari
+#   * System Preferences
+#   * TextEdit
+##
+
+# brew 'aws-cfn-tools
+# brew 'aws-elasticache
+# brew 'aws-sns-cli
+# brew 'json-c
+# brew 'json-glib
+# brew 'json_spirit
+# brew 'jsonpp
+# brew 'jsvc
+# brew 'kawa
+# brew 'kbtin
+# brew 'kdiff3
+# brew 'kelbt
+# brew 'kes
+# brew 'keychain
+# brew 'kite
+# brew 'knock
+# brew 'konoha
+# brew 'ktoblzcheck
+# brew 'kyoto-cabinet
+# brew 'kyoto-tycoon
+# brew 'kytea
+# brew 'lablgtk
+# brew 'lame
+# brew 'lapack
+# brew 'lasi
+# brew 'lastfmfpclient
+# brew 'latex2html
+# brew 'latex2rtf
+# brew 'launch
+# brew 'lbdb
+# brew 'lcdf-typetools
+# brew 'lcov
+# brew 'lcrack
+# brew 'ldapvi
+# brew 'ldid
+# brew 'ldns
+# brew 'le
+# brew 'leafnode
+# brew 'ledger
+# brew 'ledit
+# brew 'legit
+# brew 'lemon
+# brew 'leptonica
+# brew 'lesspipe
+# brew 'lesstif
+# brew 'leveldb
+# brew 'lft
+# brew 'lftp
+# brew 'lha
+# brew 'libagg
+# brew 'libao
+# brew 'libarchive
+# brew 'libart
+# brew 'libass
+# brew 'libassuan
+# brew 'libbinio
+# brew 'libbs2b
+# brew 'libcaca
+# brew 'libcddb
+# brew 'libcdio
+# brew 'libcmph
+# brew 'libconfig
+# brew 'libcouchbase
+# brew 'libcroco
+# brew 'libcsv
+# brew 'libcue
+# brew 'libcuefile
+# brew 'libdaemon
+# brew 'libdap
+# brew 'libdbusmenu-qt
+# brew 'libdc1394
+# brew 'libdca
+# brew 'libdlna
+# brew 'libdmtx
+# brew 'libdnet
+# brew 'libdrizzle
+# brew 'libdshconfig
+# brew 'libdsk
+# brew 'libdv
+# brew 'libdvbpsi
+# brew 'libdvdcss
+# brew 'libdvdnav
+# brew 'libdvdread
+# brew 'libebml
+# brew 'libechonest
+# brew 'libelf
+# brew 'libemu
+# brew 'libev
+# brew 'libevent
+# brew 'libewf
+# brew 'libexif
+# brew 'libexosip
+# brew 'libextractor
+# brew 'libffi
+# brew 'libfishsound
+# brew 'libfixbuf
+# brew 'libflowmanager
+# brew 'libftdi
+# brew 'libgadu
+# brew 'libgaiagraphics
+# brew 'libgarmin
+# brew 'libgcrypt
+# brew 'libgda
+# brew 'libgee
+# brew 'libgeotiff
+# brew 'libgit2
+# brew 'libglade
+# brew 'libglademm
+# brew 'libgnomecanvas
+# brew 'libgpg-error
+# brew 'libgphoto2
+# brew 'libgsasl
+# brew 'libgsf
+# brew 'libgtextutils
+# brew 'libgtop
+# brew 'libharu
+# brew 'libhid
+# brew 'libical
+# brew 'libicns
+# brew 'libiconv
+# brew 'libid3tag
+# brew 'libident
+# brew 'libidl
+# brew 'libidn
+# brew 'libimobiledevice
+# brew 'libinfinity
+# brew 'libiptcdata
+# brew 'libkate
+# brew 'libkml
+# brew 'libksba
+# brew 'liblas
+# brew 'liblastfm
+# brew 'liblinear
+# brew 'liblo
+# brew 'liblockfile
+# brew 'liblqr
+# brew 'liblunar
+# brew 'libmagic
+# brew 'libmatroska
+# brew 'libmemcached
+# brew 'libmicrohttpd
+# brew 'libmikmod
+# brew 'libming
+# brew 'libmms
+# brew 'libmp3splt
+# brew 'libmpc
+# brew 'libmpd
+# brew 'libmpdclient
+# brew 'libmpeg2
+# brew 'libmtp
+# brew 'libmusicbrainz
+# brew 'libmxml
+# brew 'libnet
+# brew 'libnfc
+# brew 'libnids
+# brew 'libogg
+# brew 'liboil
+# brew 'libopennet
+# brew 'liboping
+# brew 'libosip
+# brew 'libotr
+# brew 'libpano
+# brew 'libpar2
+# brew 'libpcap
+# brew 'libplist
+# brew 'libpst
+# brew 'libpurple
+# brew 'libpuzzle
+# brew 'libqalculate
+# brew 'libqglviewer
+# brew 'libquicktime
+# brew 'librasterlite
+# brew 'libraw
+# brew 'libreplaygain
+# brew 'librets
+# brew 'librsvg
+# brew 'libsamplerate
+# brew 'libsgml
+# brew 'libshout
+# brew 'libsigc++
+# brew 'libsigsegv
+# brew 'libsmi
+# brew 'libsndfile
+# brew 'libspatialite
+# brew 'libspiro
+# brew 'libspotify
+# brew 'libssh
+# brew 'libssh2
+# brew 'libstfl
+# brew 'libstxxl
+# brew 'libsvg
+# brew 'libsvg-cairo
+# brew 'libsvm
+# brew 'libtasn1
+# brew 'libtecla
+# brew 'libtermkey
+# brew 'libtiff
+# brew 'libtommath
+# brew 'libtool
+# brew 'libtorrent
+# brew 'libtorrent-rasterbar
+# brew 'libtrace
+# brew 'libunique
+# brew 'libunistring
+# brew 'libupnp
+# brew 'libusb
+# brew 'libusb-compat
+# brew 'libutf
+# brew 'libvbucket
+# brew 'libvirt
+# brew 'libvo-aacenc
+# brew 'libvorbis
+# brew 'libvpx
+# brew 'libwbxml
+# brew 'libwmf
+# brew 'libwpd
+# brew 'libwpg
+# brew 'libwps
+# brew 'libxdiff
+# brew 'libxmi
+# brew 'libxml++
+# brew 'libxml2
+# brew 'libxmlsec1
+# brew 'libxslt
+# brew 'libxspf
+# brew 'libyaml
+# brew 'libyubikey
+# brew 'libzdb
+# brew 'libzip
+# brew 'libzzip
+# brew 'lifelines
+# brew 'lightning
+# brew 'lighttpd
+# brew 'lilypond
+# brew 'link-grammar
+# brew 'linklint
+# brew 'links
+# brew 'liquibase
+# brew 'litmus
+# brew 'little-cms
+# brew 'little-cms2
+# brew 'llvm
+# brew 'lmutil
+# brew 'lockrun
+# brew 'log4cplus
+# brew 'log4cpp
+# brew 'log4cxx
+# brew 'log4shib
+# brew 'logcheck
+# brew 'logentries
+# brew 'logrotate
+# brew 'logstalgia
+# brew 'logtalk
+# brew 'lolcode
+# brew 'lorem
+# brew 'loudmouth
+# brew 'lout
+# brew 'lpc21isp
+# brew 'lrzip
+# brew 'lrzsz
+# brew 'lsdvd
+# brew 'lsof
+# brew 'luarocks
+# brew 'luciddb
+# brew 'lv
+# brew 'lxsplit
+# brew 'lynx
+# brew 'lysp
+# brew 'lzip
+# brew 'lzlib
+# brew 'lzo
+# brew 'lzop
+# brew 'm4
+# brew 'mac-robber
+# brew 'macvim
+# brew 'mad
+# brew 'madplay
+# brew 'mafft
+# brew 'magit
+# brew 'mailcheck
+# brew 'mairix
+# brew 'make
+# brew 'makeicns
+# brew 'makensis
+# brew 'malbolge
+# brew 'mame
+# brew 'man2html
+# brew 'mapnik
+# brew 'mapserver
+# brew 'mariadb
+# brew 'markdown
+# brew 'mathgl
+# brew 'mathomatic
+# brew 'maven-shell
+# brew 'mawk
+# brew 'maxima
+# brew 'mcabber
+# brew 'mcl
+# brew 'mcpp
+# brew 'mcrypt
+# brew 'md
+# brew 'md5deep
+# brew 'md5sha1sum
+# brew 'mdbtools
+# brew 'mdf2iso
+# brew 'mdxmini
+# brew 'mecab
+# brew 'mecab-ipadic
+# brew 'media-info
+# brew 'mediatomb
+# brew 'memcache-top
+# brew 'memcacheq
+# brew 'memtester
+# brew 'mercurial
+# brew 'mesalib-glw
+# brew 'mess
+# brew 'metalua
+# brew 'metapixel
+# brew 'metaproxy
+# brew 'metasploit
+# brew 'metis
+# brew 'mftrace
+# brew 'mg
+# brew 'mhash
+# brew 'midgard2
+# brew 'midnight-commander
+# brew 'mikmod
+# brew 'minbif
+# brew 'minc
+# brew 'minicom
+# brew 'minisat
+# brew 'minised
+# brew 'miniupnpc
+# brew 'minuit2
+# brew 'mira
+# brew 'mit-scheme
+# brew 'mjpegtools
+# brew 'mkclean
+# brew 'mkcue
+# brew 'mksh
+# brew 'mktorrent
+# brew 'mkvalidator
+# brew 'mkvtoolnix
+# brew 'mldonkey
+# brew 'mlton
+# brew 'mmv
+# brew 'mobile-shell
+# brew 'mod_python
+# brew 'mod_wsgi
+# brew 'mogenerator
+# brew 'monetdb
+# brew 'mongoose
+# brew 'mongrel2
+# brew 'monotone
+# brew 'montage
+# brew 'moreutils
+# brew 'mosh
+# brew 'mosml
+# brew 'mosquitto
+# brew 'movgrab
+# brew 'mp3cat
+# brew 'mp3check
+# brew 'mp3gain
+# brew 'mp3info
+# brew 'mp3splt
+# brew 'mp3val
+# brew 'mp3wrap
+# brew 'mp4v2
+# brew 'mpack
+# brew 'mpc
+# brew 'mpd
+# brew 'mpdas
+# brew 'mpdscribble
+# brew 'mpfr
+# brew 'mpg123
+# brew 'mpg321
+# brew 'mpgtx
+# brew 'mpich2
+# brew 'mpio
+# brew 'mplayer
+# brew 'mpop
+# brew 'mpsolve
+# brew 'mr
+# brew 'mrfast
+# brew 'mrtg
+# brew 'mscgen
+# brew 'msgpack
+# brew 'msgpack-rpc
+# brew 'msmtp
+# brew 'mt-daapd
+# brew 'mtools
+# brew 'mtr
+# brew 'mu
+# brew 'multimarkdown
+# brew 'multitail
+# brew 'muparser
+# brew 'mupdf
+# brew 'muscle
+# brew 'musepack
+# brew 'mydumper
+# brew 'mytop
+# brew 'n2n
+# brew 'nacl
+# brew 'nagios
+# brew 'nagios-plugins
+# brew 'nailgun
+# brew 'nano
+# brew 'narwhal
+# brew 'nasm
+# brew 'naturaldocs
+# brew 'nauty
+# brew 'ncdu
+# brew 'ncftp
+# brew 'ncmpc
+# brew 'ncmpcpp
+# brew 'ncrack
+# brew 'ncurses
+# brew 'ncview
+# brew 'ndiff
+# brew 'neko
+# brew 'neo4j
+# brew 'neon
+# brew 'nesc
+# brew 'net-nuclear
+# brew 'net-snmp
+# brew 'net6
+# brew 'netcat
+# brew 'netcdf
+# brew 'netpbm
+# brew 'netsed
+# brew 'nettle
+# brew 'newick-utils
+# brew 'newlisp
+# brew 'ngircd
+# brew 'ngrep
+# brew 'ngspice
+# brew 'nickle
+# brew 'nimrod
+# brew 'nkf
+# brew 'nload
+# brew 'nlopt
+# brew 'nmap
+# brew 'node
+# brew 'notmuch
+# brew 'noweb
+# brew 'nrg2iso
+# brew 'nrpe
+# brew 'nspr
+# brew 'nss
+# brew 'ntfs-3g
+# brew 'ntl
+# brew 'nu
+# brew 'num-utils
+# brew 'nuttcp
+# brew 'nvi
+# brew 'nylon
+# brew 'nzbget
+# brew 'o-make
+# brew 'oath-toolkit
+# brew 'obby
+# brew 'objective-caml
+# brew 'ocp
+# brew 'ocrad
+# brew 'octave
+# brew 'ode
+# brew 'odt2txt
+# brew 'offline-imap
+# brew 'oggz
+# brew 'ogmtools
+# brew 'ohcount
+# brew 'omega
+# brew 'oniguruma
+# brew 'oorexx
+# brew 'open-babel
+# brew 'open-cobol
+# brew 'open-mesh
+# brew 'open-mpi
+# brew 'open-ocd
+# brew 'open-scene-graph
+# brew 'open-sg
+# brew 'open-sp
+# brew 'open-vcdiff
+# brew 'opencc
+# brew 'opencolorio
+# brew 'openconnect
+# brew 'opencore-amr
+# brew 'opencv
+# brew 'openexr
+# brew 'openfst
+# brew 'openimageio
+# brew 'openjpeg
+# brew 'openldap
+# brew 'openmeeg
+# brew 'opensaml
+# brew 'openslp
+# brew 'opentracker
+# brew 'openttd
+# brew 'openvpn
+# brew 'ophcrack
+# brew 'optipng
+# brew 'opus
+# brew 'opus-tools
+# brew 'orbit
+# brew 'orc
+# brew 'orpie
+# brew 'ortp
+# brew 'osm-pbf
+# brew 'osm2pgsql
+# brew 'osmosis
+# brew 'osslsigncode
+# brew 'ossp-uuid
+# brew 'otx
+# brew 'owfs
+# brew 'p0f
+# brew 'p11-kit
+# brew 'pam_yubico
+# brew 'paml
+# brew 'pango
+# brew 'pangomm
+# brew 'paperkey
+# brew 'par
+# brew 'par2
+# brew 'par2tbb
+# brew 'pari
+# brew 'parmetis
+# brew 'parrot
+# brew 'patchutils
+# brew 'pathfinder
+# brew 'pax-construct
+# brew 'pax-runner
+# brew 'pbc
+# brew 'pbc-sig
+# brew 'pbzip2
+# brew 'pcal
+# brew 'pcb
+# brew 'pdal
+# brew 'pdf2image
+# brew 'pdf2json
+# brew 'pdf2svg
+# brew 'pdfcrack
+# brew 'pdfgrep
+# brew 'pdfjam
+# brew 'pdflib-lite
+# brew 'pdftohtml
+# brew 'pdksh
+# brew 'pdnsd
+# brew 'pdsh
+# brew 'peg
+# brew 'peg-markdown
+# brew 'perceptualdiff
+# brew 'percona-server
+# brew 'percona-toolkit
+# brew 'perforce
+# brew 'perforce-proxy
+# brew 'perforce-server
+# brew 'perl
+# brew 'pg_top
+# brew 'pgbouncer
+# brew 'pgdbf
+# brew 'pgpool-ii
+# brew 'pgtap
+# brew 'phash
+# brew 'phoronix-test-suite
+# brew 'phyml
+# brew 'physfs
+# brew 'pianobar
+# brew 'picoc
+# brew 'picocom
+# brew 'pidof
+# brew 'pig
+# brew 'pigz
+# brew 'pil
+# brew 'pincaster
+# brew 'pinentry
+# brew 'pipebench
+# brew 'pipemeter
+# brew 'pit
+# brew 'pixie
+# brew 'pixman
+# brew 'pkg-config
+# brew 'play
+# brew 'playdar
+# brew 'plink
+# brew 'plod
+# brew 'plotutils
+# brew 'plowshare
+# brew 'plt-racket
+# brew 'plustache
+# brew 'plzip
+# brew 'pmdmini
+# brew 'pms
+# brew 'png2ico
+# brew 'pngcheck
+# brew 'pngcrush
+# brew 'pngnq
+# brew 'pngrewrite
+# brew 'poco
+# brew 'podofo
+# brew 'points2grid
+# brew 'polipo
+# brew 'polyml
+# brew 'poppler
+# brew 'popt
+# brew 'portaudio
+# brew 'portmidi
+# brew 'pos
+# brew 'poster
+# brew 'postgis
+# brew 'postgresql
+# brew 'postmark
+# brew 'potrace
+# brew 'pound
+# brew 'povray
+# brew 'pow
+# brew 'ppl
+# brew 'ppss
+# brew 'premake
+# brew 'primer3
+# brew 'primesieve
+# brew 'privoxy
+# brew 'proctools
+# brew 'prodigal
+# brew 'proguard
+# brew 'proj
+# brew 'proxytunnel
+# brew 'psftools
+# brew 'psgrep
+# brew 'pstoedit
+# brew 'pstree
+# brew 'pth
+# brew 'ptunnel
+# brew 'puf
+# brew 'pulledpork
+# brew 'pure
+# brew 'pure-ftpd
+# brew 'putmail
+# brew 'putmail-queue
+# brew 'putty
+# brew 'pv
+# brew 'pwgen
+# brew 'pwnat
+# brew 'pwsafe
+# brew 'py2cairo
+# brew 'pygobject
+# brew 'pygtk
+# brew 'pygtkglext
+# brew 'pypy
+# brew 'pyqt
+# brew 'pyqwt
+# brew 'pyside
+# brew 'pyside-tools
+# brew 'qca
+# brew 'qcachegrind
+# brew 'qd
+# brew 'qdbm
+# brew 'qemu
+# brew 'qfits
+# brew 'qhull
+# brew 'qi
+# brew 'qjson
+# brew 'qpdf
+# brew 'qprint
+# brew 'qrencode
+# brew 'qrupdate
+# brew 'qscintilla2
+# brew 'qstat
+# brew 'qt-mobility
+# brew 'quantlib
+# brew 'quassel
+# brew 'quex
+# brew 'quickfix
+# brew 'quicktree
+# brew 'quilt
+# brew 'quvi
+# brew 'qwt
+# brew 'qxmpp
+# brew 'radare2
+# brew 'ragel
+# brew 'rails-completion
+# brew 'rakudo-star
+# brew 'ranger
+# brew 'raptor
+# brew 'rarian
+# brew 'rasqal
+# brew 'rats
+# brew 'rbenv
+# brew 'rbenv-gemset
+# brew 'rbenv-vars
+# brew 'rc
+# brew 'rdesktop
+# brew 'rdiff-backup
+# brew 'rds-command-line-tools
+# brew 're2
+# brew 're2c
+# brew 'readline
+# brew 'readosm
+# brew 'readpst
+# brew 'reattach-to-user-namespace
+# brew 'rebar
+# brew 'recode
+# brew 'recutils
+# brew 'redis
+# brew 'redis-tools
+# brew 'redland
+# brew 'redo
+# brew 'redsocks
+# brew 'regina-rexx
+# brew 'remind
+# brew 'ren
+# brew 'rename
+# brew 'renameutils
+# brew 'repl
+# brew 'repo
+# brew 'reposurgeon
+# brew 'resty
+# brew 'rfcdiff
+# brew 'rfcmarkup
+# brew 'rfcstrip
+# brew 'rhino
+# brew 'riak
+# brew 'riak-search
+# brew 'riemann
+# brew 'rinetd
+# brew 'ringojs
+# brew 'ripmime
+# brew 'rlog
+# brew 'rlwrap
+# brew 'rmcast
+# brew 'rmtrash
+# brew 'rnv
+# brew 'robodoc
+# brew 'rock
+# brew 'rogue
+# brew 'rom-tools
+# brew 'roundup
+# brew 'rpg
+# brew 'rpl
+# brew 'rpm2cpio
+# brew 'rrdtool
+# brew 'rsense
+# brew 'rsnapshot
+# brew 'rsyslog
+# brew 'rt-audio
+# brew 'rtmpdump
+# brew 'rtorrent
+# brew 'rtpbreak
+# brew 'rubber
+# brew 'rubinius
+# brew 'ruby-build
+# brew 'ruby-enterprise-edition
+# brew 'ruby-odbc
+# brew 'runcocoa
+# brew 'runit
+# brew 'rush
+# brew 'rust
+# brew 'rxvt-unicode
+# brew 'rzip
+# brew 's-lang
+# brew 's3-backer
+# brew 's3cmd
+# brew 's3fs
+# brew 's3sync
+# brew 'saga-core
+# brew 'salt
+# brew 'sam2p
+# brew 'samba
+# brew 'samtools
+# brew 'sane-backends
+# brew 'sary
+# brew 'savana
+# brew 'saxon
+# brew 'saxon-b
+# brew 'sbcl
+# brew 'sbt
+# brew 'sc68
+# brew 'scalate
+# brew 'scalpel
+# brew 'scamperema
+# brew 'scantailor
+# brew 'scheme48
+# brew 'schroedinger
+# brew 'scm-manager
+# brew 'scons
+# brew 'scotch
+# brew 'screen
+# brew 'scrollkeeper
+# brew 'scrotwm
+# brew 'scrub
+# brew 'scrypt
+# brew 'scsh
+# brew 'scummvm
+# brew 'sdcc
+# brew 'sdelta3
+# brew 'sdf
+# brew 'sdl
+# brew 'sdl_gfx
+# brew 'sdl_image
+# brew 'sdl_mixer
+# brew 'sdl_net
+# brew 'sdl_rtf
+# brew 'sdl_sound
+# brew 'sdl_ttf
+# brew 'sedna
+# brew 'selenium-server-standalone
+# brew 'ser2net
+# brew 'serf
+# brew 'sersniff
+# brew 'sgrep
+# brew 'shakespeare
+# brew 'shapelib
+# brew 'shaper-probe
+# brew 'shared-mime-info
+# brew 'shark
+# brew 'shell.fm
+# brew 'shen
+# brew 'shiboken
+# brew 'shmux
+# brew 'shntool
+# brew 'shocco
+# brew 'shorten
+# brew 'shtool
+# brew 'sic
+# brew 'sickbeard
+# brew 'sigar
+# brew 'signing-party
+# brew 'silk
+# brew 'simgrid
+# brew 'simh
+# brew 'since
+# brew 'sip
+# brew 'sipcalc
+# brew 'sipp
+# brew 'sipsak
+# brew 'sisc-scheme
+# brew 'sispmctl
+# brew 'sitecopy
+# brew 'ski
+# brew 'skipfish
+# brew 'skktools
+# brew 'skytools
+# brew 'sl
+# brew 'sleepwatcher
+# brew 'sleuthkit
+# brew 'sloccount
+# brew 'slrn
+# brew 'smake
+# brew 'smartmontools
+# brew 'smartypants
+# brew 'smlnj
+# brew 'smpeg
+# brew 'snappy
+# brew 'snobol4
+# brew 'snort
+# brew 'sntop
+# brew 'socat
+# brew 'sofia-sip
+# brew 'solid
+# brew 'solr
+# brew 'sonar
+# brew 'sound-touch
+# brew 'source-highlight
+# brew 'sox
+# brew 'spark
+# brew 'spatialindex
+# brew 'spatialite-tools
+# brew 'spawn-fcgi
+# brew 'speex
+# brew 'sphinx
+# brew 'spidermonkey
+# brew 'spim
+# brew 'spin
+# brew 'spiped
+# brew 'splint
+# brew 'spring-roo
+# brew 'sproxy
+# brew 'sqsh
+# brew 'squashfs
+# brew 'squid
+# brew 'squirrel
+# brew 'srecord
+# brew 'ssdeep
+# brew 'ssed
+# brew 'ssh-copy-id
+# brew 'sshfs
+# brew 'sshguard
+# brew 'ssldump
+# brew 'sslscan
+# brew 'ssss
+# brew 'stanford-parser
+# brew 'star
+# brew 'staticrouted
+# brew 'stgit
+# brew 'stklos
+# brew 'storm
+# brew 'stormfs
+# brew 'stow
+# brew 'stp
+# brew 'strategoxt
+# brew 'streamripper
+# brew 'stress
+# brew 'stunnel
+# brew 'style-check
+# brew 'sub2srt
+# brew 'subversion
+# brew 'suite-sparse
+# brew 'sundials
+# brew 'surfraw
+# brew 'svdlibc
+# brew 'svg2pdf
+# brew 'svg2png
+# brew 'swaks
+# brew 'swfmill
+# brew 'swftools
+# brew 'swi-prolog
+# brew 'swig
+# brew 'swish-e
+# brew 'syck
+# brew 'symphony
+# brew 'synergy
+# brew 'synfig
+# brew 'synfigstudio
+# brew 'syslog-ng
+# brew 'szip
+# brew 'szl
+# brew 't1utils
+# brew 'ta-lib
+# brew 'tabbed
+# brew 'tabix
+# brew 'taglib
+# brew 'tal
+# brew 'talk-filters
+# brew 'talloc
+# brew 'tarsnap
+# brew 'task
+# brew 'tbb
+# brew 'tcl
+# brew 'tclap
+# brew 'tcpdump
+# brew 'tcpflow
+# brew 'tcping
+# brew 'tcpreplay
+# brew 'tcpstat
+# brew 'tcptrace
+# brew 'tcptraceroute
+# brew 'tcptrack
+# brew 'tcpurify
+# brew 'teapot
+# brew 'teem
+# brew 'term
+# brew 'tesseract
+# brew 'testdisk
+# brew 'tetgen
+# brew 'texinfo
+# brew 'thc-pptp-bruter
+# brew 'the_silver_searcher
+# brew 'theora
+# brew 'thrift
+# brew 'thrulay
+# brew 'tiff2png
+# brew 'tig
+# brew 'tiger-vnc
+# brew 'timbl
+# brew 'timedog
+# brew 'tin
+# brew 'tinc
+# brew 'tintin
+# brew 'tiny-fugue
+# brew 'tinyproxy
+# brew 'tinysvm
+# brew 'titlecase
+# brew 'tivodecode
+# brew 'tkdiff
+# brew 'tmap
+# brew 'tmpreaper
+# brew 'tn5250
+# brew 'tnef
+# brew 'todo-txt
+# brew 'tofrodos
+# brew 'toilet
+# brew 'tokyo-cabinet
+# brew 'tokyo-dystopia
+# brew 'tokyo-tyrant
+# brew 'tomcat
+# brew 'topgit
+# brew 'tophat
+# brew 'tor
+# brew 'torsocks
+# brew 'trafficserver
+# brew 'trafshow
+# brew 'trang
+# brew 'transcode
+# brew 'transmission
+# brew 'tre
+# brew 'tree
+# brew 'treecc
+# brew 'treeline
+# brew 'triangle
+# brew 'tsung
+# brew 'ttf2eot
+# brew 'ttf2pt1
+# brew 'tth
+# brew 'ttyrec
+# brew 'ttytter
+# brew 'tup
+# brew 'two-lame
+# brew 'txt2man
+# brew 'txt2tags
+# brew 'typespeed
+# brew 'uade
+# brew 'uchardet
+# brew 'ucl
+# brew 'udis86
+# brew 'udns
+# brew 'udunits
+# brew 'ufraw
+# brew 'uif2iso
+# brew 'uim
+# brew 'unafold
+# brew 'unbound
+# brew 'uncrustify
+# brew 'unfs3
+# brew 'ungif
+# brew 'unifdef
+# brew 'unison
+# brew 'unittest
+# brew 'unixodbc
+# brew 'unp
+# brew 'unpaper
+# brew 'unrtf
+# brew 'unshield
+# brew 'unyaffs
+# brew 'uptimed
+# brew 'upx
+# brew 'uriparser
+# brew 'urlview
+# brew 'urweb
+# brew 'usbmuxd
+# brew 'ushare
+# brew 'utimer
+# brew 'uudeview
+# brew 'uwsgi
+# brew 'v8cgi
+# brew 'vala
+# brew 'valkyrie
+# brew 'vbindiff
+# brew 'vcdimager
+# brew 'vcftools
+# brew 'vcodex
+# brew 'vcprompt
+# brew 'vde
+# brew 'velvet
+# brew 'verilator
+# brew 'vf
+# brew 'vgmstream
+# brew 'vice
+# brew 'vifm
+# brew 'vilistextum
+# brew 'vimeo-downloader
+# brew 'vimpager
+# brew 'vimpc
+# brew 'vip
+# brew 'vips
+# brew 'virtualhost.sh
+# brew 'virtuoso
+# brew 'visitors
+# brew 'visualnetkit
+# brew 'vmalloc
+# brew 'vnstat
+# brew 'vobcopy
+# brew 'voldemort
+# brew 'vorbis-tools
+# brew 'vorbisgain
+# brew 'vpnc
+# brew 'vrpn
+# brew 'vsftpd
+# brew 'vte
+# brew 'w3m
+# brew 'wait_on
+# brew 'wakeonlan
+# brew 'watch
+# brew 'wavpack
+# brew 'wbox
+# brew 'wdfs
+# brew 'wdiff
+# brew 'web100clt
+# brew 'webalizer
+# brew 'webfs
+# brew 'webkit2png
+# brew 'webp
+# brew 'weechat
+# brew 'wemux
+# brew 'whatmask
+# brew 'when
+# brew 'whirr
+# brew 'whohas
+# brew 'wiggle
+# brew 'willgit
+# brew 'winetricks
+# brew 'winexe
+# brew 'wkhtmltopdf
+# brew 'wla-dx
+# brew 'wmctrl
+# brew 'wol
+# brew 'wopr
+# brew 'wordnet
+# brew 'wp-cli
+# brew 'wps2odt
+# brew 'wput
+# brew 'wrangler
+# brew 'writerperfect
+# brew 'wrk
+# brew 'wtf
+# brew 'wv
+# brew 'wv2
+# brew 'wwwoffle
+# brew 'wxmac
+# brew 'wyrd
+# brew 'x264
+# brew 'x3270
+# brew 'xa
+# brew 'xapian
+# brew 'xar
+# brew 'xaric
+# brew 'xastir
+# brew 'xaw3d
+# brew 'xchat
+# brew 'xclip
+# brew 'xdelta
+# brew 'xdotool
+# brew 'xerces-c
+# brew 'xml-coreutils
+# brew 'xml-security-c
+# brew 'xml-tooling-c
+# brew 'xml2rfc
+# brew 'xmlformat
+# brew 'xmlrpc-c
+# brew 'xmlto
+# brew 'xmltoman
+# brew 'xmoto
+# brew 'xmp
+# brew 'xpa
+# brew 'xpdf
+# brew 'xplanet
+# brew 'xqilla
+# brew 'xrootd
+# brew 'xspin
+# brew 'xspringies
+# brew 'xsw
+# brew 'xvid
+# brew 'xz
+# brew 'yaf
+# brew 'yajl
+# brew 'yamdi
+# brew 'yaml-cpp
+# brew 'yara
+# brew 'yarp
+# brew 'yasm
+# brew 'yaws
+# brew 'yaz
+# brew 'yazpp
+# brew 'yconalyzer
+# brew 'yeti
+# brew 'ykclient
+# brew 'ykpers
+# brew 'youtube-dl
+# brew 'yuicompressor
+# brew 'yydecode
+# brew 'z
+# brew 'zbar
+# brew 'zdelta
+# brew 'zebra
+# brew 'zeromq
+# brew 'zile
+# brew 'zint
+# brew 'zlib
+# brew 'znc
+# brew 'zookeeper
+# brew 'zsh
+# brew 'zsh-completions
+# brew 'zsh-lovers
+# brew 'zssh
+# brew 'zsync
+# brew 'zzuf
