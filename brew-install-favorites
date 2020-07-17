@@ -86,25 +86,53 @@
 # * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
 ##
 
+# Update - this is always the first step
+brew update
+
 ##
 # Preflight
 ##
 
 # Tap
-brew tap 'homebrew/cask
-brew tap 'homebrew/cask-drivers
-brew tap 'homebrew/cask-versions
-brew tap 'homebrew/core
-brew tap 'homebrew/boneyard
-brew tap 'homebrew/dev-tools
-brew tap 'homebrew/bundle
-brew tap 'homebrew/services
+brew tap homebrew/cask
+brew tap homebrew/cask-drivers
+brew tap homebrew/cask-versions
+brew tap homebrew/core
+brew tap homebrew/boneyard
+brew tap homebrew/dev-tools
+brew tap homebrew/bundle
+brew tap homebrew/services
 
 ###########################################################################
 #
 # SOFTWARE THAT IS TYPICALLY FINE FOR EVERYONE
 #
 ###########################################################################
+
+##
+# Quickstart
+#
+# Install any free open source applications that we want running ASAP.
+# We also install these in their respective sections too, for completeness.
+##
+
+# Our favorite terminal
+brew cask install iterm2
+
+# Our favorite editor
+brew cask install vim
+
+# Our favorite web browser
+brew cask install firefox
+
+# Our favorite messenger
+brew cask install signal
+
+# Our favorite pager
+brew install bat
+
+# Our favorite Virtual Private Network (VPN)
+brew cask install expressvpn
 
 ##
 # Browsers
@@ -131,24 +159,33 @@ brew cask install firefox
 brew install lynx
 
 # Brow.sh text browser
-#tap 'browsh-org/homebrew-browsh
+#tap browsh-org/homebrew-browsh
 #brew 'browsh
 
 ##
-# Chat
+# Communication
 #
 # We favor Riot.im because it is free open source,
 # and also works closely with Mozilla foundation.
+#
+# We favor Signal because it is free open source,
+# and also works closely with encryption standards.
 ##
 
 # Riot.im chat client
 brew cask install riot
+
+# Signal encrypted messaging
+brew cask install signal
 
 # Discord chat
 brew cask install discord
 
 # Slack chat client
 brew cask install slack
+
+# Skype calling with video and phone calls.
+brew cask install skype
 
 ##
 # Terminals
@@ -198,6 +235,18 @@ brew install fish
 # Mobile Shell (MOSH) is like SSH plus roaming and smart echo.
 brew install mobile-shell
 
+# Parallel SSH
+brew install pssh
+
+# GNU moreutils, including `parallel`, `sponge`, etc.
+brew install moreutils
+
+# FZF fuzzy finder
+brew install fzf; /usr/local/opt/fzf/install
+
+# Angle grinder: slice and dice log files on the command line
+brew install agrind-bin
+
 ##
 # Passwords
 #
@@ -222,6 +271,31 @@ brew cask install 1password
 
 # LastPass is a password manager
 brew cask install lastpass
+
+##
+# Fundamental
+##
+
+# Automake is a tool for automatically generating Makefile installation files.
+brew install automake
+
+# Basic file, shell and text manipulation utilities of the GNU operating system.
+brew install coreutils
+
+# GNU stream editor; compare `sed`.
+brew install gnu-sed --default-names
+
+# GNU Privacy Guard (GnuPG) provides encryption as a free replacement for PGP.
+brew install gpg
+
+# OpenSSL is an open-source implementation of the SSL and TLS protocols.
+brew install openssl
+
+# pkg-config is a helper tool used when compiling applications and libraries.
+brew install pkg-config && brew link pkg-config && brew install tmux
+
+# Functions for use by applications that allow users to edit command lines while typing.
+brew install readline
 
 ##
 # Editors
@@ -271,7 +345,7 @@ brew cask install mactex
 brew cask install libreoffice
 
 # Microsof Office is a large suite of software for documents, spreadsheets, diagrams.
-cask "microsoft-office"
+cask microsoft-office
 
 ##
 # Downloaders
@@ -608,6 +682,9 @@ brew cask install shotcut
 # Freemind mind map editor
 brew cask install freemind
 
+# MindNode mind-mapping helps you visualize your ideas (paid).
+brew cask install mindnode-pro
+
 # yEd is desktop application to generate high-quality diagrams
 brew cask install yed
 
@@ -912,9 +989,6 @@ brew cask install silverlight
 # TODO
 brew cask install skitch
 
-# Skype calling with video and phone calls.
-brew cask install skype
-
 # TODO
 brew cask install sleep-monitor
 
@@ -994,29 +1068,32 @@ brew cask install zoomus
 # programming languages, including Java, Python, Ruby, PHP, etc.
 ##
 
+# JetBrains Toolbox manages all the JetBrains software
+brew cask install jetbrains-toolbox
+
 # AppCode Swift IDE
-brew cask install appcode
+#brew cask install appcode
 
 # CLion C/C++ IDE
-brew cask install clion
+#brew cask install clion
 
 # DataGrip SQL IDE
-brew cask install datagrip
+#brew cask install datagrip
 
 # IntelliJ Java IDE
-brew cask install intellij-idea
+#brew cask install intellij-idea
 
 # PhpStorm PHP IDE
-brew cask install phpstorm
+#brew cask install phpstorm
 
 # PyCharm Python IDE
-brew cask install pycharm
+#brew cask install pycharm
 
 # RubyMine Ruby IDE
-brew cask install rubymine
+##brew cask install rubymine
 
 # WebStorm IDE
-brew cask install webstorm
+#brew cask install webstorm
 
 ##
 # OmniGroup
