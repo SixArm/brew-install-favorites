@@ -1,0 +1,19 @@
+#!/bin/sh
+
+##
+# OmniGroup
+#
+# OmniGroup provides paid software suitable for professional users.
+##
+
+# To do list task manager
+brew cask install omnifocus
+
+# Diagramming
+brew cask install omnigraffle
+
+# Project management planning
+brew cask install omniplan
+
+# Outliner
+brew cask install omnioutliner
