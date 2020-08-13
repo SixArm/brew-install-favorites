@@ -66,6 +66,9 @@ brew tap codeclimate/formulas && brew install codeclimate
 # Command-line programs for manipulating fonts.
 brew install lcdf-typetools
 
+# ASDF environment manager similar to nvm, rbenv, pipenv.
+brew install asdf
+
 ##
 # Shell
 ##
@@ -174,15 +177,9 @@ brew cask install charles
 # Siege is an http load testing and benchmarking utility.
 brew install siege
 
-# Docker software containers to help distribute applications.
-brew install docker
-brew install boot2docker
-
-# Compose is a tool for defining and running multi-container Docker applications.
-brew install docker-compose
-
-# Docker Machine installs Docker Engine on virtual hosts, and manages the hosts.
-brew install docker-machine
+##
+# Server-related
+##
 
 # Consul tool for discovering and configuring services
 brew install consul
@@ -203,12 +200,34 @@ brew install thrift
 # Protocol buffers for serializing structured data; compare thrift.
 brew install protobuf
 
+# Consul tool for discovering and configuring services in your infrastructure
+brew install consul
+
+# Monit is for managing and monitoring Unix systems.
+brew install monit
+
+# Nagios IT infrastructure monitoring.
+brew install nagios
+
+# NGINX web server.
+brew install nginx
+
+# Varnish reverse-proxy web application accelerator.
+brew install varnish
+
 ##
 # Virtual environments
 ##
 
-# Docker assembles applications from components.
-brew cask install docker
+# Docker software containers to help distribute applications.
+brew install docker
+brew install boot2docker
+
+# Docker Compose is a tool for defining and running multi-container Docker applications.
+brew install docker-compose
+
+# Docker Machine installs Docker Engine on virtual hosts, and manages the hosts.
+brew install docker-machine
 
 # Vagrant creates and configures portable development environments.
 brew cask install vagrant

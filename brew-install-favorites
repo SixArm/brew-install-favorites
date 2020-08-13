@@ -1061,59 +1061,6 @@ brew cask install zoomus
 ##
 
 ##
-# JetBrains
-#
-# JetBrains is paid software suitable for professional programmers,
-# such as Integrated Development Environments (IDEs) for popular
-# programming languages, including Java, Python, Ruby, PHP, etc.
-##
-
-# JetBrains Toolbox manages all the JetBrains software
-brew cask install jetbrains-toolbox
-
-# AppCode Swift IDE
-#brew cask install appcode
-
-# CLion C/C++ IDE
-#brew cask install clion
-
-# DataGrip SQL IDE
-#brew cask install datagrip
-
-# IntelliJ Java IDE
-#brew cask install intellij-idea
-
-# PhpStorm PHP IDE
-#brew cask install phpstorm
-
-# PyCharm Python IDE
-#brew cask install pycharm
-
-# RubyMine Ruby IDE
-##brew cask install rubymine
-
-# WebStorm IDE
-#brew cask install webstorm
-
-##
-# OmniGroup
-#
-# OmniGroup provides paid software suitable for professional users.
-##
-
-# To do list task manager
-brew cask install omnifocus
-
-# Diagramming
-brew cask install omnigraffle
-
-# Project management planning
-brew cask install omniplan
-
-# Outliner
-brew cask install omnioutliner
-
-##
 # Paw.cloud
 ##
 
