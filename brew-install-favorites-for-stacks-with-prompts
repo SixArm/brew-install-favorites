@@ -1,0 +1,67 @@
+#!/bin/sh
+
+##
+# brew-install-favorites-for-stacks-with-prompts
+#
+# Use Homebrew to install our favorite tech-related packages
+# that may need to be installed manually because of prompts;
+# The prompts may be necessary for passwords, or moving files,
+# or more-complex issues that need a human to be involved.
+#
+# If you're using this file and you find any packages that
+# do install without prompts, please let us know by opening
+# an issue, or emailing us, or creating a pull request. Thanks!
+#
+# ## Tracking
+#
+# * Package: https://github.com/sixarm/brew-install-favorites-for-stacks
+# * Version: 5.0.0
+# * Created: 2016-10-11T19:23:52Z
+# * Updated: 2020-06-20T22:38:42Z
+# * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
+# * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
+##
+
+# Update - this is always the first step
+brew update
+
+# Emacs editor.
+sudo rm /usr/bin/emacs &&
+sudo rm -rf /usr/share/emacs &&
+brew install emacs --cocoa --srgb --use-git-head --HEAD &&
+ls -1 /usr/local/Cellar/emacs/*/bin/emacs |
+tail -1 |
+xargs -I{} sudo ln -sf "{}" /usr/bin/emacs
+
+## Networking
+
+# nmap network mapper is a security scanner
+brew cask install nmap
+
+# Wireshark network protocol analyzer
+brew cask install wireshark
+
+## Programming
+
+# Netbeans Java IDE
+brew cask install netbeans
+
+# Java
+brew cask install caskroom/versions/java9
+brew cask install caskroom/versions/java8
+brew cask install caskroom/versions/java7
+
+# R statistics programming language
+brew cask install r
+
+## Deployments
+
+# Vagrant lightweight, reproducible, portable development environments
+brew cask install vagrant
+
+# Heroku hosting utilities
+brew cask install heroku-toolbelt
+
+## Cleanup - this is always the last step
+brew cleanup
+brew cask cleanup
