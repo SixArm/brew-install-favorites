@@ -745,35 +745,6 @@ brew install imagemagick
 brew install theora
 
 ##
-# Server-Related
-##
-
-# Docker software containers to help distribute applications.
-brew install docker
-brew install boot2docker
-
-# Compose is a tool for defining and running multi-container Docker applications.
-brew install docker-compose
-
-# Docker Machine installs Docker Engine on virtual hosts, and manages the hosts.
-brew install docker-machine
-
-# Consul tool for discovering and configuring services in your infrastructure
-brew install consul
-
-# Monit is for managing and monitoring Unix systems.
-brew install monit
-
-# Nagios IT infrastructure monitoring.
-brew install nagios
-
-# NGINX web server.
-brew install nginx
-
-# Varnish reverse-proxy web application accelerator.
-brew install varnish
-
-##
 # Font-Related
 ##
 
