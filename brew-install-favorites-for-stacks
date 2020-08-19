@@ -261,6 +261,9 @@ brew tap d12frosted/emacs-plus
 brew install emacs-plus
 brew linkapps emacs-plus
 
+# Android Studio
+brew cask install android-studio
+
 # Eclipse is a large programming IDE built on Java
 brew cask install eclipse-ide
 brew cask install eclipse-platform
@@ -470,6 +473,23 @@ brew install erlang
 ## Yet Another Web Server
 brew install yaws
 
+## Flutter
+
+# OpenJDK
+brew cask install adoptopenjdk
+
+# Android software development kit
+brew cask install android-sdk
+
+# Android Studio IDE
+brew cask install android-studio
+
+# Intel Hardware Accelerated Execution Manager (HAXM) accelerator for Android Emulator and QEMU
+brew cask install intel-haxm
+
+# Flutter programming language
+brew cask install flutter
+
 ## Go
 
 # Go programming language by Google; compare `C`.
@@ -484,6 +504,9 @@ brew install ghc cabal-install
 
 # Java programming language
 brew cask install java
+
+# Java programming language via OpenJDK
+brew cask install adoptopenjdk
 
 # Gradle is a Java build tool
 brew install gradle
@@ -515,6 +538,7 @@ brew install glassfish
 #
 brew cask install android-sdk
 brew cask install android-ndk
+brew cask install android-studio
 
 # Apache Ant automates software build processes.
 brew install ant
