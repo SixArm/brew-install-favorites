@@ -439,6 +439,17 @@ brew install htmlcompressor --with-yuicompressor
 # Perl, Python, R, Ruby, Scala, Swift, and tooling.
 ##
 
+## Android
+
+# OpenJDK
+brew cask install adoptopenjdk
+
+# Android Studio IDE
+brew cask install android-studio
+
+# Intel Hardware Accelerated Execution Manager (HAXM) accelerator for Android Emulator and QEMU
+brew cask install intel-haxm
+
 ## Compilers
 
 # LLVM cross-compiler
@@ -472,23 +483,6 @@ brew install erlang
 
 ## Yet Another Web Server
 brew install yaws
-
-## Flutter
-
-# OpenJDK
-brew cask install adoptopenjdk
-
-# Android software development kit
-brew cask install android-sdk
-
-# Android Studio IDE
-brew cask install android-studio
-
-# Intel Hardware Accelerated Execution Manager (HAXM) accelerator for Android Emulator and QEMU
-brew cask install intel-haxm
-
-# Flutter programming language
-brew cask install flutter
 
 ## Go
 
