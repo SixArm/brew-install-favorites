@@ -441,7 +441,7 @@ brew install htmlcompressor --with-yuicompressor
 
 ## Android
 
-# OpenJDK
+# Open Java Develoment Kit (JDK)
 brew cask install adoptopenjdk
 
 # Android Studio IDE
