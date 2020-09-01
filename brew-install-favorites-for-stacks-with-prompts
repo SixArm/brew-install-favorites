@@ -38,18 +38,10 @@ xargs -I{} sudo ln -sf "{}" /usr/bin/emacs
 # nmap network mapper is a security scanner
 brew cask install nmap
 
-# Wireshark network protocol analyzer
-brew cask install wireshark
-
 ## Programming
 
 # Netbeans Java IDE
-brew cask install netbeans
-
-# Java
-brew cask install caskroom/versions/java9
-brew cask install caskroom/versions/java8
-brew cask install caskroom/versions/java7
+#brew cask install netbeans
 
 # R statistics programming language
 brew cask install r
