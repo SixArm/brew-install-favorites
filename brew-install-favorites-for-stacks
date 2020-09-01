@@ -318,16 +318,10 @@ brew install mariadb
 brew install mongodb
 
 # PostgreSQL database.
-brew install postgres
-
-# PostgreSQL database.
 brew install postgresql
 
-# Postgres App provides a Mac-friendly database.
-brew cask install postgres
-
-# Postgres admin GUI
-brew install pgadmin3
+# PostgreSQL Geographic Information System
+brew install postgis
 
 # RabbitMQ enterprise message queue based on the emerging AMQP standard.
 brew install rabbitmq
