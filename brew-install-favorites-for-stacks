@@ -672,64 +672,6 @@ brew cask install shotcut
 brew cask imageoptim
 
 ##
-# Paid software
-#
-#   * JetBrains programmer tools
-#   * OmniGroup project management tools
-#
-# This section installs the tools, which are free trial versions.
-# We pay for licenses for all these for all our teammates.
-#
-# You may want to customize this section by deleting any items that
-# you don't want to use or purchase, because this will save disk space.
-##
-
-## Paw.cloud
-
-# Paw HTTP API testing tool
-brew cask install paw
-
-## JetBrains
-
-# AppCode Swift IDE
-brew cask install appcode
-
-# CLion C/C++ IDE
-brew cask install clion
-
-# DataGrip SQL IDE
-brew cask install datagrip
-
-# IntelliJ Java IDE
-brew cask install intellij-idea
-
-# PhpStorm PHP IDE
-brew cask install phpstorm
-
-# PyCharm Python IDE
-brew cask install pycharm
-
-# RubyMine Ruby IDE
-brew cask install rubymine
-
-# WebStorm IDE
-brew cask install webstorm
-
-## OmniGroup
-
-# To Do list
-brew cask install omnifocus
-
-# Diagramming
-brew cask install omnigraffle
-
-# Project planning
-brew cask install omniplan
-
-# Outliner
-brew cask install omnioutliner
-
-##
 # Libraries
 #
 # We do this near the end of this file,
