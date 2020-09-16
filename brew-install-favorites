@@ -128,11 +128,8 @@ brew cask install firefox
 # Our favorite messenger
 brew cask install signal
 
-# Our favorite pager
-brew install bat
-
-# Our favorite Virtual Private Network (VPN)
-brew cask install expressvpn
+# Our favorite virtual private network
+brew cask install surfshark
 
 ##
 # Browsers
@@ -157,6 +154,9 @@ brew cask install firefox
 
 # Lynx terminal web browser
 brew install lynx
+
+# Cyberduck file transfer
+brew cask install cyberduck
 
 # Brow.sh text browser
 #tap browsh-org/homebrew-browsh
@@ -246,6 +246,16 @@ brew install fzf; /usr/local/opt/fzf/install
 
 # Angle grinder: slice and dice log files on the command line
 brew install agrind-bin
+
+##
+# Networking
+##
+
+# Surfshark VPN
+brew cask install surfshark
+
+# ExpressVPN Virtual Private Network (VPN)
+#brew cask install expressvpn
 
 ##
 # Passwords
