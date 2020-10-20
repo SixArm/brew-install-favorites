@@ -349,7 +349,7 @@ brew cask install graphiql
 ## Database managers
 
 # MySQL Workbench database editor.
-brew link cmake; brew cask install mysqlworkbench
+#brew link cmake; brew cask install mysqlworkbench
 
 # Realm browser mobile database editor.
 brew cask install realm-browser

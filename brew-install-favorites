@@ -941,9 +941,6 @@ brew cask install launchy
 brew cask install little-snitch
 
 # TODO
-brew cask install mysqlworkbench
-
-# TODO
 brew cask install paparazzi
 
 # TODO
