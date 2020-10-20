@@ -833,7 +833,7 @@ brew cask install adventure
 brew cask install alfred
 
 # TDB
-brew cask install amazon-music
+#brew cask install amazon-music
 
 # TDB
 brew cask install anki
