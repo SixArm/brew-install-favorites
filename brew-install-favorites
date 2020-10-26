@@ -187,6 +187,9 @@ brew cask install slack
 # Skype calling with video and phone calls.
 brew cask install skype
 
+# NetNewsWire RSS reader
+brew cask install netnewswire
+
 ##
 # Terminals
 #
