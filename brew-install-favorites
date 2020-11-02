@@ -896,12 +896,6 @@ brew cask install commandq
 brew cask install duet
 
 # TDB
-brew cask install evernote
-
-# TDB
-brew cask install flash-player
-
-# TDB
 brew cask install fluid
 
 # TDB
@@ -921,15 +915,6 @@ brew cask install gitx
 
 # TDB
 brew cask install harvest
-
-# TDB
-brew cask install hockey
-
-# TDB
-brew cask install hipchat
-
-# TDB
-brew cask install joinme
 
 # TDB
 brew cask install jumpcut
