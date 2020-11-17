@@ -102,6 +102,9 @@ brew cask install postman
 # Insomnia HTTP REST client for developers. 
 brew cask install insomnia
 
+# Brow.sh web browser that uses text.
+brew tap browsh-org/homebrew-browsh
+
 ##
 # Versioning
 ##
@@ -118,7 +121,6 @@ brew cask install github
 
 # Meld visual diff merge tool
 brew cask install meld
-
 
 ##
 # Languages
