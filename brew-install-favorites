@@ -615,6 +615,10 @@ brew cask install box-sync
 # ripgrep is text search; we prefer it over grep, ag, git grep, ucg, pt, sift.
 brew install ripgrep
 
+# ripgrep-all uses ripgrep with other tools to search more kinds of files and content.
+brew install pandoc poppler tesseract ffmpeg
+brew install rga
+
 # grep is the classic searcher
 brew install grep
 
