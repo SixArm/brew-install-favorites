@@ -684,20 +684,23 @@ brew cask install eqmac
 
 ## Multimedia editors
 
+# Blender 3D modeller
+brew cask install blender
+
+# Freemind mind map editor
+brew cask install freemind
+
 # Gimp pixel-based image editor, similar to Adobe Photoshop
 brew cask install gimp
 
 # Inkscape vector-based image editor, similar to Adobe Illustrator
 brew cask install inkscape
 
-# Blender 3D modeller
-brew cask install blender
+# rsvg and librsvg manipulate scalable vector graphic images
+brew install librsvg
 
 # Shotcut movie editor
 brew cask install shotcut
-
-# Freemind mind map editor
-brew cask install freemind
 
 # MindNode mind-mapping helps you visualize your ideas (paid).
 brew cask install mindnode-pro
@@ -707,6 +710,7 @@ brew cask install yed
 
 # Visualization Toolkit for manipulating and displaying scientific data
 brew install vtk
+
 
 ## ebooks
 
