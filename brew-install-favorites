@@ -119,6 +119,9 @@ brew tap homebrew/services
 # Our favorite terminal
 brew cask install iterm2
 
+# Our favorite prompt
+brew install starship
+
 # Our favorite editor
 brew cask install vim
 
@@ -664,6 +667,33 @@ brew install libgphoto2
 brew install libpng
 brew install libtiff
 
+# GraphicsMagick is the swiss army knife of image processing.
+brew install graphicsmagick
+
+# GraphViz
+#
+# GraphViz helpers are currently not supported on macOS using brew.
+# So we prefer to replace brew graphviz with an install from source.
+#
+# See https://medium.com/@scrossoracle/building-graphviz-from-source-on-macos-b6a846d73949
+#
+#     $ brew uninstall graphviz  --ignore-dependencies
+#     $ cd /opt
+#     $ git clone https://gitlab.com/graphviz/graphviz.git
+#     $ cd graphviz
+#     $ git checkout $(git tag | grep stable | sort | tail -n 1)
+#     $ export CXXFLAGS=-std=c++11
+#     $ export PATH="/usr/local/opt/qt/bin:$PATH"
+#     $ export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig:/usr/local/opt/qt/lib/pkgconfig:/opt/X11/lib/pkgconfig"
+#     $ export LDFLAGS="-L/usr/local/opt/libffi/lib"$ ./autogen.sh --with-quartz
+#     $ ./autogen.sh --with-quartz
+#     $ make
+#     $ make install
+#     $ dot -V
+#
+brew install autoconf autogen automake cairo pango gts gd librsvg libffi swig freeglut lasi poppler devil gtk xquartz
+brew install graphviz
+
 ## Multimedia players
 
 # Chafa image viewer using terminal emulator
@@ -724,12 +754,6 @@ brew cask install kindle
 brew cask install adobe-air
 
 ## Misc
-
-# GraphicsMagick is the swiss army knife of image processing.
-brew install graphicsmagick
-
-# TODO
-brew install graphviz
 
 # Gnuplot is a portable command-line driven graphing utility.
 brew install gnuplot
