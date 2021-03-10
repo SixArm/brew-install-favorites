@@ -32,10 +32,6 @@ brew cask install java
 # Karabiner remaps keyboard keys
 brew cask install karabiner
 
-## Media-related
-
-# Adobe Reader for PDF files
-brew cask install adobe-reader
 
 ##
 # Productivity
@@ -58,7 +54,7 @@ brew cask install seil
 brew cask install teamviewer
 brew cask install unity-web-player
 brew cask install unity3d
-brew cask install zoomus
+brew cask install zoom
 
 ## Cleanup - this is always the last step
 brew cleanup
