@@ -34,9 +34,6 @@ brew cask install karabiner
 
 ## Media-related
 
-# Adobe Air player for multimedia content
-brew cask install adobe-air
-
 # Adobe Reader for PDF files
 brew cask install adobe-reader
 
