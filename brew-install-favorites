@@ -750,8 +750,6 @@ brew cask install calibre
 # Kindle book reader by Amazon
 brew cask install kindle
 
-# Adobe Air player for multimedia content
-brew cask install adobe-air
 
 ## Misc
 
