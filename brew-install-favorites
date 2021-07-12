@@ -79,9 +79,9 @@
 # ## Tracking
 #
 # * Package: https://github.com/sixarm/brew-install-favorites
-# * Version: 3.1.0
+# * Version: 3.2.0
 # * Created: 2017-01-01
-# * Updated: 2020-06-20
+# * Updated: 2021-07-12T22:21:42Z
 # * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
 # * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
 ##
@@ -133,6 +133,9 @@ brew cask install signal
 
 # Our favorite virtual private network
 brew cask install surfshark
+
+# Our favorite log file viewer
+brew install lnav
 
 ##
 # Browsers
@@ -249,9 +252,6 @@ brew install moreutils
 
 # FZF fuzzy finder
 brew install fzf; /usr/local/opt/fzf/install
-
-# Angle grinder: slice and dice log files on the command line
-brew install agrind-bin
 
 ##
 # Networking
@@ -528,6 +528,12 @@ brew install fzf
 
 # The `z` command to `cd` among directories.
 brew install zoxide
+
+# Angle grinder: slice and dice log files on the command line
+brew install agrind-bin
+
+# The Logfile Navigator
+brew install lnav
 
 ##
 # Command line system operator helpers
