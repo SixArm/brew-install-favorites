@@ -125,6 +125,9 @@ brew cask install github
 # Meld visual diff merge tool
 brew cask install meld
 
+# Filter a repo in a fast safe way
+brew install git-filter-repo
+
 ##
 # Languages
 ##
