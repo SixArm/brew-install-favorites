@@ -108,6 +108,10 @@ brew cask install insomnia
 # Brow.sh web browser that uses text.
 brew tap browsh-org/homebrew-browsh
 
+# Hurl is a client for HTTP testing.
+brew tap jcamiel/hurl
+brew install hurl
+
 ##
 # Versioning
 ##
