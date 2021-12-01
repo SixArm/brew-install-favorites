@@ -132,6 +132,9 @@ brew cask install meld
 # Filter a repo in a fast safe way
 brew install git-filter-repo
 
+# LazyGit is a git GUI that is designed to be fast and simple
+brew install jesseduffield/lazygit/lazygit
+
 ##
 # Languages
 ##
