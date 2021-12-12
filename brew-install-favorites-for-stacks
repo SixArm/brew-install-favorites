@@ -267,6 +267,9 @@ brew cask install corectl
 # Kubernetes Solo cluster for macOS
 brew cask install kube-solo
 
+# WASMer Rust WASM runtime
+brew install wasmer
+
 ##
 # Editors
 ##
