@@ -137,6 +137,9 @@ brew cask install surfshark
 # Our favorite log file viewer
 brew install lnav
 
+# Our favorite messenger
+brew install element
+
 ##
 # Browsers
 #
