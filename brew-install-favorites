@@ -140,6 +140,9 @@ brew install lnav
 # Our favorite messenger
 brew install element
 
+# Our favorite knowledge base
+brew cask install loqseq
+
 ##
 # Browsers
 #
@@ -355,6 +358,9 @@ brew install enca
 
 # MacTex: LaTeX document preparation system with high-quality typesetting.
 brew cask install mactex
+
+# LogSeq: knowledge base that uses markdown and org-mode.
+brew cask install loqseq
 
 ##
 # Office software
