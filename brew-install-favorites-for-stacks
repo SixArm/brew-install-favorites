@@ -115,6 +115,9 @@ brew tap browsh-org/homebrew-browsh
 brew tap jcamiel/hurl
 brew install hurl
 
+# OpenAPI Generator CLI
+brew install openapi-generator
+
 ##
 # Versioning
 ##
