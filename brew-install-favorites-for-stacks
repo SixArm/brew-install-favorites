@@ -61,13 +61,16 @@ brew install pyqt
 ##
 
 # Code Climate Platform for all static analysic.
-brew tap codeclimate/formulas && brew install codeclimate
+brew tap codeclimate/formulas && 
+brew install codeclimate
 
 # Command-line programs for manipulating fonts.
 brew install lcdf-typetools
 
 # ASDF environment manager similar to nvm, rbenv, pipenv.
-brew install coreutils curl git
+brew install coreutils &&
+brew install curl &&
+brew install git &&
 brew install asdf
 
 ##
@@ -78,7 +81,8 @@ brew install asdf
 brew install grsync
 
 # Shell script syntax check linter.
-brew link pandoc; brew install shellcheck
+brew install pandoc && brew link pandoc && 
+brew install shellcheck
 
 # BATS: Bash Automated Testing System.
 brew cask install bats
@@ -87,7 +91,8 @@ brew cask install bats
 brew install powershell
 
 # WesTerm Rust terminal
-brew tap wez/wezterm; brew install --cask wez/wezterm/wezterm
+brew tap wez/wezterm && 
+brew install --cask wez/wezterm/wezterm
 
 ##
 # Clients
@@ -109,10 +114,11 @@ brew cask install postman
 brew cask install insomnia
 
 # Brow.sh web browser that uses text.
-brew tap browsh-org/homebrew-browsh
+brew tap browsh-org/homebrew-browsh &&
+brew install browsh
 
 # Hurl is a client for HTTP testing.
-brew tap jcamiel/hurl
+brew tap jcamiel/hurl &&
 brew install hurl
 
 # OpenAPI Generator CLI
@@ -129,7 +135,6 @@ brew cask install sourcetree
 brew cask install gitup
 
 # GitHub Desktop friendly Git GUI
-# https://desktop.github.com/
 brew cask install github
 
 # Meld visual diff merge tool
@@ -139,7 +144,8 @@ brew cask install meld
 brew install git-filter-repo
 
 # LazyGit is a git GUI that is designed to be fast and simple
-brew install jesseduffield/lazygit/lazygit
+brew tap jesseduffield/lazygit &&
+brew install lazygit
 
 ##
 # Languages
@@ -182,7 +188,9 @@ brew install prettyping
 brew install httpie
 
 # Wireshark network monitoring, with the QT GUI.
-brew link cmake; brew cask install wireshark --with-qt
+brew install qt &&
+brew install cmake && brew link cmake && 
+brew cask install wireshark --with-qt
 
 # Monit is for managing and monitoring Unix systems.
 brew install monit
@@ -357,7 +365,8 @@ brew install redis
 brew install riak
 
 # SQLite database: self-contained, serverless, zero-configuration, transactional engine.
-brew install sqlite && brew link sqlite
+brew install sqlite && 
+brew link sqlite
 
 # ZeroMQ message queue
 brew install zeromq
@@ -365,7 +374,11 @@ brew install zeromq
 ## Database searchers
 
 # Sphinx search engine.
-brew link cmake; brew install mysql; brew install postgresql; brew install sphinx
+brew install cmake &&
+brew link cmake &&
+brew install mysql &&
+brew install postgresql && 
+brew install sphinx
 
 # GraphiQL: a lightweight Electron-based app wrapper around GraphiQL
 brew cask install graphiql
@@ -373,7 +386,8 @@ brew cask install graphiql
 ## Database managers
 
 # MySQL Workbench database editor.
-#brew link cmake; brew cask install mysqlworkbench
+brew install cmake && brew link cmake
+brew cask install mysqlworkbench
 
 # Realm browser mobile database editor.
 brew cask install realm-browser
@@ -667,7 +681,7 @@ brew cask install testflight
 brew install awscli
 
 # AWS command line tools
-brew tap wallix/awless
+brew tap wallix/awless &&
 brew install awless
 
 # Heroku app hosting
