@@ -17,25 +17,25 @@ brew cask install jetbrains-toolbox
 ##
 
 # AppCode Swift IDE
-#brew cask install appcode
+brew cask install appcode
 
 # CLion C/C++ IDE
-#brew cask install clion
+brew cask install clion
 
 # DataGrip SQL IDE
-#brew cask install datagrip
+brew cask install datagrip
 
 # IntelliJ Java IDE
-#brew cask install intellij-idea
+brew cask install intellij-idea
 
 # PhpStorm PHP IDE
-#brew cask install phpstorm
+brew cask install phpstorm
 
 # PyCharm Python IDE
-#brew cask install pycharm
+brew cask install pycharm
 
 # RubyMine Ruby IDE
-##brew cask install rubymine
+#brew cask install rubymine
 
 # WebStorm IDE
-#brew cask install webstorm
+brew cask install webstorm
