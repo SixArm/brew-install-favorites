@@ -73,6 +73,9 @@ brew install curl &&
 brew install git &&
 brew install asdf
 
+# Fast copy that's a modern version of `cp`.
+brew install fcp
+
 ##
 # Shell
 ##
