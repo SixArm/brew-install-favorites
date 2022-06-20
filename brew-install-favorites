@@ -217,17 +217,18 @@ brew install --cask iterm2
 
 # Tmux is a newer terminal multiplexer.
 brew install pkg-config &&
+brew link pkg-config &&
 brew install tmux &&
 brew install reattach-to-user-namespace
 
 # tmate is a fork of tmux that makes screen sharing friendlier.
 brew install tmate
 
-# Screen is an older terminal multiplexer.
-brew install screen
-
 # ngrok opens a secure tunnel to localhost
 brew install --cask ngrok
+
+# Screen is an older terminal multiplexer.
+#brew install screen
 
 ##
 # Shells
