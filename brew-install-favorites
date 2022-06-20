@@ -383,9 +383,6 @@ brew install --cask microsoft-office
 # These items download files and fetch content from the network.
 ##
 
-# Carthage is a simple, decentralized dependency manager for Cocoa.
-brew install carthage
-
 # curl is a command line tool for transferring data with URL syntax.
 brew install curl, link: true
 
