@@ -196,11 +196,11 @@ brew install --cask discord
 # Slack chat client
 brew install --cask slack
 
-# Skype calling with video and phone calls.
-brew install --cask skype
-
 # NetNewsWire RSS reader
 brew install --cask netnewswire
+
+# Skype calling with video and phone calls.
+#brew install --cask skype
 
 ##
 # Terminals
