@@ -237,18 +237,18 @@ brew install --cask ngrok
 
 # Bash is the Bourne Again SHell. Bash is an sh-compatible shell.
 brew install bash
-
-# Programmable completion functions for bash
 brew install bash-completion
-
-# Bashish is a theme enviroment for text terminals.
-brew install bashish
 
 # Zsh is a shell designed for interactive use.
 brew install zsh
+brew install zsh-completion
 
 # Fish shell.
 brew install fish
+brew install fish-completion
+
+# Bashish is a theme enviroment for text terminals.
+brew install bashish
 
 # Mobile Shell (MOSH) is like SSH plus roaming and smart echo.
 brew install mobile-shell
@@ -260,7 +260,7 @@ brew install pssh
 brew install moreutils
 
 # FZF fuzzy finder
-brew install fzf; /usr/local/opt/fzf/install
+brew install fzf && /usr/local/opt/fzf/install
 
 ##
 # Networking
@@ -271,6 +271,9 @@ brew install --cask surfshark
 
 # ExpressVPN Virtual Private Network (VPN)
 #brew install --cask expressvpn
+
+# NordVPN Virtual Private Network (VPN)
+#brew install --cask nordvpn
 
 ##
 # Passwords
