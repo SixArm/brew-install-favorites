@@ -190,6 +190,9 @@ brew install --cask riot
 # Signal encrypted messaging
 brew install --cask signal
 
+# Element messenger client
+brew install element
+
 # Discord chat
 brew install --cask discord
 
