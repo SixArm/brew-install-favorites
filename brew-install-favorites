@@ -375,7 +375,7 @@ brew install --cask loqseq
 brew install --cask libreoffice
 
 # Microsof Office is a large suite of software for documents, spreadsheets, diagrams.
-cask microsoft-office
+brew install --cask microsoft-office
 
 ##
 # Downloaders
