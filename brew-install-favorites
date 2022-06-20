@@ -436,7 +436,7 @@ brew install --cask gitup
 brew install --cask sourcetree
 
 # Mercurial version control system.
-brew install hg
+#brew install hg
 
 # Subversion version control system.
 brew install sqlite'; brew 'subversion
