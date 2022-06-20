@@ -237,16 +237,16 @@ brew install --cask ngrok
 ##
 
 # Bash is the Bourne Again SHell. Bash is an sh-compatible shell.
-brew install bash
+brew install bash &&
 brew install bash-completion
 
 # Zsh is a shell designed for interactive use.
-brew install zsh
+brew install zsh &&
 brew install zsh-completion
 
 # Fish shell.
-brew install fish
-brew install fish-completion
+#brew install fish &&
+#brew install fish-completion
 
 # Bashish is a theme enviroment for text terminals.
 brew install bashish
