@@ -14,16 +14,13 @@
 #
 # ## Tracking
 #
-# * Package: https://github.com/sixarm/brew-install-favorites-for-stacks
-# * Version: 5.0.0
+# * Package: https://github.com/sixarm/brew-install-favorites
+# * Version: 6.0.0
 # * Created: 2016-10-11T19:23:52Z
-# * Updated: 2020-06-20T22:38:42Z
+# * Updated: 2022-06-20T17:44:09Z
 # * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
 # * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
 ##
-
-# Update - this is always the first step
-brew update
 
 # Emacs editor.
 sudo rm /usr/bin/emacs &&
@@ -45,7 +42,9 @@ brew install powershell
 # nmap network mapper is a security scanner
 brew install --cask nmap
 
-## Programming
+##
+# Programming
+##
 
 # Netbeans Java IDE
 #brew install --cask netbeans
@@ -53,7 +52,9 @@ brew install --cask nmap
 # R statistics programming language
 brew install --cask r
 
-## Deployments
+##
+# Deployments
+##
 
 # Vagrant lightweight, reproducible, portable development environments
 brew install --cask vagrant

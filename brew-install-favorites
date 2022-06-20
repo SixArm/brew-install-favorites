@@ -79,21 +79,15 @@
 # ## Tracking
 #
 # * Package: https://github.com/sixarm/brew-install-favorites
-# * Version: 3.2.0
-# * Created: 2017-01-01
-# * Updated: 2021-07-12T22:21:42Z
+# * Version: 6.0.0
+# * Created: 2016-10-11T19:23:52Z
+# * Updated: 2022-06-20T17:44:09Z
 # * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
 # * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
 ##
 
-# Update - this is always the first step
-brew update
+## Tap
 
-##
-# Preflight
-##
-
-# Tap
 # brew tap homebrew/cask
 # brew tap homebrew/cask-drivers
 # brew tap homebrew/cask-versions

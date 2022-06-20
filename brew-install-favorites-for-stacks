@@ -23,27 +23,24 @@
 #
 # ## Tracking
 #
-# * Package: https://github.com/sixarm/brew-install-favorites-for-stacks
-# * Version: 5.1.0
+# * Package: https://github.com/sixarm/brew-install-favorites
+# * Version: 6.0.0
 # * Created: 2016-10-11T19:23:52Z
-# * Updated: 2021-08-25T23:18:58Z
+# * Updated: 2022-06-20T17:44:09Z
 # * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
 # * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
 ##
 
-# Update - this is always the first step
-brew update
-
 ## Tap
 
-brew tap caskroom/cask
-brew tap homebrew/binary
-brew tap homebrew/brewdler
-brew tap homebrew/core
-brew tap homebrew/dupes
-brew tap homebrew/fuse
-brew tap homebrew/versions
-brew tap jingweno/ccat
+# brew tap caskroom/cask
+# brew tap homebrew/binary
+# brew tap homebrew/brewdler
+# brew tap homebrew/core
+# brew tap homebrew/dupes
+# brew tap homebrew/fuse
+# brew tap homebrew/versions
+# brew tap jingweno/ccat
 
 ##
 # System
@@ -716,18 +713,6 @@ brew install --cask shotcut
 
 # Image optimizer
 brew cask imageoptim
-
-##
-# Libraries
-#
-# We do this near the end of this file,
-# because we expect these will already be
-# installed by a bunch of the software above.
-#
-# This section here is really just to cover our
-# bases to make sure we have the libraries that we
-# sometimes need for building other software later on.
-##
 
 # GNU Multiple Precision Arithmetic Library
 brew install gmp

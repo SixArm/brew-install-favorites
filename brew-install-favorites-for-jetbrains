@@ -6,6 +6,15 @@
 # JetBrains is paid software suitable for professional programmers,
 # such as Integrated Development Environments (IDEs) for popular
 # programming languages, including Java, Python, Ruby, PHP, etc.
+#
+# ## Tracking
+#
+# * Package: https://github.com/sixarm/brew-install-favorites
+# * Version: 6.0.0
+# * Created: 2016-10-11T19:23:52Z
+# * Updated: 2022-06-20T17:44:09Z
+# * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
+# * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
 ##
 
 # JetBrains Toolbox manages all the JetBrains software
@@ -35,7 +44,7 @@ brew install --cask phpstorm
 brew install --cask pycharm
 
 # RubyMine Ruby IDE
-#brew install --cask rubymine
+brew install --cask rubymine
 
 # WebStorm IDE
 brew install --cask webstorm
