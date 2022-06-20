@@ -46,7 +46,6 @@ brew install --cask karabiner
 ##
 
 # Microsoft Office
-# https://www.office.com/
 brew install --cask microsoft-office
 
 # Microsoft Teams for chat
