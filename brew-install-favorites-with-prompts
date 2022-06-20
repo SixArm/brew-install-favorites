@@ -21,7 +21,16 @@
 # Update - this is always the first step
 brew update
 
-## Environment-related
+##
+# Communication
+##
+
+# Zoom video calling
+brew install --cask zoom
+
+##
+# Environment
+##
 
 # DisplayLink enables adding monitors
 brew install --cask displaylink
@@ -31,7 +40,6 @@ brew install --cask java
 
 # Karabiner remaps keyboard keys
 brew install --cask karabiner
-
 
 ##
 # Productivity
@@ -57,7 +65,6 @@ brew install --cask seil
 brew install --cask teamviewer
 brew install --cask unity-web-player
 brew install --cask unity3d
-brew install --cask zoom
 
 ## Cleanup - this is always the last step
 brew cleanup
