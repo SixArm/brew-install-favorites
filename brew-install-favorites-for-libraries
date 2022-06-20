@@ -1,0 +1,87 @@
+#!/bin/sh
+
+##
+# brew-install-favorites-for-libraries
+#
+# Use Homebrew to install our favorite lib-related packages
+# that can be installed fully automatically i.e. unattended;
+# these packages do not ask for passwords, do not have any
+# prompts, and do not have any issues that need a human.
+#
+# If you're using this file and you find any packages that
+# do not install automatically, please let us know by opening
+# an issue, or emailing us, or creating a pull request. Thanks!
+#
+# We expect many of these libraries will already be installed 
+# by a bunch of the software in the other brew files here.
+#
+# This file is just to cover our bases to make sure we have all the
+# libraries that we want for building other software later on.
+#
+# ## Tracking
+#
+# * Package: https://github.com/sixarm/brew-install-favorites-for-stacks
+# * Version: 5.1.0
+# * Created: 2016-10-11T19:23:52Z
+# * Updated: 2021-08-25T23:18:58Z
+# * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
+# * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
+##
+
+# Audio/Visual converters
+brew install libav
+
+# Curl web fetcher
+brew install libcurl
+
+# Foreign Function Interface Library
+brew install libffi
+
+# Text encoding
+brew install libiconv
+brew install homebrew/dupes/libiconv
+
+# File magic number recognizer
+brew install libmagic
+
+# ncurses console nagivation
+brew install libncurses
+
+# Sodium secure cryptography
+brew install libsodium
+
+# Readline terminal input
+brew install libreadline
+
+# GNU libtool is a generic library support script.
+brew install libtool
+
+# XML handlers
+brew install libxml2
+
+# XSLT handlers
+brew install libxslt
+
+# High-level interface to X.509 and CMS (Cryptographic Message Syntax)
+brew install libksba
+
+# V8 JavaScript
+brew install libv8
+
+# YAML markup language
+brew install libyaml
+
+# ZIP file compression
+brew install libzip
+
+# Images: JPG
+brew install libjpg
+
+# Images: PNG
+brew install libpng
+
+# Images: TIFF
+brew install libtiff
+
+# Images: WEBP
+brew install libwebp
