@@ -9,7 +9,7 @@
 ##
 
 # JetBrains Toolbox manages all the JetBrains software
-brew cask install jetbrains-toolbox
+brew install --cask jetbrains-toolbox
 
 ##
 # If you prefer to install software individually,
@@ -17,25 +17,25 @@ brew cask install jetbrains-toolbox
 ##
 
 # AppCode Swift IDE
-brew cask install appcode
+brew install --cask appcode
 
 # CLion C/C++ IDE
-brew cask install clion
+brew install --cask clion
 
 # DataGrip SQL IDE
-brew cask install datagrip
+brew install --cask datagrip
 
 # IntelliJ Java IDE
-brew cask install intellij-idea
+brew install --cask intellij-idea
 
 # PhpStorm PHP IDE
-brew cask install phpstorm
+brew install --cask phpstorm
 
 # PyCharm Python IDE
-brew cask install pycharm
+brew install --cask pycharm
 
 # RubyMine Ruby IDE
-#brew cask install rubymine
+#brew install --cask rubymine
 
 # WebStorm IDE
-brew cask install webstorm
+brew install --cask webstorm

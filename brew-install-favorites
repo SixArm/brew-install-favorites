@@ -117,22 +117,22 @@ brew tap homebrew/services
 ##
 
 # Our favorite terminal
-brew cask install iterm2
+brew install --cask iterm2
 
 # Our favorite prompt
 brew install starship
 
 # Our favorite editor
-brew cask install vim
+brew install --cask vim
 
 # Our favorite web browser
-brew cask install firefox
+brew install --cask firefox
 
 # Our favorite messenger
-brew cask install signal
+brew install --cask signal
 
 # Our favorite virtual private network
-brew cask install surfshark
+brew install --cask surfshark
 
 # Our favorite log file viewer
 brew install lnav
@@ -141,7 +141,7 @@ brew install lnav
 brew install element
 
 # Our favorite knowledge base (compare Roam Research, Logseq)
-brew cask install obsidian
+brew install --cask obsidian
 
 ##
 # Browsers
@@ -150,25 +150,25 @@ brew cask install obsidian
 ##
 
 # Firefox web browser
-brew cask install firefox
+brew install --cask firefox
 
 # Firefox developer edition, which features programming tools.
-#brew cask install firefox-developer-edition
+#brew install --cask firefox-developer-edition
 
 # Google Chrome web browser
-#brew cask install google-chrome
+#brew install --cask google-chrome
 
 # Brave web browser, which features security by default.
-#brew cask install brave-browser
+#brew install --cask brave-browser
 
 # Opera web browser
-#brew cask install opera
+#brew install --cask opera
 
 # Lynx terminal web browser
 brew install lynx
 
 # Cyberduck file transfer
-brew cask install cyberduck
+brew install --cask cyberduck
 
 # Brow.sh text browser
 #tap browsh-org/homebrew-browsh
@@ -185,22 +185,22 @@ brew cask install cyberduck
 ##
 
 # Riot.im chat client
-brew cask install riot
+brew install --cask riot
 
 # Signal encrypted messaging
-brew cask install signal
+brew install --cask signal
 
 # Discord chat
-brew cask install discord
+brew install --cask discord
 
 # Slack chat client
-brew cask install slack
+brew install --cask slack
 
 # Skype calling with video and phone calls.
-brew cask install skype
+brew install --cask skype
 
 # NetNewsWire RSS reader
-brew cask install netnewswire
+brew install --cask netnewswire
 
 ##
 # Terminals
@@ -210,7 +210,7 @@ brew cask install netnewswire
 ##
 
 # iTerm is our favorite terminal app.
-brew cask install iterm2
+brew install --cask iterm2
 
 # Tmux is a newer terminal multiplexer.
 brew install pkg-config, link: true
@@ -224,7 +224,7 @@ brew install tmate
 brew install screen
 
 # ngrok opens a secure tunnel to localhost
-brew cask install ngrok
+brew install --cask ngrok
 
 ##
 # Shells
@@ -264,10 +264,10 @@ brew install fzf; /usr/local/opt/fzf/install
 ##
 
 # Surfshark VPN
-brew cask install surfshark
+brew install --cask surfshark
 
 # ExpressVPN Virtual Private Network (VPN)
-#brew cask install expressvpn
+#brew install --cask expressvpn
 
 ##
 # Passwords
@@ -280,19 +280,19 @@ brew cask install surfshark
 brew install pass
 
 # Keybase.io digital signature manager
-brew cask install keybase
+brew install --cask keybase
 
 # Authy password manager, which is cross-platform
-brew cask install authy
+brew install --cask authy
 
 # Bitwarden password manager, which is open-source
-brew cask install bitwarden
+brew install --cask bitwarden
 
 # 1password is a password manager
-brew cask install 1password
+brew install --cask 1password
 
 # LastPass is a password manager
-brew cask install lastpass
+brew install --cask lastpass
 
 ##
 # Fundamental
@@ -339,16 +339,16 @@ brew install most
 brew install vim
 
 # MacVIM editor
-brew cask install macvim
+brew install --cask macvim
 
 # Emacs editor with extra features; recommended by Spacemacs and Doom emacs
 brew install emacs-plus
 
 # Atom editor by GitHub
-brew cask install atom
+brew install --cask atom
 
 # Sublime text editor
-brew cask install sublime-text
+brew install --cask sublime-text
 
 # GNU Aspell is a free open source spell checker; compare `lspell`.
 brew install aspell, args: ['with-lang=en']
@@ -357,17 +357,17 @@ brew install aspell, args: ['with-lang=en']
 brew install enca
 
 # MacTex: LaTeX document preparation system with high-quality typesetting.
-brew cask install mactex
+brew install --cask mactex
 
 # LogSeq: knowledge base that uses markdown and org-mode.
-brew cask install loqseq
+brew install --cask loqseq
 
 ##
 # Office software
 ##
 
 # LibreOffice is a large suite of software for documents, spreadsheets, diagrams.
-brew cask install libreoffice
+brew install --cask libreoffice
 
 # Microsof Office is a large suite of software for documents, spreadsheets, diagrams.
 cask microsoft-office
@@ -428,10 +428,10 @@ brew install git-now
 brew install git-url-sub
 
 # GitUp friendly Git interface and visualizer
-brew cask install gitup
+brew install --cask gitup
 
 # SourceTree graphic client for git
-brew cask install sourcetree
+brew install --cask sourcetree
 
 # Mercurial version control system.
 brew install hg
@@ -440,7 +440,7 @@ brew install hg
 brew install sqlite'; brew 'subversion
 
 # Perforce merge tool for visual diffs and merges
-brew cask install p4v
+brew install --cask p4v
 
 ##
 # GNU command line tools
@@ -616,13 +616,13 @@ brew install unison
 brew install syncthing
 
 # Dropbox file sharing.
-brew cask install dropbox
+brew install --cask dropbox
 
 # Transmission bittorrent client.
-brew cask install transmission
+brew install --cask transmission
 
 # Box.com sync
-brew cask install box-sync
+brew install --cask box-sync
 
 ##
 # Text search
@@ -656,7 +656,7 @@ brew install yq
 brew install xsv
 
 # Tad is CSV viewer with features for pivot, search, etc.
-brew cask install tad
+brew install --cask tad
 
 ##
 # Cross-platform tooling
@@ -671,7 +671,7 @@ brew install qt5
 brew install wine
 
 # Xquartz X.Org X Window System that runs on OS X; needed for some image software.
-brew cask install xquartz
+brew install --cask xquartz
 
 ##
 # Multimedia
@@ -715,7 +715,7 @@ brew install graphviz
 brew install chafa
 
 # VLC media player
-brew cask install vlc
+brew install --cask vlc
 
 
 ## Sound controls
@@ -724,34 +724,34 @@ brew cask install vlc
 #cask 'airfoil
 
 # eqMac2: System-wide Audio Equalizer for the Mac; free open source
-brew cask install eqmac
+brew install --cask eqmac
 
 
 ## Multimedia editors
 
 # Blender 3D modeller
-brew cask install blender
+brew install --cask blender
 
 # Freemind mind map editor
-brew cask install freemind
+brew install --cask freemind
 
 # Gimp pixel-based image editor, similar to Adobe Photoshop
-brew cask install gimp
+brew install --cask gimp
 
 # Inkscape vector-based image editor, similar to Adobe Illustrator
-brew cask install inkscape
+brew install --cask inkscape
 
 # rsvg and librsvg manipulate scalable vector graphic images
 brew install librsvg
 
 # Shotcut movie editor
-brew cask install shotcut
+brew install --cask shotcut
 
 # MindNode mind-mapping helps you visualize your ideas (paid).
-brew cask install mindnode-pro
+brew install --cask mindnode-pro
 
 # yEd is desktop application to generate high-quality diagrams
-brew cask install yed
+brew install --cask yed
 
 # Visualization Toolkit for manipulating and displaying scientific data
 brew install vtk
@@ -760,10 +760,10 @@ brew install vtk
 ## ebooks
 
 # Calibre ebook reader and manager
-brew cask install calibre
+brew install --cask calibre
 
 # Kindle book reader by Amazon
-brew cask install kindle
+brew install --cask kindle
 
 
 ## Misc
@@ -775,7 +775,7 @@ brew install gnuplot
 brew install jasper
 
 # Image optimizer
-brew cask install imageoptim
+brew install --cask imageoptim
 
 ## Media-Related
 
@@ -872,157 +872,157 @@ brew install zlib
 ##
 
 # Adium is an open source multi-protocol instant messaging client.
-brew cask install adium
+brew install --cask adium
 
 # TDB
-brew cask install adventure
+brew install --cask adventure
 
 # TDB
-brew cask install alfred
+brew install --cask alfred
 
 # TDB
-#brew cask install amazon-music
+#brew install --cask amazon-music
 
 # TDB
-brew cask install anki
+brew install --cask anki
 
 # AppCleaner thoroughly uninstalls unwanted apps.
-brew cask install appcleaner
+brew install --cask appcleaner
 
 # TDB
-brew cask install arq
+brew install --cask arq
 
 # TDB
-brew cask install atext
+brew install --cask atext
 
 # TDB
-brew cask install backblaze-downloader
+brew install --cask backblaze-downloader
 
 # TDB
-brew cask install backuploupe
+brew install --cask backuploupe
 
 # TDB
-brew cask install balsamiq-mockups
+brew install --cask balsamiq-mockups
 
 # TDB
-brew cask install bartender
+brew install --cask bartender
 
 # TDB
-brew cask install basecamp
+brew install --cask basecamp
 
 # TDB
-brew cask install beacon-scanner
+brew install --cask beacon-scanner
 
 # TDB
-brew cask install brain-workshop
+brew install --cask brain-workshop
 
 # TDB
-brew cask install caffeine
+brew install --cask caffeine
 
 # TDB
-brew cask install calibre
+brew install --cask calibre
 
 # TDB
-brew cask install ccleaner
+brew install --cask ccleaner
 
 # TDB
-brew cask install cheatsheet
+brew install --cask cheatsheet
 
 # TDB
-brew cask install coconutbattery
+brew install --cask coconutbattery
 
 # TDB
-brew cask install codekit
+brew install --cask codekit
 
 # TDB
-brew cask install commandq
+brew install --cask commandq
 
 # TDB
-brew cask install duet
+brew install --cask duet
 
 # TDB
-brew cask install fluid
+brew install --cask fluid
 
 # TDB
-brew cask install freeplane
+brew install --cask freeplane
 
 # TDB
-brew cask install ganttproject
+brew install --cask ganttproject
 
 # TDB
-brew cask install gfxcardstatus
+brew install --cask gfxcardstatus
 
 # GitHub source code social sharing
-brew cask install github
+brew install --cask github
 
 # TDB
-brew cask install gitx
+brew install --cask gitx
 
 # TDB
-brew cask install harvest
+brew install --cask harvest
 
 # TDB
-brew cask install jumpcut
+brew install --cask jumpcut
 
 # TDB
-brew cask install krita
+brew install --cask krita
 
 # TDB
-brew cask install launchy
+brew install --cask launchy
 
 # TDB
-brew cask install little-snitch
+brew install --cask little-snitch
 
 # TODO
-brew cask install paparazzi
+brew install --cask paparazzi
 
 # TODO
-brew cask install pupil
+brew install --cask pupil
 
 # TODO
-brew cask install quicksilver
+brew install --cask quicksilver
 
 # TODO
-brew cask install rescuetime
+brew install --cask rescuetime
 
 # Screenhero screen sharing by Slack.
-brew cask install screenhero
+brew install --cask screenhero
 
 # TODO
-brew cask install sequential
+brew install --cask sequential
 
 # TODO
-brew cask install shortcat
+brew install --cask shortcat
 
 # Silverlight video player by Microsoft.
-brew cask install silverlight
+brew install --cask silverlight
 
 # TODO
-brew cask install skitch
+brew install --cask skitch
 
 # TODO
-brew cask install sleep-monitor
+brew install --cask sleep-monitor
 
 # Spotify music player
-brew cask install spotify
+brew install --cask spotify
 
 # TODO
-brew cask install superduper
+brew install --cask superduper
 
 # Synergy screen sharing utility
-brew cask install synergy
+brew install --cask synergy
 
 # TODO
-brew cask install thisservice
+brew install --cask thisservice
 
 # TODO
-brew cask install transmit
+brew install --cask transmit
 
 # TODO
-brew cask install todos
+brew install --cask todos
 
 # Unison file synchronizer.
-brew cask install unison
+brew install --cask unison
 
 ##
 # Environment-related
@@ -1032,27 +1032,27 @@ brew cask install unison
 #cask 'displaylink
 
 # Karabiner remaps keyboard keys
-brew cask install karabiner-elements
+brew install --cask karabiner-elements
 
 # OSX FUSE file system
-brew cask install osxfuse
+brew install --cask osxfuse
 
 # Flux dims the screen colors for better nighttime visibility.
-brew cask install flux
+brew install --cask flux
 
 ## Misc
 
-brew cask install flip4mac
-brew cask install google-hangouts
-brew cask install inky
-brew cask install obs
+brew install --cask flip4mac
+brew install --cask google-hangouts
+brew install --cask inky
+brew install --cask obs
 
 # Prey is a service tracks laptops and phones; it needs a password
 #cask 'prey
 
-brew cask install teamviewer
-brew cask install unity-web-player
-brew cask install zoom
+brew install --cask teamviewer
+brew install --cask unity-web-player
+brew install --cask zoom
 
 ###########################################################################
 #
@@ -1076,7 +1076,7 @@ brew cask install zoom
 ##
 
 # Paw HTTP API testing tool
-brew cask install paw
+brew install --cask paw
 
 ###########################################################################
 #

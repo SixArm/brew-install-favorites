@@ -50,7 +50,7 @@ brew tap jingweno/ccat
 ##
 
 # XQuartz provides X.Org X Window System that runs on macOS.
-brew cask install xquartz
+brew install --cask xquartz
 
 # Qt toolkit Cross-platform development of UIS and apps.
 brew install qt5
@@ -88,7 +88,7 @@ brew install pandoc && brew link pandoc &&
 brew install shellcheck
 
 # BATS: Bash Automated Testing System.
-brew cask install bats
+brew install --cask bats
 
 # PowerShell by Microsoft
 brew install powershell
@@ -102,19 +102,19 @@ brew install --cask wez/wezterm/wezterm
 ##
 
 # Shuttle: simple SSH shortcut menu.
-brew cask install shuttle
+brew install --cask shuttle
 
 # Fugu: a graphical shell for SSH and FTP.
-brew cask install fugu
+brew install --cask fugu
 
 # Charles: enables a developer to view HTTP traffic.
-brew cask install charles
+brew install --cask charles
 
 # Postman HTTP API monitoring tool.
-brew cask install postman
+brew install --cask postman
 
 # Insomnia HTTP REST client for developers. 
-brew cask install insomnia
+brew install --cask insomnia
 
 # Brow.sh web browser that uses text.
 brew tap browsh-org/homebrew-browsh &&
@@ -132,16 +132,16 @@ brew install openapi-generator
 ##
 
 # SourceTree graphic client for git
-brew cask install sourcetree
+brew install --cask sourcetree
 
 # GitUp friendly Git interface and visualizer
-brew cask install gitup
+brew install --cask gitup
 
 # GitHub Desktop friendly Git GUI
-brew cask install github
+brew install --cask github
 
 # Meld visual diff merge tool
-brew cask install meld
+brew install --cask meld
 
 # Filter a repo in a fast safe way
 brew install git-filter-repo
@@ -172,13 +172,13 @@ brew install apr-util
 ##
 
 # Dash documentation browser and code snippet manager
-brew cask install dash
+brew install --cask dash
 
 # Realm browser for the Realm embedded database
-brew cask install realm-browser
+brew install --cask realm-browser
 
 # Tunnelblick remote access VPN
-brew cask install tunnelblick
+brew install --cask tunnelblick
 
 ##
 # Networking
@@ -193,7 +193,7 @@ brew install httpie
 # Wireshark network monitoring, with the QT GUI.
 brew install qt &&
 brew install cmake && brew link cmake && 
-brew cask install wireshark --with-qt
+brew install --cask wireshark --with-qt
 
 # Monit is for managing and monitoring Unix systems.
 brew install monit
@@ -202,10 +202,10 @@ brew install monit
 brew install nagios
 
 # Wireshark-chmodbft enables regular users to capture network packets.
-brew cask install wireshark-chmodbpf
+brew install --cask wireshark-chmodbpf
 
 # Charles web debugging proxy
-brew cask install charles
+brew install --cask charles
 
 # Siege is an http load testing and benchmarking utility.
 brew install siege
@@ -266,23 +266,23 @@ brew install docker-machine
 brew install podman
 
 # Vagrant creates and configures portable development environments.
-brew cask install vagrant
-brew cask install vagrant-manager
+brew install --cask vagrant
+brew install --cask vagrant-manager
 
 # VirtualBox creates and configures portable development environments, by Oracle.
-brew cask install virtualbox
+brew install --cask virtualbox
 
 # Parallels runs alternative operating systems
-brew cask install parallels
+brew install --cask parallels
 
 # Terraform common configuration to launch infrastructure.
 brew install terraform
 
 # corectl provides CoreOS over macOS made very simple
-brew cask install corectl
+brew install --cask corectl
 
 # Kubernetes Solo cluster for macOS
-brew cask install kube-solo
+brew install --cask kube-solo
 
 # WASMer Rust WASM runtime
 brew install wasmer
@@ -292,7 +292,7 @@ brew install wasmer
 ##
 
 # Emacs editor
-brew cask install emacs
+brew install --cask emacs
 
 # Emacs editor for Spacemacs
 brew tap d12frosted/emacs-plus
@@ -300,24 +300,24 @@ brew install emacs-plus
 brew linkapps emacs-plus
 
 # Android Studio
-brew cask install android-studio
+brew install --cask android-studio
 
 # Eclipse is a large programming IDE built on Java
-brew cask install eclipse-ide
-brew cask install eclipse-platform
+brew install --cask eclipse-ide
+brew install --cask eclipse-platform
 
 # MacTex: LaTeX document preparation system with high-quality typesetting.
-brew cask install mactex
+brew install --cask mactex
 
 # MacVIM
-brew cask install macvin
+brew install --cask macvin
 
 # Sublime
-brew cask install sublime
-brew cask install sublime-text
+brew install --cask sublime
+brew install --cask sublime-text
 
 # Visual Studio Code by Microsoft
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 
 ##
 # Fonts
@@ -387,25 +387,25 @@ brew install postgresql &&
 brew install sphinx
 
 # GraphiQL: a lightweight Electron-based app wrapper around GraphiQL
-brew cask install graphiql
+brew install --cask graphiql
 
 ## Database managers
 
 # MySQL Workbench database editor.
 brew install cmake && brew link cmake
-brew cask install mysqlworkbench
+brew install --cask mysqlworkbench
 
 # Realm browser mobile database editor.
-brew cask install realm-browser
+brew install --cask realm-browser
 
 # Sequel Pro database management application.
-brew cask install sequel-pro
+brew install --cask sequel-pro
 
 # Toad database manager by Dell.
-brew cask install toad
+brew install --cask toad
 
 # Valentina Studio database manager.
-brew cask install valentina-studio
+brew install --cask valentina-studio
 
 ##
 # Data analytics
@@ -437,12 +437,12 @@ brew install augeas
 ## Markdown
 
 # MacDown simple markdown editor.
-brew cask install macdown
+brew install --cask macdown
 
 ## UML
 
 # StarUML modeling tool.
-brew cask install staruml
+brew install --cask staruml
 
 ## XLS
 
@@ -485,13 +485,13 @@ brew install htmlcompressor --with-yuicompressor
 ## Android
 
 # Open Java Develoment Kit (JDK)
-brew cask install adoptopenjdk
+brew install --cask adoptopenjdk
 
 # Android Studio IDE
-brew cask install android-studio
+brew install --cask android-studio
 
 # Intel Hardware Accelerated Execution Manager (HAXM) accelerator for Android Emulator and QEMU
-brew cask install intel-haxm
+brew install --cask intel-haxm
 
 ## Compilers
 
@@ -540,10 +540,10 @@ brew install ghc cabal-install
 ## Java
 
 # Java programming language
-brew cask install java
+brew install --cask java
 
 # Java programming language via OpenJDK
-brew cask install adoptopenjdk
+brew install --cask adoptopenjdk
 
 # Gradle is a Java build tool
 brew install gradle
@@ -552,7 +552,7 @@ brew install gradle
 brew install maven
 
 # Spring Tool Suite is an Eclipse IDE for developing apps
-brew cask install sts
+brew install --cask sts
 
 # Jetty provides a Java web server and javax.servlet container
 brew install jetty
@@ -573,9 +573,9 @@ brew install glassfish
 #     export ANDROID_NDK="/usr/local/Cellar/android-ndk/r7b"
 #     export ANDROID_NDK_HOME="/usr/local/share/android-ndk"
 #
-brew cask install android-sdk
-brew cask install android-ndk
-brew cask install android-studio
+brew install --cask android-sdk
+brew install --cask android-ndk
+brew install --cask android-studio
 
 # Apache Ant automates software build processes.
 brew install ant
@@ -661,10 +661,10 @@ brew install scala
 ## iOS, Objective-C, Swift
 
 # Alcatraz Xcode plugin manager
-brew cask install alcatraz
+brew install --cask alcatraz
 
 # Appium test automation framework
-brew cask install appium
+brew install --cask appium
 
 # Carthage Xcode project dependency manager.
 brew install carthage
@@ -682,7 +682,7 @@ brew install sourcekitten
 brew install taylor
 
 # Testflight Apple iOS testing service
-brew cask install testflight
+brew install --cask testflight
 
 ##
 # Platforms
@@ -703,19 +703,19 @@ brew install heroku
 ##
 
 # Xquarts
-brew cask install xquartz
+brew install --cask xquartz
 
 # Tap GUI
 brew tap homebrew/gui
 
 # Gimp pixel-based image editor, similar to Adobe Photoshop
-brew cask install gimp
+brew install --cask gimp
 
 # Inkscape vector-based image  editor, similar to Adobe Illustrator
-brew cask install inkscape; brew install inkscape
+brew install --cask inkscape; brew install inkscape
 
 # Shotcut movie editor
-brew cask install shotcut
+brew install --cask shotcut
 
 # Image optimizer
 brew cask imageoptim

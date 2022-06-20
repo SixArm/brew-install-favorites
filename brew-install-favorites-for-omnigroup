@@ -7,13 +7,13 @@
 ##
 
 # To do list task manager
-brew cask install omnifocus
+brew install --cask omnifocus
 
 # Diagramming
-brew cask install omnigraffle
+brew install --cask omnigraffle
 
 # Project management planning
-brew cask install omniplan
+brew install --cask omniplan
 
 # Outliner
-brew cask install omnioutliner
+brew install --cask omnioutliner

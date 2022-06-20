@@ -24,13 +24,13 @@ brew update
 ## Environment-related
 
 # DisplayLink enables adding monitors
-brew cask install displaylink
+brew install --cask displaylink
 
 # Java language for running many applications
-brew cask install java
+brew install --cask java
 
 # Karabiner remaps keyboard keys
-brew cask install karabiner
+brew install --cask karabiner
 
 
 ##
@@ -39,25 +39,25 @@ brew cask install karabiner
 
 # Microsoft Office
 # https://www.office.com/
-brew cask install microsoft-office
+brew install --cask microsoft-office
 
 # Microsoft Teams for chat
 brew install --cask microsoft-teams
 
 ## Misc
 
-brew cask install flip4mac
-brew cask install google-hangouts
-brew cask install inky
-brew cask install node
-brew cask install obs
-brew cask install pandoc
-brew cask install prey
-brew cask install seil
-brew cask install teamviewer
-brew cask install unity-web-player
-brew cask install unity3d
-brew cask install zoom
+brew install --cask flip4mac
+brew install --cask google-hangouts
+brew install --cask inky
+brew install --cask node
+brew install --cask obs
+brew install --cask pandoc
+brew install --cask prey
+brew install --cask seil
+brew install --cask teamviewer
+brew install --cask unity-web-player
+brew install --cask unity3d
+brew install --cask zoom
 
 ## Cleanup - this is always the last step
 brew cleanup

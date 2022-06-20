@@ -36,23 +36,23 @@ xargs -I{} sudo ln -sf "{}" /usr/bin/emacs
 ## Networking
 
 # nmap network mapper is a security scanner
-brew cask install nmap
+brew install --cask nmap
 
 ## Programming
 
 # Netbeans Java IDE
-#brew cask install netbeans
+#brew install --cask netbeans
 
 # R statistics programming language
-brew cask install r
+brew install --cask r
 
 ## Deployments
 
 # Vagrant lightweight, reproducible, portable development environments
-brew cask install vagrant
+brew install --cask vagrant
 
 # Heroku hosting utilities
-brew cask install heroku-toolbelt
+brew install --cask heroku-toolbelt
 
 ## Cleanup - this is always the last step
 brew cleanup
