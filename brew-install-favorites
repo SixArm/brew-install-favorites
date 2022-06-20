@@ -202,8 +202,7 @@ brew install --cask netnewswire
 ##
 # Terminals
 #
-# We typically use `tmux`, `tmate`,
-# and sometimes fall back on `screen`.
+# We typically use `tmux` and `tmate`.
 ##
 
 # iTerm2 is our favorite terminal app.
@@ -239,8 +238,8 @@ brew install zsh &&
 brew install zsh-completion
 
 # Fish shell.
-#brew install fish &&
-#brew install fish-completion
+brew install fish &&
+brew install fish-completion
 
 # Bashish is a theme enviroment for text terminals.
 brew install bashish
