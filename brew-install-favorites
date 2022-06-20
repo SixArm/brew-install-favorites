@@ -320,7 +320,9 @@ brew install gpg
 brew install openssl
 
 # pkg-config is a helper tool used when compiling applications and libraries.
-brew install pkg-config && brew link pkg-config && brew install tmux
+brew install pkg-config && 
+brew link pkg-config && 
+brew install tmux
 
 # Functions for use by applications that allow users to edit command lines while typing.
 brew install readline
@@ -349,9 +351,6 @@ brew install --cask macvim
 
 # Emacs editor with extra features; recommended by Spacemacs and Doom emacs
 brew install emacs-plus
-
-# Atom editor by GitHub
-brew install --cask atom
 
 # Sublime text editor
 brew install --cask sublime-text
