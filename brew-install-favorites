@@ -399,9 +399,6 @@ brew install wget
 # range of systems, so we also sometimes use CVS, HG, and SVN.
 ##
 
-# CVS is a version control system.
-#brew install cvs
-
 # Git is a free and open source distributed version control system.
 brew install git
 
@@ -435,14 +432,17 @@ brew install --cask gitup
 # SourceTree graphic client for git
 brew install --cask sourcetree
 
+# Perforce merge tool for visual diffs and merges
+brew install --cask p4v
+
+# CVS is a version control system.
+#brew install cvs
+
 # Mercurial version control system.
 #brew install hg
 
 # Subversion version control system.
 #brew install subversion
-
-# Perforce merge tool for visual diffs and merges
-brew install --cask p4v
 
 ##
 # GNU command line tools
@@ -511,9 +511,6 @@ brew install pinentry-mac
 
 # OpenSSL is an open-source implementation of the SSL and TLS protocols.
 brew install openssl
-
-# pkg-config is a helper tool used when compiling applications and libraries.
-brew install pkg-config, link: true
 
 # Functions for use by applications that allow users to edit command lines while typing.
 brew install readline
