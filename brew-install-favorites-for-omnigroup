@@ -6,14 +6,14 @@
 # OmniGroup provides paid software suitable for professional users.
 ##
 
-# To do list task manager
+# OmniFocus: task list manager
 brew install --cask omnifocus
 
-# Diagramming
+# OmniGraffle: diagramming
 brew install --cask omnigraffle
 
-# Project management planning
+# OmniPlan: project management
 brew install --cask omniplan
 
-# Outliner
+# OmniOutliner: writing organizer
 brew install --cask omnioutliner
