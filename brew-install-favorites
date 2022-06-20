@@ -439,7 +439,7 @@ brew install --cask sourcetree
 #brew install hg
 
 # Subversion version control system.
-brew install sqlite'; brew 'subversion
+#brew install subversion
 
 # Perforce merge tool for visual diffs and merges
 brew install --cask p4v
