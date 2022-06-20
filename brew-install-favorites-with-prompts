@@ -64,7 +64,3 @@ brew install --cask seil
 brew install --cask teamviewer
 brew install --cask unity-web-player
 brew install --cask unity3d
-
-## Cleanup - this is always the last step
-brew cleanup
-brew cask cleanup

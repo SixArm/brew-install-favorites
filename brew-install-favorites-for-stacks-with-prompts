@@ -60,7 +60,3 @@ brew install --cask vagrant
 
 # Heroku hosting utilities
 brew install --cask heroku-toolbelt
-
-## Cleanup - this is always the last step
-brew cleanup
-brew cask cleanup

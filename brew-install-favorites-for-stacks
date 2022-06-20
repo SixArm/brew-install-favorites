@@ -809,7 +809,3 @@ brew install nginx --with-passenger
 brew install nvm
 brew install otto
 brew install packer
-
-## Cleanup - this is always the last step
-brew cleanup
-brew cask cleanup
