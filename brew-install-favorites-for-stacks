@@ -90,9 +90,6 @@ brew install shellcheck
 # BATS: Bash Automated Testing System.
 brew install --cask bats
 
-# PowerShell by Microsoft
-brew install powershell
-
 # WesTerm Rust terminal
 brew tap wez/wezterm && 
 brew install --cask wez/wezterm/wezterm

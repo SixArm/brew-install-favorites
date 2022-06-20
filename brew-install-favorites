@@ -94,14 +94,14 @@ brew update
 ##
 
 # Tap
-brew tap homebrew/cask
-brew tap homebrew/cask-drivers
-brew tap homebrew/cask-versions
-brew tap homebrew/core
-brew tap homebrew/boneyard
-brew tap homebrew/dev-tools
-brew tap homebrew/bundle
-brew tap homebrew/services
+# brew tap homebrew/cask
+# brew tap homebrew/cask-drivers
+# brew tap homebrew/cask-versions
+# brew tap homebrew/core
+# brew tap homebrew/boneyard
+# brew tap homebrew/dev-tools
+# brew tap homebrew/bundle
+# brew tap homebrew/services
 
 ###########################################################################
 #
