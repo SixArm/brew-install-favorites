@@ -212,12 +212,12 @@ brew install --cask netnewswire
 # and sometimes fall back on `screen`.
 ##
 
-# iTerm is our favorite terminal app.
+# iTerm2 is our favorite terminal app.
 brew install --cask iterm2
 
 # Tmux is a newer terminal multiplexer.
-brew install pkg-config, link: true
-brew install tmux
+brew install pkg-config &&
+brew install tmux &&
 brew install reattach-to-user-namespace
 
 # tmate is a fork of tmux that makes screen sharing friendlier.
@@ -384,7 +384,7 @@ brew install --cask microsoft-office
 ##
 
 # curl is a command line tool for transferring data with URL syntax.
-brew install curl, link: true
+brew install curl
 
 # HTTrack is a free and easy-to-use offline browser utility.
 brew install httrack
@@ -575,7 +575,7 @@ brew install unrar
 brew install unzip
 
 # bzip
-brew install bzip2, link: true
+brew install bzip2
 
 # ZIP file compression
 brew install libzip
