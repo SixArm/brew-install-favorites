@@ -16,6 +16,8 @@
 # * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
 ##
 
+brew tap homebrew/cask-fonts
+
 brew cask install font-3270
 brew cask install font-3270-nerd-font
 brew cask install font-abeezee
