@@ -140,8 +140,8 @@ brew install lnav
 # Our favorite messenger
 brew install element
 
-# Our favorite knowledge base
-brew cask install loqseq
+# Our favorite knowledge base (compare Roam Research, Logseq)
+brew cask install obsidian
 
 ##
 # Browsers
