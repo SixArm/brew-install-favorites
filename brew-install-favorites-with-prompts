@@ -41,6 +41,9 @@ brew cask install karabiner
 # https://www.office.com/
 brew cask install microsoft-office
 
+# Microsoft Teams for chat
+brew install --cask microsoft-teams
+
 ## Misc
 
 brew cask install flip4mac
