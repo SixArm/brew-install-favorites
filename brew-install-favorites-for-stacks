@@ -444,6 +444,11 @@ brew cask install macdown
 # StarUML modeling tool.
 brew cask install staruml
 
+## XLS
+
+# GNUmeric open soruce spreadsheet program.
+brew install gnumeric
+
 ## XML
 
 # XML converter.
