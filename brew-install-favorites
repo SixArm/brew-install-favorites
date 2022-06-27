@@ -193,6 +193,9 @@ brew install --cask discord
 # Slack chat client
 brew install --cask slack
 
+# Microsoft Teams
+#brew install --cask microsoft-teams  # with prompt
+
 # NetNewsWire RSS reader
 brew install --cask netnewswire
 
@@ -362,14 +365,20 @@ brew install --cask mactex
 brew install --cask loqseq
 
 ##
-# Office software
+# Knowledge management
 ##
 
 # LibreOffice is a large suite of software for documents, spreadsheets, diagrams.
 brew install --cask libreoffice
 
 # Microsof Office is a large suite of software for documents, spreadsheets, diagrams.
-brew install --cask microsoft-office
+#brew install --cask microsoft-office  # with prompt
+
+# Obsidian connected notes knowledge base
+brew install --cask obsidian
+
+# Logseq linked blocks knowledge base
+#brew install --cask logset
 
 ##
 # Downloaders
