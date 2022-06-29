@@ -158,6 +158,9 @@ brew install --cask firefox
 # Lynx terminal web browser
 brew install lynx
 
+# w3m is a free open source text-based web browser and terminal pager.
+brew install w3m
+
 # Cyberduck file transfer
 brew install --cask cyberduck
 
