@@ -282,9 +282,6 @@ brew install --cask surfshark
 # Pass, a Unix password manager for the command line
 brew install pass
 
-# Keybase.io digital signature manager
-brew install --cask keybase
-
 # Authy password manager, which is cross-platform
 brew install --cask authy
 
