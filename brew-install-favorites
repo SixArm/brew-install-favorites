@@ -146,9 +146,6 @@ brew install --cask obsidian
 # Firefox web browser
 brew install --cask firefox
 
-# Firefox developer edition, which features programming tools.
-#brew install --cask firefox-developer-edition
-
 # Google Chrome web browser
 #brew install --cask google-chrome
 
