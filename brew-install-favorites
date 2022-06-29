@@ -291,7 +291,7 @@ brew install --cask authy
 # Bitwarden password manager, which is open-source
 brew install --cask bitwarden
 
-# 1password is a password manager
+# 1password is a password manager (we prefer bitwarden)
 brew install --cask 1password
 
 # LastPass is a password manager
