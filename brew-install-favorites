@@ -155,7 +155,11 @@ brew install --cask firefox
 # Opera web browser
 #brew install --cask opera
 
-# Lynx terminal web browser
+##
+# Browsers for the terminal
+##
+
+# Lynx terminal web browser that doesn't use graphics.
 brew install lynx
 
 # w3m is a free open source text-based web browser and terminal pager.
@@ -165,8 +169,8 @@ brew install w3m
 brew install --cask cyberduck
 
 # Brow.sh text browser
-#tap browsh-org/homebrew-browsh
-#brew 'browsh
+brew tap browsh-org/homebrew-browsh
+brew install browsh
 
 ##
 # Communication
