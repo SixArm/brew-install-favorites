@@ -38,16 +38,6 @@ brew install --cask java
 # Karabiner remaps keyboard keys
 brew install --cask karabiner
 
-##
-# Productivity
-##
-
-# Microsoft Office
-brew install --cask microsoft-office
-
-# Microsoft Teams for chat
-brew install --cask microsoft-teams
-
 ## Misc
 
 brew install --cask flip4mac

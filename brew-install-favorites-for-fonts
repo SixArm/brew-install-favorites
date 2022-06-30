@@ -4,15 +4,6 @@
 # brew-install-favorite-fonts
 #
 # Use the `brew` command to install our favorite fonts.
-#
-# ## Tracking
-#
-# * Package: https://github.com/sixarm/brew-install-favorites
-# * Version: 6.0.0
-# * Created: 2016-10-11T19:23:52Z
-# * Updated: 2022-06-20T17:44:09Z
-# * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
-# * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
 ##
 
 brew install --cask font-3270

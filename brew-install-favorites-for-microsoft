@@ -1,0 +1,11 @@
+#!/bin/sh
+
+##
+# Microsoft
+##
+
+# Microsoft Office (needs prompt)
+brew install --cask microsoft-office
+
+# Microsoft Teams for chat (needs prompt)
+brew install --cask microsoft-teams
