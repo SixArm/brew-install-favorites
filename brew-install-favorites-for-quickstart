@@ -1,0 +1,35 @@
+#!/bin/sh
+
+##
+# Quickstart
+#
+# Install our favorite free open source programs that we want running ASAP.
+# We also install these in our other files here too, for completeness.
+##
+
+# Terminal
+brew install --cask iterm2
+
+# Editor
+brew install --cask vim
+
+# Browser
+brew install --cask firefox
+
+# Messaging
+brew install element
+
+# Virtual private network
+brew install --cask surfshark
+
+# Log file viewer
+brew install lnav
+
+# Knowledge base
+brew install --cask obsidian
+
+# Version manager
+brew install asdf
+
+# Prompt
+brew install starship

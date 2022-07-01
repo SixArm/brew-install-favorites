@@ -104,40 +104,6 @@
 ###########################################################################
 
 ##
-# Quickstart
-#
-# Install any free open source applications that we want running ASAP.
-# We also install these in their respective sections too, for completeness.
-##
-
-# Our favorite terminal
-brew install --cask iterm2
-
-# Our favorite prompt
-brew install starship
-
-# Our favorite editor
-brew install --cask vim
-
-# Our favorite web browser
-brew install --cask firefox
-
-# Our favorite messenger
-brew install --cask signal
-
-# Our favorite virtual private network
-brew install --cask surfshark
-
-# Our favorite log file viewer
-brew install lnav
-
-# Our favorite messenger
-brew install element
-
-# Our favorite knowledge base (compare Roam Research, Logseq)
-brew install --cask obsidian
-
-##
 # Browsers
 #
 # We prefer Firefox because it's open source.
