@@ -476,17 +476,6 @@ brew install htmlcompressor --with-yuicompressor
 # Perl, Python, R, Ruby, Scala, Swift, and tooling.
 ##
 
-## Android
-
-# Open Java Develoment Kit (JDK)
-brew install --cask adoptopenjdk
-
-# Android Studio IDE
-brew install --cask android-studio
-
-# Intel Hardware Accelerated Execution Manager (HAXM) accelerator for Android Emulator and QEMU
-brew install --cask intel-haxm
-
 ## Compilers
 
 # LLVM cross-compiler
@@ -696,7 +685,7 @@ brew install heroku
 # Art editors
 ##
 
-# Xquarts
+# Xquartz
 brew install --cask xquartz
 
 # Tap GUI
