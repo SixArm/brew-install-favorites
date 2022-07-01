@@ -639,7 +639,7 @@ brew install rust
 ## Scala
 
 # Scala programming language, that runs on top of the JVM.
-brew install scala
+#brew install scala
 
 ## iOS, Objective-C, Swift
 
