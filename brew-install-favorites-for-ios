@@ -1,0 +1,29 @@
+#!/bin/sh
+
+##
+# iOS, Swift, Objective-C, Xcode, etc.
+##
+
+# Alcatraz Xcode plugin manager
+brew install --cask alcatraz
+
+# Appium test automation framework
+brew install --cask appium
+
+# Carthage Xcode project dependency manager.
+brew install carthage
+
+# Command-line application launcher for the iOS Simulator
+brew install ios-sim
+
+# Tool to help with Swift style and conventions.
+brew install swiftlint
+
+# SourceKitten attaches to SourceKit AST.
+brew install sourcekitten
+
+# Taylor is a Swift code quality metrics tool.
+brew install taylor
+
+# Testflight Apple iOS testing service
+brew install --cask testflight
