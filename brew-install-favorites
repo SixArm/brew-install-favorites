@@ -106,7 +106,7 @@
 ##
 # Browsers
 #
-# We prefer Firefox because it's open source.
+# We prefer Firefox because it's open source and non-commercial.
 ##
 
 # Firefox web browser
@@ -125,18 +125,21 @@ brew install --cask firefox
 # Browsers for the terminal
 ##
 
-# Lynx terminal web browser that doesn't use graphics.
-brew install lynx
+# Brow.sh text browser has many modern features.
+brew tap browsh-org/homebrew-browsh && brew install browsh
 
 # w3m is a free open source text-based web browser and terminal pager.
-brew install w3m
+#brew install w3m
+
+# Lynx terminal web browser that doesn't use graphics.
+#brew install lynx
+
+##
+# Clients
+##
 
 # Cyberduck file transfer
 brew install --cask cyberduck
-
-# Brow.sh text browser
-brew tap browsh-org/homebrew-browsh
-brew install browsh
 
 ##
 # Communication
