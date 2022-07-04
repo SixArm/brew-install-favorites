@@ -5,6 +5,7 @@
 ##
 
 # Microsoft Office (needs prompt)
+sudo softwareupdate --agree-to-license --install-rosetta
 brew install --cask microsoft-office
 
 # Microsoft Teams for chat (needs prompt)
