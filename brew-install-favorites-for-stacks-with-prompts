@@ -58,6 +58,3 @@ brew install --cask r
 
 # Vagrant lightweight, reproducible, portable development environments
 brew install --cask vagrant
-
-# Heroku hosting utilities
-brew install --cask heroku-toolbelt
