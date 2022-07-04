@@ -40,7 +40,7 @@ brew install powershell
 ## Networking
 
 # nmap network mapper is a security scanner
-brew install --cask nmap
+brew install nmap
 
 ##
 # Programming
