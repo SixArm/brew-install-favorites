@@ -6,6 +6,9 @@
 # Use the `brew` command to install our favorite fonts.
 ##
 
+# Some fonts require subversion version control
+brew install svn
+
 brew install --cask font-3270
 brew install --cask font-3270-nerd-font
 brew install --cask font-abeezee
