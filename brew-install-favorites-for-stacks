@@ -204,8 +204,8 @@ brew install siege
 # Consul tool for discovering and configuring services
 brew install consul
 
-# NGINX web server, with Ruby passenger middleware.
-brew install nginx --with-passenger
+# NGINX web server
+brew install nginx
 
 # Varnish reverse-proxy web application accelerator.
 brew install varnish
