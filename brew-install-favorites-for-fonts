@@ -328,10 +328,6 @@ brew install --cask font-gabriela
 brew install --cask font-gafata
 brew install --cask font-galdeano
 brew install --cask font-galindo
-brew install --cask font-genjyuugothic
-brew install --cask font-genjyuugothic-l
-brew install --cask font-genjyuugothic-x
-brew install --cask font-genshingothic
 brew install --cask font-gentium-basic
 brew install --cask font-gentium-book-basic
 brew install --cask font-gentium-plus
