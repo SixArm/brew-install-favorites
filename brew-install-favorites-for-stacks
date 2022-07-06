@@ -459,7 +459,7 @@ brew install yuicompressor
 brew install html2text
 
 # HTML compressor
-brew install htmlcompressor --with-yuicompressor
+brew install htmlcompressor
 
 ##
 # Programming Languages
