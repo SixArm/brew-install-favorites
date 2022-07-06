@@ -80,9 +80,6 @@ brew install grsync
 brew install pandoc && brew link pandoc && 
 brew install shellcheck
 
-# BATS: Bash Automated Testing System.
-brew install --cask bats
-
 # WesTerm Rust terminal
 brew tap wez/wezterm && 
 brew install --cask wez/wezterm/wezterm
