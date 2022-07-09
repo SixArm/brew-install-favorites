@@ -38,6 +38,9 @@ brew install libmagic
 # ncurses console nagivation
 brew install libncurses
 
+# Postgres queries
+brew install libpq
+
 # Sodium secure cryptography
 brew install libsodium
 
