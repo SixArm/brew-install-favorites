@@ -32,11 +32,27 @@ brew install --cask zoom
 # DisplayLink enables adding monitors
 brew install --cask displaylink
 
-# Java language for running many applications
-brew install --cask java
+##
+# Utiltities
+##
 
 # Karabiner remaps keyboard keys
 brew install --cask karabiner
+
+
+##
+# Runtime
+##
+
+# Java language for running many applications
+brew install --cask java
+
+##
+# Maintenance
+##
+
+# Multi-cloud backup application
+brew install --cask arq
 
 ## Misc
 

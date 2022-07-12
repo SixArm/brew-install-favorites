@@ -151,9 +151,6 @@ brew install --cask cyberduck
 # and also works closely with encryption standards.
 ##
 
-# Riot.im chat client
-brew install --cask riot
-
 # Signal encrypted messaging
 brew install --cask signal
 
@@ -211,8 +208,7 @@ brew install zsh &&
 brew install zsh-completion
 
 # Fish shell.
-brew install fish &&
-brew install fish-completion
+brew install fish
 
 # Bashish is a theme enviroment for text terminals.
 brew install bashish
@@ -275,7 +271,7 @@ brew install automake
 brew install coreutils
 
 # GNU stream editor; compare `sed`.
-brew install gnu-sed --default-names
+brew install gnu-sed
 
 # GNU Privacy Guard (GnuPG) provides encryption as a free replacement for PGP.
 brew install gpg
@@ -320,16 +316,13 @@ brew install emacs-plus
 brew install --cask sublime-text
 
 # GNU Aspell is a free open source spell checker; compare `lspell`.
-brew install aspell, args: ['with-lang=en']
+brew install aspell
 
 # Enca - detect and convert encoding of text files
 brew install enca
 
 # MacTex: LaTeX document preparation system with high-quality typesetting.
 brew install --cask mactex
-
-# LogSeq: knowledge base that uses markdown and org-mode.
-brew install --cask loqseq
 
 ##
 # Knowledge management
@@ -342,7 +335,7 @@ brew install --cask libreoffice
 brew install --cask obsidian
 
 # Logseq linked blocks knowledge base (compare Logseq, Obsidian, Roam Research; we prefer Obsidian)
-#brew install --cask logset
+#brew install --cask logseq
 
 ##
 # Downloaders
@@ -455,7 +448,6 @@ brew install wdiff
 # We choose to replace these with newer versions.
 ##
 
-brew install gdb  # gdb requires further actions to make it work. See `brew info gdb`.
 brew install gpatch
 brew install m4
 brew install make
@@ -505,7 +497,7 @@ brew install fzf
 brew install zoxide
 
 # Angle grinder: slice and dice log files on the command line
-brew install agrind-bin
+brew install angle-grinder
 
 # The Logfile Navigator
 brew install lnav
@@ -536,7 +528,7 @@ brew install howdoi
 brew install zstd
 
 # WinRAR provides compression/decompression for RAR and ZIP files.
-brew install unrar
+brew install rar
 
 # unzip is the classic command.
 brew install unzip
@@ -634,7 +626,7 @@ brew install --cask tad
 brew install qt5
 
 # WINE runs Windows applications on other operating systems.
-brew install wine
+brew install --cask wine-stable
 
 # Xquartz X.Org X Window System that runs on OS X; needed for some image software.
 brew install --cask xquartz
@@ -684,15 +676,6 @@ brew install chafa
 brew install --cask vlc
 
 
-## Sound controls
-
-# Airfoil: Wireless audio app with a free sound equalizer (EQ)
-#cask 'airfoil
-
-# eqMac2: System-wide Audio Equalizer for the Mac; free open source
-brew install --cask eqmac
-
-
 ## Multimedia editors
 
 # Blender 3D modeller
@@ -712,9 +695,6 @@ brew install librsvg
 
 # Shotcut movie editor
 brew install --cask shotcut
-
-# MindNode mind-mapping helps you visualize your ideas (paid).
-brew install --cask mindnode-pro
 
 # yEd is desktop application to generate high-quality diagrams
 brew install --cask yed
@@ -841,22 +821,13 @@ brew install zlib
 brew install --cask adium
 
 # TDB
-brew install --cask adventure
-
-# TDB
 brew install --cask alfred
-
-# TDB
-#brew install --cask amazon-music
 
 # TDB
 brew install --cask anki
 
 # AppCleaner thoroughly uninstalls unwanted apps.
 brew install --cask appcleaner
-
-# TDB
-brew install --cask arq
 
 # TDB
 brew install --cask atext
@@ -922,12 +893,6 @@ brew install --cask gfxcardstatus
 brew install --cask github
 
 # TDB
-brew install --cask gitx
-
-# TDB
-brew install --cask harvest
-
-# TDB
 brew install --cask jumpcut
 
 # TDB
@@ -984,9 +949,6 @@ brew install --cask thisservice
 # TODO
 brew install --cask transmit
 
-# TODO
-brew install --cask todos
-
 # Unison file synchronizer.
 brew install --cask unison
 
@@ -1000,16 +962,14 @@ brew install --cask unison
 # Karabiner remaps keyboard keys
 brew install --cask karabiner-elements
 
-# OSX FUSE file system
-brew install --cask osxfuse
+# macOS FUSE file system
+brew install --cask macfuse
 
 # Flux dims the screen colors for better nighttime visibility.
 brew install --cask flux
 
 ## Misc
 
-brew install --cask flip4mac
-brew install --cask google-hangouts
 brew install --cask inky
 brew install --cask obs
 
@@ -1017,7 +977,6 @@ brew install --cask obs
 #cask 'prey
 
 brew install --cask teamviewer
-brew install --cask unity-web-player
 brew install --cask zoom
 
 ###########################################################################
@@ -1236,11 +1195,11 @@ brew install gnu-units
 # TODO
 brew install gnu-which
 
-# TODO
-brew install google-app-engine
+# Google App Engine for Python
+brew install app-engine-python
 
-# TODO
-brew install google-perftools
+# Google Performance Tools
+brew install gperftools
 
 # TODO
 brew install google-sparsehash
