@@ -39,6 +39,8 @@ brew install --cask displaylink
 # Karabiner remaps keyboard keys
 brew install --cask karabiner
 
+# macOS FUSE file system
+brew install --cask macfuse
 
 ##
 # Runtime

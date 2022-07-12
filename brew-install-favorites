@@ -962,9 +962,6 @@ brew install --cask unison
 # Karabiner remaps keyboard keys
 brew install --cask karabiner-elements
 
-# macOS FUSE file system
-brew install --cask macfuse
-
 # Flux dims the screen colors for better nighttime visibility.
 brew install --cask flux
 
