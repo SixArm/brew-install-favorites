@@ -586,6 +586,10 @@ brew tap jmespath/jmespath && brew install jp
 
 brew install lua
 
+## Octave programming language for scientific computing and numerical computation
+
+brew install octave
+
 ## Perl
 
 # Perl programming language, esp. for systems administration.
