@@ -582,6 +582,10 @@ brew tap simeji/jid && brew install jid
 # JP is a command line JSON parser using JMES
 brew tap jmespath/jmespath && brew install jp
 
+## Julia
+
+brew install --cask julia
+
 ## Lua
 
 brew install lua
