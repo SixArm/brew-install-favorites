@@ -4,10 +4,10 @@
 # brew-install-favorite-fonts
 #
 # Use the `brew` command to install our favorite fonts.
+#
+# For convenience, we aim to use fonts that use git, 
+# and omit fonts that need to use subversion.
 ##
-
-# Some fonts require subversion version control
-brew install svn
 
 brew install --cask font-3270
 brew install --cask font-abeezee
@@ -89,7 +89,6 @@ brew install --cask font-averia-libre
 brew install --cask font-averia-sans-libre
 brew install --cask font-averia-serif-libre
 brew install --cask font-awesome-terminal-fonts
-brew install --cask font-babelstone-han
 brew install --cask font-bad-script
 brew install --cask font-baloo
 brew install --cask font-balthazar
@@ -117,7 +116,6 @@ brew install --cask font-bonbon
 brew install --cask font-boogaloo
 brew install --cask font-bowlby-one
 brew install --cask font-bowlby-one-sc
-brew install --cask font-bravura
 brew install --cask font-brawler
 brew install --cask font-bree-serif
 brew install --cask font-bubblegum-sans
@@ -171,10 +169,6 @@ brew install --cask font-clear-sans
 brew install --cask font-clicker-script
 brew install --cask font-coda
 brew install --cask font-coda-caption
-brew install --cask font-code
-brew install --cask font-code2000
-brew install --cask font-code2001
-brew install --cask font-code2002
 brew install --cask font-codystar
 brew install --cask font-combo
 brew install --cask font-comfortaa
@@ -208,7 +202,6 @@ brew install --cask font-crushed
 brew install --cask font-cuprum
 brew install --cask font-cutive
 brew install --cask font-cutive-mono
-brew install --cask font-cwtex-q
 brew install --cask font-d2coding
 brew install --cask font-damion
 brew install --cask font-dancing-script
@@ -217,7 +210,6 @@ brew install --cask font-dashicons
 brew install --cask font-dawning-of-a-new-day
 brew install --cask font-days-one
 brew install --cask font-dejavu
-brew install --cask font-dejavu-sans
 brew install --cask font-dejavu-sans-mono-for-powerline
 brew install --cask font-delius
 brew install --cask font-delius-swash-caps
@@ -228,11 +220,9 @@ brew install --cask font-devicons
 brew install --cask font-devonshire
 brew install --cask font-dhyana
 brew install --cask font-didact-gothic
-brew install --cask font-digohweli
 brew install --cask font-digohweli-old-do
 brew install --cask font-diplomata
 brew install --cask font-diplomata-sc
-brew install --cask font-disclaimer
 brew install --cask font-domine
 brew install --cask font-donegal-one
 brew install --cask font-doppio-one
@@ -241,14 +231,12 @@ brew install --cask font-dosis
 brew install --cask font-dr-sugiyama
 brew install --cask font-droid-sans-mono-for-powerline
 brew install --cask font-dukor
-brew install --cask font-duru-sans
 brew install --cask font-dynalight
 brew install --cask font-eagle-lake
 brew install --cask font-eater
 brew install --cask font-eb-garamond
 brew install --cask font-economica
 brew install --cask font-edlo
-brew install --cask font-eeyek-unicode
 brew install --cask font-electrolize
 brew install --cask font-elsie
 brew install --cask font-elsie-swash-caps
@@ -264,7 +252,6 @@ brew install --cask font-euphoria-script
 brew install --cask font-everson-mono
 brew install --cask font-ewert
 brew install --cask font-exo
-brew install --cask font-exo2
 brew install --cask font-expletus-sans
 brew install --cask font-ezra-sil
 brew install --cask font-fairfax
@@ -299,7 +286,6 @@ brew install --cask font-fredericka-the-great
 brew install --cask font-fredoka-one
 brew install --cask font-freehand
 brew install --cask font-freesans
-brew install --cask font-fresca
 brew install --cask font-frijole
 brew install --cask font-fruktur
 brew install --cask font-fugaz-one
@@ -322,16 +308,12 @@ brew install --cask font-gilda-display
 brew install --cask font-give-you-glory
 brew install --cask font-glass-antiqua
 brew install --cask font-glegoo
-brew install --cask font-glober
 brew install --cask font-gloria-hallelujah
 brew install --cask font-gnu-unifont
 brew install --cask font-go
-brew install --cask font-go-medium
-brew install --cask font-go-mono
 brew install --cask font-goblin-one
 brew install --cask font-gochi-hand
 brew install --cask font-gorditas
-brew install --cask font-goudy-bookletter1911
 brew install --cask font-graduate
 brew install --cask font-grand-hotel
 brew install --cask font-gravitas-one
@@ -353,13 +335,11 @@ brew install --cask font-happy-monkey
 brew install --cask font-hasklig
 brew install --cask font-headland-one
 brew install --cask font-henny-penny
-brew install --cask font-hermit
 brew install --cask font-herr-von-muellerhoff
 brew install --cask font-hind
 brew install --cask font-holtwood-one-sc
 brew install --cask font-homemade-apple
 brew install --cask font-homenaje
-brew install --cask font-hyppolit
 brew install --cask font-iceberg
 brew install --cask font-iceland
 brew install --cask font-icomoon
@@ -367,7 +347,6 @@ brew install --cask font-idealist-sans
 brew install --cask font-impact
 brew install --cask font-imprima
 brew install --cask font-inconsolata
-brew install --cask font-inconsolata-dz
 brew install --cask font-inconsolata-dz-for-powerline
 brew install --cask font-inconsolata-for-powerline
 brew install --cask font-inconsolata-g-for-powerline
@@ -376,7 +355,6 @@ brew install --cask font-inder
 brew install --cask font-indie-flower
 brew install --cask font-inika
 brew install --cask font-input
-brew install --cask font-ionicons
 brew install --cask font-iosevka
 brew install --cask font-iranian-sans
 brew install --cask font-iranian-serif
@@ -402,7 +380,6 @@ brew install --cask font-junicode
 brew install --cask font-jura
 brew install --cask font-just-another-hand
 brew install --cask font-just-me-again-down-here
-brew install --cask font-kacstone
 brew install --cask font-kalam
 brew install --cask font-kameron
 brew install --cask font-kantumruy
@@ -419,7 +396,6 @@ brew install --cask font-keania-one
 brew install --cask font-keep-calm
 brew install --cask font-kelly-slab
 brew install --cask font-kenia
-brew install --cask font-khand
 brew install --cask font-khmer
 brew install --cask font-kisiska
 brew install --cask font-kite-one
@@ -447,7 +423,6 @@ brew install --cask font-ledger
 brew install --cask font-lekton
 brew install --cask font-lemon
 brew install --cask font-liberation-mono-for-powerline
-brew install --cask font-liberation-sans
 brew install --cask font-libertinus
 brew install --cask font-libre-baskerville
 brew install --cask font-libre-caslon-text
@@ -486,14 +461,12 @@ brew install --cask font-marck-script
 brew install --cask font-margarine
 brew install --cask font-marko-one
 brew install --cask font-marmelad
-brew install --cask font-marta
 brew install --cask font-marvel
 brew install --cask font-masinahikan
 brew install --cask font-masinahikan-dene
 brew install --cask font-mate
 brew install --cask font-mate-sc
 brew install --cask font-material-icons
-brew install --cask font-materialdesignicons-webfont
 brew install --cask font-maven-pro
 brew install --cask font-mclaren
 brew install --cask font-meddon
@@ -510,7 +483,6 @@ brew install --cask font-metal
 brew install --cask font-metal-mania
 brew install --cask font-metamorphous
 brew install --cask font-metrophobic
-brew install --cask font-mfizz
 brew install --cask font-miao-unicode
 brew install --cask font-michroma
 brew install --cask font-migmix-1m
@@ -556,13 +528,8 @@ brew install --cask font-myrica
 brew install --cask font-myricam
 brew install --cask font-mystery-quest
 brew install --cask font-n-gage
-brew install --cask font-namdhinggo-sil
-brew install --cask font-nanumgothic
-brew install --cask font-nanumgothiccoding
-brew install --cask font-nanummyeongjo
 brew install --cask font-neucha
 brew install --cask font-neuton
-brew install --cask font-new-athena-unicode
 brew install --cask font-new-rocker
 brew install --cask font-news-cycle
 brew install --cask font-nexa
@@ -572,7 +539,6 @@ brew install --cask font-nixie-one
 brew install --cask font-nobile
 brew install --cask font-nokora
 brew install --cask font-norican
-brew install --cask font-norwester
 brew install --cask font-nosifer
 brew install --cask font-nothing-you-could-do
 brew install --cask font-noticia-text
@@ -699,20 +665,11 @@ brew install --cask font-oleo-script-swash-caps
 brew install --cask font-open-iconic
 brew install --cask font-open-sans
 brew install --cask font-open-sans-condensed
-brew install --cask font-opendyslexic
 brew install --cask font-oranienbaum
 brew install --cask font-orbitron
 brew install --cask font-oregano
 brew install --cask font-orienta
 brew install --cask font-original-surfer
-brew install --cask font-oskiblackfoot
-brew install --cask font-oskidakelh
-brew install --cask font-oskidenea
-brew install --cask font-oskideneb
-brew install --cask font-oskidenec
-brew install --cask font-oskidenes
-brew install --cask font-oskieast
-brew install --cask font-oskiwest
 brew install --cask font-oswald
 brew install --cask font-over-the-rainbow
 brew install --cask font-overlock
@@ -723,7 +680,6 @@ brew install --cask font-oxygen
 brew install --cask font-oxygen-mono
 brew install --cask font-pacifico
 brew install --cask font-padauk
-brew install --cask font-palemonas
 brew install --cask font-paprika
 brew install --cask font-parastoo
 brew install --cask font-parisienne
@@ -734,7 +690,6 @@ brew install --cask font-patrick-hand
 brew install --cask font-patrick-hand-sc
 brew install --cask font-patua-one
 brew install --cask font-paytone-one
-brew install --cask font-penuturesu
 brew install --cask font-peralta
 brew install --cask font-permanent-marker
 brew install --cask font-petit-formal-script
@@ -744,7 +699,6 @@ brew install --cask font-philosopher
 brew install --cask font-piedra
 brew install --cask font-pinyon-script
 brew install --cask font-pirata-one
-brew install --cask font-pitabek
 brew install --cask font-plaster
 brew install --cask font-play
 brew install --cask font-playball
@@ -761,9 +715,6 @@ brew install --cask font-port-lligat-sans
 brew install --cask font-port-lligat-slab
 brew install --cask font-prata
 brew install --cask font-preahvihear
-brew install --cask font-press-start2p
-brew install --cask font-prime
-brew install --cask font-prince-valiant
 brew install --cask font-princess-sofia
 brew install --cask font-prociono
 brew install --cask font-profontx
@@ -773,7 +724,6 @@ brew install --cask font-pt-sans
 brew install --cask font-pt-serif
 brew install --cask font-puritan
 brew install --cask font-purple-purse
-brew install --cask font-qataban
 brew install --cask font-quando
 brew install --cask font-quantico
 brew install --cask font-quattrocento
@@ -781,7 +731,6 @@ brew install --cask font-quattrocento-sans
 brew install --cask font-questrial
 brew install --cask font-quicksand
 brew install --cask font-quintessential
-brew install --cask font-quivira
 brew install --cask font-qwigley
 brew install --cask font-racing-sans-one
 brew install --cask font-radley
@@ -803,7 +752,6 @@ brew install --cask font-ricty-diminished
 brew install --cask font-righteous
 brew install --cask font-risque
 brew install --cask font-roboto
-brew install --cask font-roboto-condensed
 brew install --cask font-roboto-mono
 brew install --cask font-roboto-mono-for-powerline
 brew install --cask font-roboto-slab
@@ -814,8 +762,6 @@ brew install --cask font-romanesco
 brew install --cask font-ropa-sans
 brew install --cask font-rosario
 brew install --cask font-rosarivo
-brew install --cask font-rotinonhsonni-sans
-brew install --cask font-rotinonhsonni-serif
 brew install --cask font-rouge-script
 brew install --cask font-rounded-m-plus
 brew install --cask font-rozha-one
@@ -830,10 +776,8 @@ brew install --cask font-russo-one
 brew install --cask font-ruthie
 brew install --cask font-rye
 brew install --cask font-sacramento
-brew install --cask font-sadagolthina
 brew install --cask font-sail
 brew install --cask font-salsa
-brew install --cask font-samim
 brew install --cask font-sanchez
 brew install --cask font-sancreek
 brew install --cask font-sansita-one
@@ -846,7 +790,6 @@ brew install --cask font-schoolbell
 brew install --cask font-seaweed-script
 brew install --cask font-sevillana
 brew install --cask font-seymour-one
-brew install --cask font-shabnam
 brew install --cask font-shadows-into-light
 brew install --cask font-shadows-into-light-two
 brew install --cask font-shanti
@@ -858,9 +801,7 @@ brew install --cask font-short-stack
 brew install --cask font-siemreap
 brew install --cask font-sigmar-one
 brew install --cask font-signika-negative
-brew install --cask font-silent-lips
 brew install --cask font-simonetta
-brew install --cask font-sinkin-sans
 brew install --cask font-sintony
 brew install --cask font-sirin-stencil
 brew install --cask font-six-caps
@@ -877,8 +818,6 @@ brew install --cask font-sonsie-one
 brew install --cask font-sorts-mill-goudy
 brew install --cask font-source-code-pro
 brew install --cask font-source-code-pro-for-powerline
-brew install --cask font-source-han-code-jp
-brew install --cask font-source-han-sans
 brew install --cask font-source-sans-pro
 brew install --cask font-source-serif-pro
 brew install --cask font-space-mono
@@ -898,9 +837,7 @@ brew install --cask font-sue-ellen-francisco
 brew install --cask font-sunshiney
 brew install --cask font-supermercado-one
 brew install --cask font-swanky-and-moo-moo
-brew install --cask font-symbola
 brew install --cask font-syncopate
-brew install --cask font-tai-le-valentinium
 brew install --cask font-takaoex
 brew install --cask font-tangerine
 brew install --cask font-taprom
@@ -921,7 +858,6 @@ brew install --cask font-tex-gyre-termes
 brew install --cask font-text-me-one
 brew install --cask font-thabit
 brew install --cask font-the-girl-next-door
-brew install --cask font-tibetan-machine-uni
 brew install --cask font-tienne
 brew install --cask font-tillana
 brew install --cask font-times-new-roman
@@ -950,8 +886,6 @@ brew install --cask font-vampiro-one
 brew install --cask font-varela
 brew install --cask font-varela-round
 brew install --cask font-vast-shadow
-brew install --cask font-vazir
-brew install --cask font-vazir-code
 brew install --cask font-verdana
 brew install --cask font-vibur
 brew install --cask font-vidaloka
@@ -962,17 +896,11 @@ brew install --cask font-vollkorn
 brew install --cask font-voltaire
 brew install --cask font-vt323
 brew install --cask font-waiting-for-the-sunrise
-brew install --cask font-wakor
 brew install --cask font-wallpoet
 brew install --cask font-walter-turncoat
-brew install --cask font-waltograph
 brew install --cask font-warnes
-brew install --cask font-webdings
 brew install --cask font-wellfleet
 brew install --cask font-wendy-one
-brew install --cask font-wenquanyi-micro-hei
-brew install --cask font-wenquanyi-micro-hei-lite
-brew install --cask font-wenquanyi-zen-hei
 brew install --cask font-wire-one
 brew install --cask font-work-sans
 brew install --cask font-xits
