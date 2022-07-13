@@ -4,9 +4,6 @@
 # iOS, Swift, Objective-C, Xcode, etc.
 ##
 
-# Alcatraz Xcode plugin manager
-brew install --cask alcatraz
-
 # Appium test automation framework
 brew install --cask appium
 
@@ -21,9 +18,3 @@ brew install swiftlint
 
 # SourceKitten attaches to SourceKit AST.
 brew install sourcekitten
-
-# Taylor is a Swift code quality metrics tool.
-brew install taylor
-
-# Testflight Apple iOS testing service
-brew install --cask testflight
