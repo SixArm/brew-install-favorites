@@ -352,6 +352,9 @@ brew install httrack
 # Wget is a free software package for retrieving files using HTTP and FTP.
 brew install wget
 
+# Croc is a command line file transfer tool
+brew install croc
+
 ##
 # Version control
 #

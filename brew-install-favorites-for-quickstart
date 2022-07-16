@@ -33,3 +33,6 @@ brew install asdf
 
 # Prompt
 brew install starship
+
+# File transfer
+brew install croc
