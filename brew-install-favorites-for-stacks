@@ -167,9 +167,6 @@ brew install --cask realm-browser
 # Tunnelblick remote access VPN
 brew install --cask tunnelblick
 
-# SF Symbols are Apple's recommended icons
-brew install sf-symbols
-
 ##
 # Networking
 ##

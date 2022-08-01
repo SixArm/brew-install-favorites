@@ -52,6 +52,9 @@ brew install nmap
 # R statistics programming language
 brew install --cask r
 
+# SF Symbols are Apple's recommended icons
+brew install sf-symbols
+
 ##
 # Deployments
 ##
