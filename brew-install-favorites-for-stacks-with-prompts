@@ -61,3 +61,11 @@ brew install sf-symbols
 
 # Vagrant lightweight, reproducible, portable development environments
 brew install --cask vagrant
+
+##
+# Art
+##
+
+# Stable Diffusion
+brew install python cmake git protobuf rust &&
+brew install anaconda
