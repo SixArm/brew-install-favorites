@@ -643,6 +643,9 @@ brew install libgphoto2
 brew install libpng
 brew install libtiff
 
+# OptiPNG cmopresses PNG images
+brew install optipng
+
 # GraphicsMagick is the swiss army knife of image processing.
 brew install graphicsmagick
 
