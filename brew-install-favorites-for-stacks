@@ -124,6 +124,9 @@ brew install --cask sourcetree
 # GitUp friendly Git interface and visualizer
 brew install --cask gitup
 
+# GitUI terminal git user interface
+brew install gitui
+
 # GitHub Desktop friendly Git GUI
 brew install --cask github
 
