@@ -232,6 +232,9 @@ brew install fzf && /usr/local/opt/fzf/install
 # Surfshark VPN
 brew install --cask surfshark
 
+# Speedtest.com network bandwidth tester
+brew tap teamookla/speedtest && brew install speedtest 
+
 # ExpressVPN Virtual Private Network (VPN)
 #brew install --cask expressvpn
 
