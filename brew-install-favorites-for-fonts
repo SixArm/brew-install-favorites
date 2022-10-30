@@ -122,9 +122,6 @@ brew install --cask font-bubblegum-sans
 brew install --cask font-bubbler-one
 brew install --cask font-buda
 brew install --cask font-buenard
-brew install --cask font-bukyvede-bold
-brew install --cask font-bukyvede-italic
-brew install --cask font-bukyvede-regular
 brew install --cask font-bungee
 brew install --cask font-butcherman
 brew install --cask font-butterfly-kids
