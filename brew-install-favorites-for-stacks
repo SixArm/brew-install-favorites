@@ -185,6 +185,9 @@ brew install qt &&
 brew install cmake && brew link cmake && 
 brew install --cask wireshark --with-qt
 
+# mtr is a network diagnostic tool akin to ping + traceroute
+brew install mtr
+
 # Monit is for managing and monitoring Unix systems.
 brew install monit
 
