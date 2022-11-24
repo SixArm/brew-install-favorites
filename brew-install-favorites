@@ -371,6 +371,9 @@ brew install croc
 # Git is a free and open source distributed version control system.
 brew install git
 
+# GitUI
+brew install gitui
+
 # Git Large File Storage
 brew install git-lfs
 
