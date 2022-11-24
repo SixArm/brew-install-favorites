@@ -219,6 +219,9 @@ brew install mobile-shell
 # Parallel SSH
 brew install pssh
 
+# Eternal Terminal SSH
+brew install MisterTea/et/et
+
 # GNU moreutils, including `parallel`, `sponge`, etc.
 brew install moreutils
 

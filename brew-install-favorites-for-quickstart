@@ -10,6 +10,9 @@
 # Terminal
 brew install --cask iterm2
 
+# Eternal Terminal SSH
+brew install MisterTea/et/et
+
 # Editor
 brew install --cask vim
 
