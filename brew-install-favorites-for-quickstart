@@ -7,10 +7,10 @@
 # We also install these in our other files here too, for completeness.
 ##
 
-# Terminal
+# Terminal via iTerm2
 brew install --cask iterm2
 
-# Eternal Terminal SSH
+# SSH via Eternal Terminal
 brew install MisterTea/et/et
 
 # Editor

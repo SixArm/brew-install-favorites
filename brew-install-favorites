@@ -337,11 +337,11 @@ brew install --cask mactex
 # LibreOffice is a large suite of software for documents, spreadsheets, diagrams.
 brew install --cask libreoffice
 
-# Obsidian connected notes knowledge base (compare Logseq, Obsidian, Roam Research; we prefer Obsidian)
+# Obsidian connected notes knowledge base (compare Logseq, Obsidian, Roam Research; we prefer Obsidian for page-oriented data)
 brew install --cask obsidian
 
-# Logseq linked blocks knowledge base (compare Logseq, Obsidian, Roam Research; we prefer Obsidian)
-#brew install --cask logseq
+# Logseq linked blocks knowledge base (compare Logseq, Obsidian, Roam Research; we prefer LogSeq for block-outline-oriented data
+brew install --cask logseq
 
 ##
 # Downloaders

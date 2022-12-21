@@ -295,6 +295,9 @@ brew linkapps emacs-plus
 # Android Studio
 brew install --cask android-studio
 
+# OpenMTP is open source Android file transfer
+brew install --cask openmtp
+
 # Eclipse is a large programming IDE built on Java
 brew install --cask eclipse-ide
 brew install --cask eclipse-platform
