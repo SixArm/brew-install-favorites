@@ -1,0 +1,20 @@
+#!/bin/sh
+
+##
+# Games
+##
+
+# SuperTuxCart is like Mario Cart
+brew install --cask supertuxkart
+
+# The Battle for Wesnoth is a turn-based medieval miltary strategy game
+brew install --cask the-battle-for-wesnoth
+
+# FlightGear is ike Flight Simulator
+brew install --cask flightgear
+
+# MineTest is like a simpler Minecraft
+brew install minetest
+
+# OpenRCT2 is like Roller Coaster Tycoon
+brew install openrct2
