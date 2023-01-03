@@ -107,10 +107,6 @@ brew install --cask insomnia
 brew tap browsh-org/homebrew-browsh &&
 brew install browsh
 
-# Hurl is a client for HTTP testing.
-brew tap jcamiel/hurl &&
-brew install hurl
-
 # OpenAPI Generator CLI
 brew install openapi-generator
 
