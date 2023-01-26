@@ -84,6 +84,9 @@ brew install shellcheck
 brew tap wez/wezterm && 
 brew install --cask wez/wezterm/wezterm
 
+# Just command runner, like a modern `make`.
+brew install just
+
 ##
 # Clients
 ##
