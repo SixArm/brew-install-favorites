@@ -4,6 +4,9 @@
 # Games
 ##
 
+# BZ Flag is a multi-player 3D tank battle game for (Linux/macOS/Windows) (free open source)
+brew install --cask bzflag
+
 # ChessX for chess games and analysis (Linux/macOS/Windows
 brew install chessx
 
