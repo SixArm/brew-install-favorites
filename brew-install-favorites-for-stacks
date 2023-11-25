@@ -319,8 +319,8 @@ brew install --cask visual-studio-code
 ##
 
 # Web font tools
-brew install bramstein/webfonttools/sfnt2woff-zopfli
-brew install bramstein/webfonttools/woff2
+#brew install bramstein/webfonttools/sfnt2woff-zopfli
+#brew install bramstein/webfonttools/woff2
 
 ##
 # Databases
