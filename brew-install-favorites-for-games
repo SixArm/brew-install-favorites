@@ -4,11 +4,8 @@
 # Games
 ##
 
-# SuperTuxCart is like Mario Cart
-brew install --cask supertuxkart
-
-# The Battle for Wesnoth is a turn-based medieval miltary strategy game
-brew install --cask the-battle-for-wesnoth
+# ChessX for chess games and analysis (Linux/macOS/Windows
+brew install chessx
 
 # FlightGear is ike Flight Simulator
 brew install --cask flightgear
@@ -18,6 +15,22 @@ brew install minetest
 
 # OpenRCT2 is like Roller Coaster Tycoon
 brew install openrct2
+
+# SuperTuxCart is like Mario Cart
+brew install --cask supertuxkart
+
+# The Battle for Wesnoth is a turn-based medieval miltary strategy game
+brew install --cask the-battle-for-wesnoth
+
+# Xonotic is a first-person shooter based on the Quake engine (free open source)
+brew install xonotic 
+
+##
+# Astronomy
+##
+
+# Celestia real-time 3D visualization of space
+brew install celestia
 
 # Stellarium free open source planetarium
 brew install stellarium
