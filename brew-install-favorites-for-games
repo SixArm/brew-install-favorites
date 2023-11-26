@@ -10,6 +10,9 @@ brew install --cask bzflag
 # ChessX for chess games and analysis (Linux/macOS/Windows
 brew install chessx
 
+# Endless Sky is a space exploration, trading, and combat game. (Linux/macOS/Windows) (free open source)
+brew install --cask endless-sky
+
 # FlightGear is ike Flight Simulator
 brew install --cask flightgear
 
