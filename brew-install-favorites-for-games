@@ -16,6 +16,9 @@ brew install --cask endless-sky
 # FlightGear is ike Flight Simulator
 brew install --cask flightgear
 
+# Free Civ: empire-building strategy game similar to Civilization (free open source)
+brew install freeciv
+
 # MineTest is like a simpler Minecraft
 brew install minetest
 
