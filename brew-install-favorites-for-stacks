@@ -469,6 +469,11 @@ brew install html2text
 # HTML compressor
 brew install htmlcompressor
 
+## LaTeX
+
+# Texmaker LaTeX editor (Linux, macOS, Windows) (free open source)
+brew install texmaker
+
 ##
 # Programming Languages
 #
