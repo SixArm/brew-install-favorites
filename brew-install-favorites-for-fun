@@ -1,0 +1,57 @@
+#!/bin/sh
+
+##
+# Games & fun software for macOS.
+##
+
+# BZFlag is a multi-player 3D tank capture-the-flag battle game. Linux/macOS/Windows. Free open source.
+# https://wikipedia.org/wiki/BZFlag
+brew install --cask bzflag
+
+# Celestia real-time 3D visualization of space.
+# https://wikipedia.org/wiki/Celestia
+brew install celestia
+
+# ChessX for chess games and analysis. Linux/macOS/Windows.
+# https://wikipedia.org/wiki/ChessX
+brew install chessx
+
+# Endless Sky is a space exploration, trading, and combat game. Linux/macOS/Windows. Free open source.
+# https://wikipedia.org/wiki/Endless_Sky
+brew install --cask endless-sky
+
+# FlightGear is like Flight Simulator.
+# https://wikipedia.org/wiki/FlightGear
+brew install --cask flightgear
+
+# Freeciv: empire-building strategy game similar to Civilization. Free open source.
+# https://wikipedia.org/wiki/Freeciv
+brew install freeciv
+
+# MineTest is like a simpler Minecraft.
+# https://wikipedia.org/wiki/Minetest
+brew install minetest
+
+# OpenRCT2 is an amusement park management game like Roller Coaster Tycoon.
+# https://wikipedia.org/wiki/OpenRCT2
+brew install openrct2
+
+# Stellarium free open source planetarium
+# https://wikipedia.org/wiki/Stellarium_(software)
+brew install stellarium
+
+# SuperTuxCart is kart racing game like Mario Cart. Free open source.
+# https://wikipedia.org/wiki/SuperTuxKart
+brew install --cask supertuxkart
+
+# Teeworlds (formerly TeeWars) is a free, open-source sidescrolling multiplayer shooting game.
+# https://wikipedia.org/wiki/Teeworlds
+brew install teeworlds
+
+# The Battle for Wesnoth is a turn-based medieval miltary strategy game.
+# https://wikipedia.org/wiki/The_Battle_for_Wesnoth
+brew install --cask the-battle-for-wesnoth
+
+# Xonotic is a first-person shooter based on the Quake engine. Free open source.
+# https://wikipedia.org/wiki/Xonotic
+brew install xonotic 
