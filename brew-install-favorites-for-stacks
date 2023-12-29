@@ -267,6 +267,12 @@ brew install --cask virtualbox
 # Parallels runs alternative operating systems
 brew install --cask parallels
 
+# UTM Virtual Machines UI using QEMU.
+brew install utm
+
+# QEMU (Quick Emulator) is a free and open-source emulator.
+brew install rpm2cpio qemu
+
 # Terraform common configuration to launch infrastructure.
 brew install terraform
 
