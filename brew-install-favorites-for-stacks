@@ -103,6 +103,9 @@ brew install --cask charles
 # Postman HTTP API monitoring tool.
 brew install --cask postman
 
+# Bruno API testing client.
+brew install bruno
+
 # Insomnia HTTP REST client for developers. 
 brew install --cask insomnia
 
