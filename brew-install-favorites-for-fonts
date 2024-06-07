@@ -9,6 +9,8 @@
 # and omit fonts that need to use subversion.
 ##
 
+brew search '/font-.*-nerd-font/' | awk '{ print $1 }' | xargs -I{} brew install --cask {} || true
+
 brew install --cask font-3270
 brew install --cask font-abeezee
 brew install --cask font-abel
