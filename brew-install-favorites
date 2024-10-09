@@ -723,9 +723,6 @@ brew install vtk
 # Calibre ebook reader and manager
 brew install --cask calibre
 
-# Kindle book reader by Amazon
-brew install --cask kindle
-
 
 ## Misc
 
