@@ -259,6 +259,7 @@ brew install docker-machine
 
 # Podman is daemonless container engine for developing, managing, and running containers.
 brew install podman
+brew install podman-desktop
 
 # Vagrant creates and configures portable development environments.
 brew install --cask vagrant
