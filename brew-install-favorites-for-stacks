@@ -87,6 +87,9 @@ brew install --cask wez/wezterm/wezterm
 # Just command runner, like a modern `make`.
 brew install just
 
+# Yazi blazing-fast terminal file manager
+brew install yazi ffmpegthumbnailer ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide imagemagick font-symbols-only-nerd-font
+
 ##
 # Clients
 ##
