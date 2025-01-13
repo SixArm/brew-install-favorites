@@ -684,6 +684,9 @@ brew install awless
 # Heroku app hosting
 brew install heroku
 
+# Google Cloud SDK
+brew install google-cloud-sdk
+
 ##
 # Art editors
 ##
