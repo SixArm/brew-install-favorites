@@ -292,6 +292,9 @@ brew install --cask kube-solo
 # WASMer Rust WASM runtime
 brew install wasmer
 
+# Dagger is a programmable CI/CD engine that runs your pipelines in containers.
+brew install dagger/tap/dagger
+
 ##
 # Editors
 ##
