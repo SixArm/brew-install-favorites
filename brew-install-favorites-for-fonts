@@ -910,6 +910,7 @@ brew install --cask font-zeyada
 
 ## Nerd fonts are specialized fonts that have extra icons added
 
+brew install font-0xproto
 brew install font-3270-nerd-font
 brew install font-fira-mono-nerd-font
 brew install font-inconsolata-go-nerd-font
