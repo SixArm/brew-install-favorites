@@ -690,6 +690,9 @@ brew install heroku
 # Google Cloud SDK
 brew install google-cloud-sdk
 
+# Microsoft Azure CLI
+brew update && brew install azure-cli
+
 ##
 # Art editors
 ##
