@@ -144,7 +144,7 @@ brew install --cask cyberduck
 ##
 # Communication
 #
-# We favor Riot.im because it is free open source,
+# We favor Element because it is free open source,
 # and also works closely with Mozilla foundation.
 #
 # We favor Signal because it is free open source,
