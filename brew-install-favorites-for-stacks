@@ -351,6 +351,12 @@ brew install --cask visual-studio-code
 
 ## Database-Related
 
+# OpenRefine is a Java tool for working with messy data.
+brew install --cask openrefine
+
+# Modern CSV is a CSV/TSV cross-platform editor with a free version and paid versions for more capabilities.
+brew install --cask modern-csv
+
 # Cassandra database.
 brew install cassandra
 
