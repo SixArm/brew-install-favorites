@@ -693,6 +693,9 @@ brew install --cask vlc
 
 ## Multimedia editors
 
+# Monodraw is a diagramming tool for ASCII art
+brew install --cask monodraw
+
 # Blender 3D modeller
 brew install --cask blender
 
