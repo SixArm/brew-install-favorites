@@ -623,7 +623,7 @@ brew tap jmespath/jmespath && brew install jp
 
 ## Julia
 
-brew install --cask julia
+#brew install --cask julia
 
 ## Lua
 
