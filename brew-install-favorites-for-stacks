@@ -415,6 +415,9 @@ brew install --cask graphiql
 brew install cmake && brew link cmake
 brew install --cask mysqlworkbench
 
+# DBeaver database management tool, free community edition.
+brew install --cask dbeaver-community
+
 # Realm browser mobile database editor.
 brew install --cask realm-browser
 
@@ -676,6 +679,9 @@ brew install passenger
 
 # Rust programming language
 brew install rust
+
+# Minimalist GNU for Windows (for Rust cross-compiling)
+brew install mingw-w64
 
 ## Scala
 
