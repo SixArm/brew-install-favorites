@@ -316,7 +316,7 @@ brew install vim
 brew install --cask macvim
 
 # Emacs editor with extra features; recommended by Spacemacs and Doom emacs
-brew install emacs-plus
+brew install d12frosted/emacs-plus/emacs-plus@31
 
 # Sublime text editor
 brew install --cask sublime-text

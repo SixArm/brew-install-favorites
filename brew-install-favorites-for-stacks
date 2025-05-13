@@ -302,13 +302,8 @@ brew install dagger/tap/dagger
 # Editors
 ##
 
-# Emacs editor
-brew install --cask emacs
-
-# Emacs editor for Spacemacs
-brew tap d12frosted/emacs-plus
-brew install emacs-plus
-brew linkapps emacs-plus
+# Emacs editor with extra features; recommended by Spacemacs and Doom emacs
+brew install d12frosted/emacs-plus/emacs-plus@31
 
 # Android Studio
 brew install --cask android-studio
