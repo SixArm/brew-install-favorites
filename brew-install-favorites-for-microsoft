@@ -4,8 +4,10 @@
 # Microsoft
 ##
 
-# Microsoft Office (needs prompt)
+# Microsoft software may need Rosetta 2 for compatibility with Apple Silicon Macs.
 sudo softwareupdate --agree-to-license --install-rosetta
+
+# Microsoft Office (needs prompt)
 brew install --cask microsoft-office
 
 # Microsoft Teams for chat (needs prompt)

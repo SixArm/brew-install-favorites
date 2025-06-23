@@ -19,9 +19,6 @@
 # libraries that we want for building other software later on.
 ##
 
-# Audio/Visual converters
-brew install libav
-
 # Curl web fetcher
 brew install libcurl
 

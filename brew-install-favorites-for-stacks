@@ -97,12 +97,6 @@ brew install yazi ffmpegthumbnailer ffmpeg sevenzip jq poppler fd ripgrep fzf zo
 # Clients
 ##
 
-# Shuttle: simple SSH shortcut menu.
-brew install --cask shuttle
-
-# Fugu: a graphical shell for SSH and FTP.
-brew install --cask fugu
-
 # Charles: enables a developer to view HTTP traffic.
 brew install --cask charles
 
@@ -215,9 +209,6 @@ brew install siege
 # Server-related
 ##
 
-# Consul tool for discovering and configuring services
-brew install consul
-
 # NGINX web server
 brew install nginx
 
@@ -233,9 +224,6 @@ brew install thrift
 
 # Protocol buffers for serializing structured data; compare thrift.
 brew install protobuf
-
-# Consul tool for discovering and configuring services in your infrastructure
-brew install consul
 
 # Monit is for managing and monitoring Unix systems.
 brew install monit
@@ -283,8 +271,8 @@ brew install utm
 # QEMU (Quick Emulator) is a free and open-source emulator.
 brew install rpm2cpio qemu
 
-# Terraform common configuration to launch infrastructure.
-brew install terraform
+# OpenTofu common configuration to launch infrastructure.
+brew install opentofu
 
 # corectl provides CoreOS over macOS made very simple
 brew install --cask corectl
@@ -401,9 +389,6 @@ brew install mysql &&
 brew install postgresql && 
 brew install sphinx
 
-# GraphiQL: a lightweight Electron-based app wrapper around GraphiQL
-brew install --cask graphiql
-
 ## Database managers
 
 # MySQL Workbench database editor.
@@ -416,9 +401,6 @@ brew install --cask dbeaver-community
 # Realm browser mobile database editor.
 brew install --cask realm-browser
 
-# Sequel Pro database management application.
-brew install --cask sequel-pro
-
 # Toad database manager by Dell.
 brew install --cask toad
 
@@ -430,13 +412,13 @@ brew install --cask valentina-studio
 ##
 
 # Elasticsearch is a real-time, distributed storage, search, and analytics engine.
-brew instal elasticsearch
+brew install elasticsearch
 
 # Logstash helps parse, enrich, transform, and buffer data from a variety of sources.
-brew instal logstash
+brew install logstash
 
 # Kibana is an open source analytics and visualization platform designed to work with Elasticsearch.
-brew instal kibana
+brew install kibana
 
 ##
 # Markup Tooling
@@ -524,11 +506,9 @@ brew uninstall valkryrie; brew uninstall valgrind
 #
 # Typically we configure our systems this way:
 #
-#     export ANDROID_SDK="/usr/local/Cellar/android-sdk/r17"
 #     export ANDROID_NDK="/usr/local/Cellar/android-ndk/r7b"
 #     export ANDROID_NDK_HOME="/usr/local/share/android-ndk"
 #
-brew install --cask android-sdk
 brew install --cask android-ndk
 brew install --cask android-studio
 brew install --cask android-file-transfer
@@ -566,9 +546,6 @@ brew install ghc cabal-install
 # Java programming language
 brew install --cask java
 
-# Java programming language via OpenJDK
-brew install --cask adoptopenjdk
-
 # Gradle is a Java build tool
 brew install gradle
 
@@ -604,9 +581,6 @@ brew install node
 # Yarn is a JavaScript package manager for fast, reliable, and secure dependency management. 
 brew install yarm
 
-# PhantomJS is a headless WebKit scriptable with a JavaScript API.
-brew install phantomjs
-
 # V8 JavaScript Engine.
 brew install v8
 
@@ -638,9 +612,6 @@ brew install perl
 
 # Perl-Compatible Regular Expressions pattern matching tools.
 brew install pcre
-
-# CPAN search for perl modules
-brew install cpansearch
 
 ## Python
 
@@ -743,7 +714,6 @@ brew install dialog
 brew install dirmngr
 brew install dos2unix
 brew install exercism
-brew install fasd
 brew install gettext
 brew install ghostscript
 brew install git-crypt
@@ -755,4 +725,3 @@ brew install openssl
 brew install nginx --with-passenger
 brew install nvm
 brew install otto
-brew install packer

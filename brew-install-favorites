@@ -166,9 +166,6 @@ brew install --cask slack
 # NetNewsWire RSS reader
 brew install --cask netnewswire
 
-# Skype calling with video and phone calls.
-#brew install --cask skype
-
 ##
 # Terminals
 #
@@ -253,9 +250,6 @@ brew tap teamookla/speedtest && brew install speedtest
 
 # Pass, a Unix password manager for the command line
 brew install pass
-
-# Authy password manager, which is cross-platform
-brew install --cask authy
 
 # Bitwarden password manager, which is open-source
 brew install --cask bitwarden
@@ -494,7 +488,6 @@ brew install pkg-config
 
 # PCRE: Perl-compatible regular expressions, for better searching.
 brew install pcre
-brew install pcre++
 
 # fd: a simple, fast and user-friendly alternative to find.
 brew install fd
@@ -523,9 +516,6 @@ brew install denisidoro/tools/navi
 
 # e.g. is a command line examples
 brew install eg-examples
-
-# TLDR provides simplified and community-driven man pages
-brew install tldr
 
 # howdoi shows instant coding answers via the command line
 brew install howdoi
@@ -591,9 +581,6 @@ brew install --cask dropbox
 # Transmission bittorrent client.
 brew install --cask transmission
 
-# Box.com sync
-brew install --cask box-sync
-
 ##
 # Text search
 #
@@ -613,17 +600,11 @@ brew install grep
 # ag is "the silver searcher" search tool; retired by ripgrep.
 brew install ag
 
-# sift is like grep, plus faster and with more features; retired by ripgrep.
-brew install sift
-
 # jq is a lightweight and flexible command-line JSON processor.
 brew install jq
 
 # yq is a lightweight and flexible command-line YAML processor.
 brew install yq
-
-# xsv is for CSV file parsing, and is fast, full featured, and flexible.
-brew install xsv
 
 # Tad is CSV viewer with features for pivot, search, etc.
 brew install --cask tad
@@ -698,9 +679,6 @@ brew install --cask monodraw
 
 # Blender 3D modeller
 brew install --cask blender
-
-# Freemind mind map editor
-brew install --cask freemind
 
 # Gimp pixel-based image editor, similar to Adobe Photoshop
 brew install --cask gimp
@@ -863,12 +841,6 @@ brew install --cask bartender
 brew install --cask basecamp
 
 # TDB
-brew install --cask beacon-scanner
-
-# TDB
-brew install --cask brain-workshop
-
-# TDB
 brew install --cask caffeine
 
 # TDB
@@ -876,9 +848,6 @@ brew install --cask calibre
 
 # TDB
 brew install --cask ccleaner
-
-# TDB
-brew install --cask cheatsheet
 
 # TDB
 brew install --cask coconutbattery
@@ -914,9 +883,6 @@ brew install --cask jumpcut
 brew install --cask krita
 
 # TDB
-brew install --cask launchy
-
-# TDB
 brew install --cask little-snitch
 
 # TODO
@@ -935,16 +901,10 @@ brew install --cask rescuetime
 brew install --cask screenhero
 
 # TODO
-brew install --cask sequential
-
-# TODO
 brew install --cask shortcat
 
 # Silverlight video player by Microsoft.
 brew install --cask silverlight
-
-# TODO
-brew install --cask skitch
 
 # TODO
 brew install --cask sleep-monitor
@@ -1039,12 +999,6 @@ brew install libevent
 # Magic number recognition library for file types.
 brew install libmagic
 
-# Audio/Visual converters
-brew install libav
-
-# Curl web fetcher
-#brew 'libcurl  # EOL
-
 # Foreign Function Interface Library
 brew install libffi
 
@@ -1098,9 +1052,6 @@ brew install randomize-lines
 
 # TODO
 brew install rename
-
-# TODO
-brew install salt
 
 # Tree is a directory lister that shows a tree outline
 brew install tree
@@ -1175,9 +1126,6 @@ brew install fakeroot
 brew install findutils
 
 # TODO
-brew install geoip
-
-# TODO
 brew install gnu-barcode
 
 # TODO
@@ -1207,17 +1155,11 @@ brew install gnu-units
 # TODO
 brew install gnu-which
 
-# Google App Engine for Python
-brew install app-engine-python
-
 # Google Performance Tools
 brew install gperftools
 
 # TODO
 brew install google-sparsehash
-
-# TODO
-brew install google-sql-tool
 
 # TODO
 brew install html2text
@@ -2101,7 +2043,6 @@ brew install tarsnap
 # brew 's3fs
 # brew 's3sync
 # brew 'saga-core
-# brew 'salt
 # brew 'sam2p
 # brew 'samba
 # brew 'samtools

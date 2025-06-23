@@ -32,10 +32,6 @@ brew install freeciv
 # https://wikipedia.org/wiki/Minetest
 brew install minetest
 
-# OpenRCT2 is an amusement park management game like Roller Coaster Tycoon.
-# https://wikipedia.org/wiki/OpenRCT2
-brew install openrct2
-
 # Stellarium free open source planetarium
 # https://wikipedia.org/wiki/Stellarium_(software)
 brew install stellarium
