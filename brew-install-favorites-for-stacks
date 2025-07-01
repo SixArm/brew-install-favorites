@@ -404,9 +404,6 @@ brew install --cask realm-browser
 # Toad database manager by Dell.
 brew install --cask toad
 
-# Valentina Studio database manager.
-brew install --cask valentina-studio
-
 ##
 # Data analytics
 ##
