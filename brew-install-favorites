@@ -401,6 +401,9 @@ brew install --cask sourcetree
 # Perforce merge tool for visual diffs and merges
 brew install --cask p4v
 
+# Jujutsu is an upcoming version control system by Google
+brew install jj
+
 # CVS is a version control system.
 #brew install cvs
 
