@@ -7,14 +7,17 @@
 # We also install these in our other files here too, for completeness.
 ##
 
-# Terminal via iTerm2
-brew install --cask iterm2
+# Editor
+brew install --cask vim
+
+# Terminal
+brew install --cask ghostty
+
+# Font
+brew install font-fira-code-nerd-font
 
 # SSH via Eternal Terminal
 brew install MisterTea/et/et
-
-# Editor
-brew install --cask vim
 
 # Integrated Development Environment
 brew install --cask zed
