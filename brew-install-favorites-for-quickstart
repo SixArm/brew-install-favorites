@@ -16,6 +16,9 @@ brew install MisterTea/et/et
 # Editor
 brew install --cask vim
 
+# Integrated Development Environment
+brew install --cask zed
+
 # Browser
 brew install --cask firefox
 
@@ -32,7 +35,7 @@ brew install lnav
 brew install --cask obsidian
 
 # Version manager
-brew install asdf
+brew install mise
 
 # Prompt
 brew install starship
