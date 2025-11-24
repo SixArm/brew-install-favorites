@@ -665,11 +665,14 @@ brew install awscli
 brew tap wallix/awless &&
 brew install awless
 
-# Heroku app hosting
-brew install heroku
+# Fly.io platform as a service (PaaS) CLI
+brew install flyctl
 
 # Google Cloud SDK
 brew install google-cloud-sdk
+
+# Heroku app hosting
+brew install heroku
 
 # Microsoft Azure CLI
 brew update && brew install azure-cli
