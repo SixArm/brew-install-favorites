@@ -296,6 +296,9 @@ brew install d12frosted/emacs-plus/emacs-plus@31
 # Android Studio
 brew install --cask android-studio
 
+# Antigravity IDE by Google based on Visual Studio Code
+brew install --cask antigravity
+
 # OpenMTP is open source Android file transfer
 brew install --cask openmtp
 
