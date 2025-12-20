@@ -80,11 +80,11 @@ brew install geekbench
 brew install grsync
 
 # Shell script syntax check linter.
-brew install pandoc && brew link pandoc && 
+brew install pandoc && brew link pandoc &&
 brew install shellcheck
 
 # WesTerm Rust terminal
-brew tap wez/wezterm && 
+brew tap wez/wezterm &&
 brew install --cask wez/wezterm/wezterm
 
 # Just command runner, like a modern `make`.
@@ -100,13 +100,16 @@ brew install yazi ffmpegthumbnailer ffmpeg sevenzip jq poppler fd ripgrep fzf zo
 # Charles: enables a developer to view HTTP traffic.
 brew install --cask charles
 
+# Man-in-the-middle proxy: intercept, inspect, modify and replay web traffic.
+brew install mitmproxy
+
 # Postman HTTP API monitoring tool.
 brew install --cask postman
 
 # Bruno API testing client.
 brew install bruno
 
-# Insomnia HTTP REST client for developers. 
+# Insomnia HTTP REST client for developers.
 brew install --cask insomnia
 
 # Brow.sh web browser that uses text.
@@ -184,7 +187,7 @@ brew install httpie
 
 # Wireshark network monitoring, with the QT GUI.
 brew install qt &&
-brew install cmake && brew link cmake && 
+brew install cmake && brew link cmake &&
 brew install --cask wireshark --with-qt
 
 # mtr is a network diagnostic tool akin to ping + traceroute
@@ -377,7 +380,7 @@ brew install redis
 brew install riak
 
 # SQLite database: self-contained, serverless, zero-configuration, transactional engine.
-brew install sqlite && 
+brew install sqlite &&
 brew link sqlite
 
 # ZeroMQ message queue
@@ -389,7 +392,7 @@ brew install zeromq
 brew install cmake &&
 brew link cmake &&
 brew install mysql &&
-brew install postgresql && 
+brew install postgresql &&
 brew install sphinx
 
 ## Database managers
@@ -567,7 +570,7 @@ brew install glassfish
 # Apache Ant automates software build processes.
 brew install ant
 
-# Apache Maven is a build automation tool used primarily for Java projects. 
+# Apache Maven is a build automation tool used primarily for Java projects.
 brew install maven
 
 # Gradle general-purpose build tool.
@@ -578,7 +581,7 @@ brew install gradle
 # Node.js is a JavaScript platform for building fast, scalable network app.
 brew install node
 
-# Yarn is a JavaScript package manager for fast, reliable, and secure dependency management. 
+# Yarn is a JavaScript package manager for fast, reliable, and secure dependency management.
 brew install yarm
 
 # V8 JavaScript Engine.
