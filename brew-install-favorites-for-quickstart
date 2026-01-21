@@ -7,23 +7,28 @@
 # We also install these in our other files here too, for completeness.
 ##
 
-# Editor
-brew install --cask vim
+# Editors
+brew install --cask neovim
+brew install --cask emacs-plus-app
 
-# Terminal
+# Terminals
+brew install --cask iterm2
 brew install --cask ghostty
 
-# Font
-brew install font-fira-code-nerd-font
+# Fonts
+brew install --cask font-fira-code-nerd-font
+brew install --cask font-iosevka-term-nerd-font
 
 # SSH via Eternal Terminal
 brew install MisterTea/et/et
 
 # Integrated Development Environment
+brew install --cask visual-studio-code
 brew install --cask zed
 
-# Browser
+# Browsers
 brew install --cask firefox
+brew install --cask google-chrome
 
 # Messaging
 brew install element
@@ -45,3 +50,7 @@ brew install starship
 
 # File transfer
 brew install croc
+
+# Containers
+brew install docker
+brew install podman
