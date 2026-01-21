@@ -37,5 +37,8 @@ brew install --cask pycharm
 # RubyMine Ruby IDE
 brew install --cask rubymine
 
+# RustRover Rust IDE
+brew install --cask rustrover
+
 # WebStorm IDE
 brew install --cask webstorm
