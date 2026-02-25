@@ -7,9 +7,27 @@
 # We also install these in our other files here too, for completeness.
 ##
 
+# Clang
+xcode-select --install
+
+# OS
+brew install coreutils
+brew install findutils
+brew install fd
+brew install fzf
+brew install git
+brew install ripgrep
+
 # Editors
 brew install --cask neovim
+brew install coreutils &&
+brew install findutils &&
+brew install fd &&
+brew install git &&
+brew install ripgrep &&
+brew install tree-sitter &&
 brew install --cask emacs-plus-app
+brew install sinelaw/fresh/fresh-editor
 
 # Terminals
 brew install --cask iterm2
@@ -52,7 +70,8 @@ brew install starship
 brew install croc
 
 # Containers
-brew install docker
+brew install colima 
+brew install docker docker docker-buildx docker-completion docker-compose
 brew install podman
 brew install qemu
 

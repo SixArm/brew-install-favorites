@@ -246,7 +246,12 @@ brew install varnish
 
 # Docker software containers to help distribute applications.
 brew install docker
-brew install boot2docker
+
+# Docker extended build capabilities with BuildKit.
+brew install docker-buildx
+
+# Docker completion script commands, flags, objects, etc., when you hit <Tab> 
+brew install docker-completion 
 
 # Docker Compose is a tool for defining and running multi-container Docker applications.
 brew install docker-compose
