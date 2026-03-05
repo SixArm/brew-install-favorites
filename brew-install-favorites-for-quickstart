@@ -71,7 +71,7 @@ brew install croc
 
 # Containers
 brew install colima 
-brew install docker docker docker-buildx docker-completion docker-compose
+brew install docker docker-buildx docker-completion docker-compose
 brew install podman
 brew install qemu
 
