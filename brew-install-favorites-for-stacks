@@ -185,6 +185,9 @@ brew install prettyping
 # HTTPie: Modern command line HTTP client
 brew install httpie
 
+# Sniffnet network diagnostics
+brew install sniffnet
+
 # Wireshark network monitoring, with the QT GUI.
 brew install qt &&
 brew install cmake && brew link cmake &&
